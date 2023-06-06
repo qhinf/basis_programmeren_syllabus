@@ -101,3 +101,11 @@ Wat betreft de kwaliteit kijken we naar drie aspecten:
 Ook hier kun je voor elk aspect 10 punten krijgen.
 
 Je krijgt 10 punten gratis, waarmee je cijfer uitkomt op het aantal punten gedeeld door 10.
+
+### Code kopiëren?
+
+Je mag externe bronnen gebruiken als hulp bij het maken van je spel, want daar kun je veel van leren. Je mag ook stukjes code overnemen, maar die moet je wel uitgebreid van commentaar voorzien om uit te leggen wat die code doet (minstens 1 regel commentaar per regel code!) en in commentaar de bron vermelden. De bron vermelden betekent dat je een link naar de exacte bron toevoegt, dus "uit een video op YouTube" is geen bronvermelding, een link naar de code is minimaal wat we verwachten. Indien de code via persoonlijke communicatie gedeeld, vermeld dan minstens de naam van de persoon en jouw relatie tot die persoon. Gebruik `# BRON:` om duidelijk aan te geven dat dit een bronvermelding is en zodat wij het makkelijk terug kunnen vinden.
+
+Ook code uit ChatGPT en dergelijke dien je van een bronvermelding te voorzien.
+
+Het is uitdrukkelijk niet de bedoeling dat je grote blokken code of het hele spel kopieert. In dat geval zien we het als plagiaat en zullen we daar ook naar handelen. Voor diegenen die dit ingewikkeld vinden: meer dan 4 regels is een groot blok.
