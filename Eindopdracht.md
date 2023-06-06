@@ -2,6 +2,8 @@
 
 Het spel dat jullie gaan maken is speciale editie van Ganzenbord. Hieronder staan een aantal variaties, oplopend in moeilijkheidsgraad om je op weg te helpen. Begin met het maken van de basisvariant, alle andere opties kun je daar dan aan toevoegen voor extra punten.
 
+Het spel dat je maakt is te spelen in de console. Je hoeft dus alleen `print` te gebruiken om het speelbord te tonen en `input` om gebruikers om hun input te vragen. Hoe die interactie er precies uitziet en hoe je de staat van het bord weergeeft, is aan jou. Als je niet weet hoe je moet beginnen en iemand raadt je aan om met pygame aan de slag te gaan, dan moet je dat advies niet opvolgen. Dit is de **basis** van programmeren en pygame is wel een tikkie ingewikkelder dan de basis.
+
 ## De spelregels
 
 Voor de basisvariant gelden de volgende spelregels:
