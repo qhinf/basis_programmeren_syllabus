@@ -1,0 +1,25 @@
+# Inhoudsopgave
+# Alle pagina's van de syllabus moeten hier in staan!
+# https://jupyterbook.org/structure/toc.html
+
+format: jb-book
+root: index
+parts:
+  - caption: Over de module
+    chapters:
+    - file: werken_met_de_module
+    - file: programmeeromgevingen
+    - file: eindopdracht
+  - caption: Lessen
+    numbered: true
+    chapters:
+    - file: 1_introductie_variabelen
+    - file: 2_functies
+    - file: 3_input_if
+    - file: 4_loops
+    - file: 5_eigen_functies_lijsten
+  - caption: Extra
+    chapters:
+    - file: tips
+    - file: extras
+    - file: breinbrekers
