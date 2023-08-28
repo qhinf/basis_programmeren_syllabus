@@ -51,9 +51,9 @@ sphinx:
     # zaken die vaker terugkomen en bijvoorbeeld aangepast moeten worden voor
     # een volgende editie.
     myst_substitutions:
-      deadline: "donderdag 29 juno, 16:00"
-      deadline_uitstel_aanvragen: "maandag 12 juno, 16:00"
-      deadline_uitstel: "donderdag 13 julij, 16:00"
+      deadline: "donderdag 2 november, 16:00"
+      deadline_uitstel_aanvragen: "donderdag 26 oktober, 16:00"
+      deadline_uitstel: "donderdag 30 november, 16:00"
 
 
 # html, repository en launch_buttons instellingen worden globaal voor alle
