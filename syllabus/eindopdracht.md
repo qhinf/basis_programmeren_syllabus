@@ -63,18 +63,7 @@ Zet in het commentaar bovenaan je programma:
 # - Double trouble
 ```
 
-### Meer vreugd (1 ster)
-
-Ganzenbord kun je prima met meer dan 2 spelers spelen. Breidt je programma uit zodat het aan het begin vraagt hoeveel spelers er zijn en wat hun namen zijn. Gebruik de ingevoerde namen om aan te geven wie er aan de beurt is. Je programma moet in theorie (op een computer met oneindig geheugen) met een oneindig aantal spelers te spelen zijn, dus daar mag geen limiet op zitten. Als een speler opgeeft, spelen de andere spelers gewoon door tot er nog maar één speler over is. Als alle spelers behalve één opgeven, dan heeft die speler gewonnen.
-
-Zet in het commentaar bovenaan je programma:
-
-```python
-# Uitbreidingen:
-# - Meer vreugd
-```
-
-### Marathon (1 ster)
+### Marathon (0.5 sterren)
 
 Altijd maar weer hetzelfde spel is ook saai, dus vraagt je programma aan het begin hoe lang het Ganzenbord moet zijn, oftewel hoeveel vakjes het heeft. Om ervoor te zorgen dat niet alle "leuke" vakjes aan het begin zitten of buiten het bord vallen, moet je voor je geluksgetal (en eventueel voor de put en de doornstruik) aan het begin een willekeurig getal kiezen. Uiteraard laat je dan ook de spelers weten op welk vakje elk element terecht is gekomen.
 
@@ -87,30 +76,38 @@ Zet in het commentaar bovenaan je programma:
 # - Marathon
 ```
 
+### Meer vreugd (1 ster)
+
+Ganzenbord kun je prima met meer dan 2 spelers spelen. Breidt je programma uit zodat het aan het begin vraagt hoeveel spelers er zijn en wat hun namen zijn. Gebruik de ingevoerde namen om aan te geven wie er aan de beurt is. Je programma moet in theorie (op een computer met oneindig geheugen) met een oneindig aantal spelers te spelen zijn, dus daar mag geen limiet op zitten. Als een speler opgeeft, spelen de andere spelers gewoon door tot er nog maar één speler over is. Als alle spelers behalve één opgeven, dan heeft die speler gewonnen.
+
+Zet in het commentaar bovenaan je programma:
+
+```python
+# Uitbreidingen:
+# - Meer vreugd
+```
+
 ## Beoordeling
 
-Je programma wordt beoordeeld op drie dingen: de correctheid, de uitgebreidheid en de kwaliteit. Voor de correctheid kijken we naar twee aspecten:
+Je programma wordt beoordeeld op drie dingen: of het goed werkt, hoeveel functionaliteit je hebt geïmplementeerd en de kwaliteit van de code die je hebt geschreven:
 
-- Syntactisch correct, dus geen foutmeldingen van Python bij het uitvoeren van je programma.
-- Logisch correct, dus je programma werkt volgens de spelregels.
+| Onderdeel                                                    | Punten                    |
+| ------------------------------------------------------------ | ------------------------- |
+| Syntactisch correct, dus geen foutmeldingen van Python bij het uitvoeren van je programma | 0 tot 10                  |
+| Logisch correct, dus je programma werkt volgens de spelregels | 0 tot 10 × aantal sterren |
+| Gebruik van de verschillende en juiste elementen in Python (if, for, while etc.) | 0 tot 10                  |
+| Goede, duidelijke, beschrijvende variabelenamen              | 0 tot 10                  |
+| Zinvol en informatief commentaar waarin je je programma uitlegt | 0 tot 10                  |
 
-Voor beide onderdelen kun je 10 punten krijgen.
+Let op: bij het aantal punten dat je voor logisch correct kunt krijgen, telt dus ook mee hoeveel sterren je in je project verwerkt hebt. Heb je het minimale spel gemaakt, dan krijg je daar maximaal 2 sterren × 10 punten = 20 punten voor. Heb je alle uitbreidingen gemaakt, dan kun je tot 5 sterren × 10 punten = 50 punten krijgen voor dat onderdeel.
 
-Voor de uitgebreidheid kijken we naar de hoeveelheid sterren die je in je programma geïmplementeerd hebt. Als je de basis of verschillende uitbreidingen niet volledig geïmplementeerd hebt, kunnen we ook een deel van de sterren toekennen. Het aantal punten voor logisch correct vermenigvuldigen we met het aantal sterren.
+Bij het gebruik van de verschillende elementen van Python (if, for, while etc.) kijken we niet alleen of je de verschillende onderdelen onder de knie hebt, maar ook of je de beste oplossing voor een probleem hebt gekozen.
 
-Wat betreft de kwaliteit kijken we naar drie aspecten:
-
-- Gebruik van de verschillende elementen in Python (if, for, while etc). Hierbij kijken we niet alleen of je de verschillende onderdelen onder de knie hebt, maar ook of je de beste oplossing voor een probleem hebt gekozen.
-- Goede, duidelijke, beschrijvende variabelenamen.
-- Zinvol en informatief commentaar waarin je je programma uitlegt.
-
-Ook hier kun je voor elk aspect 10 punten krijgen.
-
-Je krijgt 10 punten gratis, waarmee je cijfer uitkomt op het aantal punten gedeeld door 10.
+De eerste 10 punten krijg je gratis, dus kun je maximaal 100 punten verdienen. Je eindcijfer is het aantal punten gedeeld door 10.
 
 ### Code kopiëren?
 
-Je mag externe bronnen gebruiken als hulp bij het maken van je spel, want daar kun je veel van leren. Je mag ook stukjes code overnemen, maar die moet je wel uitgebreid van commentaar voorzien om uit te leggen wat die code doet (minstens 1 regel commentaar per regel code!) en in commentaar de bron vermelden. De bron vermelden betekent dat je een link naar de exacte bron toevoegt, dus "uit een video op YouTube" is geen bronvermelding, een link naar de code is minimaal wat we verwachten. Indien de code via persoonlijke communicatie gedeeld, vermeld dan minstens de naam van de persoon en jouw relatie tot die persoon. Gebruik `# BRON:` om duidelijk aan te geven dat dit een bronvermelding is en zodat wij het makkelijk terug kunnen vinden. Bijvoorbeeld:
+Je mag externe bronnen gebruiken als hulp bij het maken van je spel, want daar kun je veel van leren. Je mag ook stukjes code overnemen, maar die moet je wel uitgebreid van commentaar voorzien om uit te leggen wat die code doet (minstens 1 regel commentaar per regel code!) en in commentaar de bron vermelden. De bron vermelden betekent dat je een link naar de exacte bron toevoegt, dus "uit een video op YouTube" is geen bronvermelding! Een link naar de code is minimaal wat we verwachten. Indien de code via persoonlijke communicatie gedeeld, vermeld dan minstens de naam van de persoon en jouw relatie tot die persoon. Gebruik `# BRON:` om duidelijk aan te geven dat dit een bronvermelding is en zodat wij het makkelijk terug kunnen vinden. Bijvoorbeeld:
 
 ```python
 # BRON: https://rosettacode.org/wiki/Reverse_words_in_a_string#Python
@@ -126,6 +123,6 @@ for line in text.split("\n"):
     print(" ".join(line.split()[::-1]))
 ```
 
-Ook code uit ChatGPT en dergelijke dien je van een bronvermelding te voorzien. Zet dan ook de prompt die je hebt gebruikt in je commentaar.
+Ook code uit ChatGPT en andere chatbots dien je van een bronvermelding te voorzien. Zet dan ook de prompt die je hebt gebruikt in je commentaar.
 
 Het is uitdrukkelijk niet de bedoeling dat je grote blokken code of het hele spel kopieert. In dat geval zien we het als plagiaat en zullen we daar ook naar handelen. Voor diegenen die dit ingewikkeld vinden: meer dan 5 regels is een groot blok.
