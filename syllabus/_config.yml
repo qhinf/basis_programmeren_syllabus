@@ -2,6 +2,8 @@
 # https://jupyterbook.org/customize/config.html
 
 title: Basis van Programmeren met Python
+logo: assets/python-logo-only.svg
+banner: assets/banner.png
 
 # Auteur is verplicht, maar wordt voor de syllabus site automatisch aangepast op
 # basis van de commitgeschiedenis.
