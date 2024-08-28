@@ -1,6 +1,6 @@
 # Eindopdracht
 
-De eindopdracht wordt 11 september gepubliceerd.
+De eindopdracht wordt 11 september 2024 gepubliceerd.
 
 ### Code kopiëren?
 
