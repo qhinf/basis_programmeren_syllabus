@@ -58,6 +58,7 @@ sphinx:
       deadline_uitstel: "dinsdag 26 november, 16:00 (? *onder voorbehoud*)"
       docent: "Pieter van Engelen"
       docent_email: "p punt vanengelen apenstaartje quadraam punt nl"
+      guru_name: "PietervanEngelen"  # vul hier de CS Circles gebruikersnaam van de docent in
 
 
 # html, repository en launch_buttons instellingen worden globaal voor alle
