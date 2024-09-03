@@ -35,89 +35,74 @@ Schrijf een programma in Python, waarmee dit spel door twee spelers gespeeld kan
 
 Deze basisvariant is 2 sterren waard, waarmee je *maximaal* een 7 kunt halen als je verder alle punten haalt (zie verderop in deze opdracht). Als je een hoger cijfer wilt, kun je meer dingen aan het spel toevoegen voor meer sterren. Met 5 sterren kun je een 10 halen. Hieronder de uitbreidingen voor jouw versie van Italiaans Boter, Kaas en Eieren.
 
-## De spelregels
-
-Voor de basisvariant gelden de volgende spelregels:
-
-- Ganzenbord heeft een bord met 63 vakjes. Wie het eerst op het 63ste vakje eindigt, wint.
-- Je speelt met twee spelers, die om en om aan de beurt komen.
-- Als een speler aan de beurt is, moet die de dobbelsteen rollen voor het aantal stappen dat gezet wordt op het bord. Om te rollen moet de speler een expliciet commando geven (bijvoorbeeld "rol" of "r"). Een speler mag ook kiezen om op te geven. Dan stopt het spel en wint de andere speler. Als spelers iets anders invoeren dan rollen of opgeven, dan geeft je programma aan dat de input niet klopt en vraagt de speler opnieuw om een commando.
-- De spelers moeten precies op 63 uitkomen om te winnen: als je hoger gooit dan nodig is om 63 te bereiken worden de volgende stappen teruggeteld. Voorbeeldje: je staat op 62 en gooit 3. Je maakt dus 3 stappen: naar 63, terug naar 62 en dan naar 61.
-- Wat is jouw geluksgetal? Spelers die op dat vak terecht komen, mogen nogmaals het aantal stappen dat ze gerold hebben zetten. Voorbeeldje: een speler staat op 11, rolt 3 en komt dus op 14. Dat is jouw geluksgetal, dus mag de speler nogmaals 3 stappen zetten naar 17.
-- Het spel is afgelopen als een speler gewonnen heeft. Je programma print welke speler het spel gewonnen heeft en vraagt vervolgens of de gebruiker nog een keer wil spelen of dat het programma moet sluiten. Als de gebruiker nog een keer wil spelen, start het spel opnieuw en als de gebruiker wil stoppen, dan sluit het programma (uiteraard).
-
-De basisvariant is 2 sterren waard, waarmee je *maximaal* een 7 kunt halen als je verder alle punten haalt (zie verderop in deze opdracht). Als je een hoger cijfer wilt, kun je meer dingen aan het spel toevoegen voor meer sterren. Met 5 sterren kun je een 10 halen. Hieronder een aantal klassieke en minder klassieke uitbreidingen voor Ganzenbord:
-
-### Pretty printing (0.5 sterren)
+## Uitbreidingen
 
 ### Score bijhouden (1 ster)
 
-### 
+Meestal laat je het niet bij 1x zo'n spelletje spelen en wil je er meer spelen. Dan is het fijn om de score bij te houden. Met deze uitbreiding houdt je spel de score per persoon bij. Na afloop van elke ronde, zet je de score op het scherm. Wanneer de spelers klaar zijn met het spel, roep je de speler met het meeste aantal gewonnen spelen uit tot winnaar.
 
-### In de put (0.5 sterren)
-
-Wat is jouw ongeluksgetal? Spelers die op dat vak terecht komen, komen in de put terecht. Ze blijven daar net zo lang zitten tot een medespeler ook in de put terecht komt. Die geeft de eerste speler dan een zetje om uit de put te komen en blijft zelf in de put zitten. Voorbeeld:
-
-- De put zit op vakje 31.
-- Purk staat op 26, rolt een 5, komt op het vakje van de put terecht en zit dus in de put. De beurt gaat naar de volgende speler.
-- Wanneer de beurt normaal gesproken aan Purk zou zijn, wordt Purk overgeslagen, want die zit in de put.
-- Op een gegeven moment staat Tommie op 30, rolt een 1 en komt dus in de put. Op dat moment wordt Purk uit de put geholpen en blijft Tommie in de put zitten. Purk komt op vakje 32 te staan. De eerstvolgende keer dat Purk in de normale volgorde aan de beurt is, mag Purk weer gewoon verder spelen.
-
-Om verwarring te voorkomen (of om het nog een beetje in te wrijven) print je programma "Speler *x* wordt overgeslagen, want die zit in de put." op het moment dat dat die speler eigenlijk aan de beurt zou zijn.
-
-Zet in het commentaar bovenaan je programma:
+Zet boven in je code het volgende fragment:
 
 ```python
 # Uitbreidingen:
-# - In de put op vakje ...
+# - Score bijhouden ...
 ```
 
-### De doornstruik (0.5 sterren)
+### Highscore bijhouden (1 ster) samen met Score bijhouden
 
-Kies een vakje uit waar de tuinman al te lang niet is geweest en waar nu een grote doornstruik groeit. Als een speler op dat vakje terecht komt, wordt die teruggeplaatst naar een eerder vakje op het bord. Voorbeeld:
+Het is niet alleen tof om de score bij te houden, maar ook om de hoogste score ooit bij te houden. Gebruik een tekstbestand `score.txt` om de hoogste score in op te slaan (inclusief de naam van de speler). Wanneer er een speler is, die een nieuwe hoogste score heeft, dan sla je die naam en score op in het bestand. Dit bestand lees en schrijf je in je Python code middels `write()` en `readline()`. Het bestand `score.txt` bevat precies twee regels. Op de eerste regel staat de naam van de speler met de hoogste score en op de tweede regel staat de score.
 
-- Bert staat op vakje 40, op 42 staat de doornstruik en Bert rolt 2. Bert gaat terug naar vakje 37.
-
-Zet in het commentaar bovenaan je programma:
-
+Een voorbeeld van een `score.txt`:
+```
+Henk
+4
+```
 ```python
 # Uitbreidingen:
-# - De doornstruik op vakje ... (gaat terug naar ...)
+# - Score bijhouden
+# - Highscore bijhouden
 ```
 
-### Double trouble (0.5 sterren)
+### Schuif het bord (1 ster)
 
-Vanaf nu spelen we niet met één, maar met twee dobbelstenen. Er is wel een *maar*: als een speler dubbele ogen gooit (dus bijvoorbeeld 5 met beide dobbelstenen), dan is die speler gediskwalificeerd en mag die niet meer meespelen. Als alle spelers gediskwalificeerd zijn, stopt het spel.
+Je maakt een uitbreiding, waarbij elke speler per ronde 1x een schuifkaart in mag zetten. Als deze eenmaal is ingezet, mag die niet nog een keer ingezet worden. Een schuifkaart verschuift het bord. Een verschuiving kan naar links, naar rechts, naar boven of naar onder plaats vinden (`L, R, B, O`). Een verschuiving naar links ziet er als volgt uit:
 
-Zet in het commentaar bovenaan je programma:
-
-```python
-# Uitbreidingen:
-# - Double trouble
+De stenen op het bord 
+```
+ 1 | 2 | 3  
+---+---+--- 
+ 4 | 5 | 6  
+---+---+--- 
+ 7 | 8 | 9  
 ```
 
-### Marathon (0.5 sterren)
+worden met een links verschuiving dan als volgt verplaatst:
 
-Altijd maar weer hetzelfde spel is ook saai, dus vraagt je programma aan het begin hoe lang het Ganzenbord moet zijn, oftewel hoeveel vakjes het heeft. Om ervoor te zorgen dat niet alle "leuke" vakjes aan het begin zitten of buiten het bord vallen, moet je voor je geluksgetal (en eventueel voor de put en de doornstruik) aan het begin een willekeurig getal kiezen. Uiteraard laat je dan ook de spelers weten op welk vakje elk element terecht is gekomen.
-
-Het minimum aantal vakjes is 10. Als de gebruiker een getal lager dan 10 invoert, dan geeft je programma aan dat dat niet correct is en laat de gebruiker een nieuw getal kiezen.
-
-Zet in het commentaar bovenaan je programma:
-
-```python
-# Uitbreidingen:
-# - Marathon
+```
+ 2 | 3 | 1
+---+---+---  
+ 5 | 6 | 4
+---+---+--- 
+ 8 | 9 | 7
 ```
 
-### Meer vreugd (1 ster)
 
-Ganzenbord kun je prima met meer dan 2 spelers spelen. Breidt je programma uit zodat het aan het begin vraagt hoeveel spelers er zijn en wat hun namen zijn. Gebruik de ingevoerde namen om aan te geven wie er aan de beurt is. Je programma moet in theorie (op een computer met oneindig geheugen) met een oneindig aantal spelers te spelen zijn, dus daar mag geen limiet op zitten. Als een speler opgeeft, spelen de andere spelers gewoon door tot er nog maar één speler over is. Als alle spelers behalve één opgeven, dan heeft die speler gewonnen.
-
-Zet in het commentaar bovenaan je programma:
+Zet boven in je code het volgende fragment:
 
 ```python
 # Uitbreidingen:
-# - Meer vreugd
+# - Schuif het bord ...
+```
+
+### De tijd loopt! (1 ster)
+
+Net zoals bij schaken, kun je afspreken dat je een beperkte speeltijd hebt. Met deze uitbreiding programmeer je per speler per rond een timer. Je vraagt of de spelers dit spel met of zonder timer willen spelen. Als ze met timer willen spelen, vraag je hoeveel seconden een speler in totaal heeft (tussen de 10 en 100 seconden). Wanneer een speler aan de beurt is, loopt de tijd voor die speler af. Je hoeft de tijd niet actief op het scherm te laten zien. Wanneer een speler een zet heeft gedaan, laat je de resterende tijd van die speler zien. Wanneer een speler als eerste geen tijd meer over heeft, verliest deze automatisch de ronde.
+
+Zet boven in je code het volgende fragment:
+
+```python
+# Uitbreidingen:
+# - De tijd loopt! ...
 ```
 
 ## Beoordeling
@@ -158,4 +143,4 @@ for line in text.split("\n"):
 
 Ook code uit ChatGPT en andere chatbots dien je van een bronvermelding te voorzien. Zet dan ook de prompt die je hebt gebruikt in je commentaar.
 
-Het is uitdrukkelijk niet de bedoeling dat je grote blokken code of het hele spel kopieert. In dat geval zien we het als plagiaat en zullen we daar ook naar handelen. Voor diegenen die dit ingewikkeld vinden: meer dan 5 regels is een groot blok.
+Het is uitdrukkelijk niet de bedoeling dat je grote blokken code of het hele spel kopieert. In dat geval zien we het als plagiaat en zullen we daar ook naar handelen. Voor diegenen die dit ingewikkeld vinden: meer dan 5 regels code is een groot blok.
