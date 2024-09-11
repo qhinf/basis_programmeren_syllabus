@@ -39,7 +39,15 @@ Deze basisvariant is 2 sterren waard, waarmee je *maximaal* een 7 kunt halen als
 
 ### Score bijhouden (1 ster)
 
-Meestal laat je het niet bij 1x zo'n spelletje spelen en wil je er meer spelen. Dan is het fijn om de score bij te houden. Met deze uitbreiding houdt je spel de score per persoon bij. Na afloop van elke ronde, zet je de score op het scherm. Wanneer de spelers klaar zijn met het spel, roep je de speler met het meeste aantal gewonnen spelen uit tot winnaar.
+Meestal laat je het niet bij 1x zo'n spelletje spelen en wil je er meer spelen. Dan is het fijn om de score bij te houden. Met deze uitbreiding houdt je spel de score per persoon bij. Na afloop van elke ronde, zet je de score op het scherm *en* vraag je of de spelers nog een ronde willen spelen. Wanneer de spelers klaar zijn met het spel, roep je de speler met het meeste aantal gewonnen spelen uit tot winnaar.
+
+Bijvoorbeeld:
+```
+Henk: 4
+Truus: 5
+====
+Truus heeft gewonnen
+```
 
 Zet boven in je code het volgende fragment:
 
@@ -65,7 +73,7 @@ Henk
 
 ### Schuif het bord (1 ster)
 
-Je maakt een uitbreiding, waarbij elke speler per ronde 1x een schuifkaart in mag zetten. Als deze eenmaal is ingezet, mag die niet nog een keer ingezet worden. Een schuifkaart verschuift het bord. Een verschuiving kan naar links, naar rechts, naar boven of naar onder plaats vinden (`L, R, B, O`). Een verschuiving naar links ziet er als volgt uit:
+Je maakt een uitbreiding, waarbij elke speler per ronde 1x een schuifkaart in mag zetten. Een schuifkaart verschuift het bord. Een verschuiving kan naar links, naar rechts, naar boven of naar onder plaats vinden (`L, R, B, O`). Een verschuiving naar links ziet er als volgt uit:
 
 De stenen op het bord 
 ```
@@ -86,6 +94,12 @@ worden met een links verschuiving dan als volgt verplaatst:
  8 | 9 | 7
 ```
 
+**Regels voor de schuifkaart**
+Per ronde mag een speler maar 1x een schuifkaart inzetten. Een schuifkaart kan alleen in fase 2 ingezet worden. 
+
+Wanneer een schuifkaart gespeeld wordt:
+- vraag je de speler of deze naar links, rechts, boven of onder wil schuiven (`L, R, B, O`),
+- mag de speler geen stenen meer schuiven in die beurt. Een schuifkaart komt dus in plaats van het verschuiven van een steen.
 
 Zet boven in je code het volgende fragment:
 
