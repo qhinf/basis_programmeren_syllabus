@@ -158,3 +158,10 @@ for line in text.split("\n"):
 Ook code uit ChatGPT en andere chatbots dien je van een bronvermelding te voorzien. Zet dan ook de prompt die je hebt gebruikt in je commentaar.
 
 Het is uitdrukkelijk niet de bedoeling dat je grote blokken code of het hele spel kopieert. In dat geval zien we het als plagiaat en zullen we daar ook naar handelen. Voor diegenen die dit ingewikkeld vinden: meer dan 5 regels code is een groot blok.
+
+## Tips voor een goeie eindopdracht
+
+- Volg het stappenplan van {ref}`programma_schrijven`.
+- Speel je spel zelf!
+- Nog beter: laat het testen door anderen!
+- Probeer je eigen spel te breken door opzettelijk foute invoer te geven
