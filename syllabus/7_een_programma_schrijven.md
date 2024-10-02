@@ -1,3 +1,4 @@
+(programma_schrijven=)
 # Een programma schrijven
 
 Wanneer je klaar bent met de oefeningen van de vorige lessen, dan ben je al een beetje bekend met de basiselementen van de taal Python. Als het goed is, ben je in staat om bijvoorbeeld 5 regels Python-code te schrijven, die doen wat jij wil dat het moet doen. Maar hoe zit dat nou met grotere programma's van bijvoorbeeld 200 regels? Dat is andere koek. Wanneer je programma groter wordt dan wat je nu gewend bent, is het gemakkelijk om het overzicht kwijt te raken en niet te weten wat je moet doen. In dit hoofdstuk staat uitleg en een oefening hoe je een groter programma kunt aanpakken. Dit is best handig voor het maken van de eindopdracht.
