@@ -1,4 +1,4 @@
-(programma_schrijven=)
+(programma_schrijven)=
 # Een programma schrijven
 
 Wanneer je klaar bent met de oefeningen van de vorige lessen, dan ben je al een beetje bekend met de basiselementen van de taal Python. Als het goed is, ben je in staat om bijvoorbeeld 5 regels Python-code te schrijven, die doen wat jij wil dat het moet doen. Maar hoe zit dat nou met grotere programma's van bijvoorbeeld 200 regels? Dat is andere koek. Wanneer je programma groter wordt dan wat je nu gewend bent, is het gemakkelijk om het overzicht kwijt te raken en niet te weten wat je moet doen. In dit hoofdstuk staat uitleg en een oefening hoe je een groter programma kunt aanpakken. Dit is best handig voor het maken van de eindopdracht.
@@ -6,7 +6,15 @@ Wanneer je klaar bent met de oefeningen van de vorige lessen, dan ben je al een 
 ## Verdeel en heers
 Je hebt vast wel eens een keer in een probleem of puzzel vastgezeten. Er zijn heel veel mogelijkheden om uit zo'n puzzel of probleem te komen. De gemakkelijkste is natuurlijk naar de oplossing kijken, maar dat een beetje flauw. Het is wel de bedoeling dat je zelf tot een oplossing komt. Een van de mogelijkheden is om het probleem op te delen in kleinere problemen. Of de grote stappen op te delen in kleinere stappen. In het programmeer-onderwijs noemen we dit de *Top-Down*-benadering. In deze benadering bekijk je een opdracht van een kleine afstand en breek je de opdracht op in kleinere deelopdrachten. Eigenlijk net zoals je een bord met veel eten aanvalt. Die eet je ook niet in één hap op. 
 
-Met de Top-down benadering voor jouw grotere Python-programma ga je gebruik maken van *Storyboarden*. Een storyboard is een reeks eenvoudige tekeningen, waarmee je laat zien wat er in je programma gebeurt. Dit helpt je na te denken over de structuur van je programma, zonder dat je meteen met Python-code bezig bent. Vervolgens ga je de verschillende delen van het overzicht uitwerken in *pseudo-code*. Dat is een opstap naar echte Python code. Wanneer je alle delen hebt uitgewerkt, kun je aan de slag met het omzetten van je pseudo-code naar werkende Python code.
+Met de Top-down benadering voor jouw grotere Python-programma ga je gebruik maken van *Storyboarden*. Een storyboard is een reeks eenvoudige tekeningen, waarmee je laat zien wat er in je programma gebeurt. Dit helpt je na te denken over de structuur van je programma, zonder dat je meteen met Python-code bezig bent. Vervolgens ga je de verschillende delen van het overzicht uitwerken in *pseudo-code*. Dat is een opstap naar echte Python code. Wanneer je alle delen hebt uitgewerkt, kun je aan de slag met het omzetten van je pseudo-code naar werkende Python code en uiteindelijk naar een compleet programma. Dat wordt dus het volgende stappenplan:
+
+(stappenplan)=
+:::{admonition} Stappenplan
+1. Maak een storyboard van de belangrijkste interacties van je programma
+2. Beschrijf elke interactie in pseudocode
+3. Zet de pseudocode om in echte codeblokken in Python
+4. Lijm de codeblokken aan elkaar tot een echt werkend programma
+:::
 
 In een storyboard beschrijf je de belangrijke interacties met de gebruiker van je spel. Je mag dit tekenen/schetsen. Je mag het ook in woorden omschrijven. In het uitgewerkte voorbeeld hieronder worden woorden gebruikt om de belangrijkste interacties te omschrijven. Je kunt zelf natuurlijk de volgende hulpmiddelen ook gebruiken:
 - Powerpoint
@@ -50,9 +58,14 @@ We gaan een storyboard maken.
 |Wat gebeurt er? | Het programma drukt "Gefeliciteerd, je hebt het juiste getal geraden!" en de score af |
 |Pseudocode | `Druk felicitatie en score af`|
 
-:::{exercise} 
+(storyboard_galgje)=
+:::{exercise} Galgje
 
-TODO: Opdracht Galgje storyboard
+Je kent het spel Galgje vast wel. Je kiest een woord en de speler moet het woord letter voor letter raden. Je begint met een aantal ..., net zoveel als er letters in het woord zijn. De speler moet een letter raden. Heeft deze het juist, dan zet je de letter op de juiste puntjes. Heeft de speler de letter niet juist, dan wordt de galg iets meer opgebouwd. In totaal mag je meestal 10 letters fout hebben. De fout geraden letters schrijf je ook op.
+
+Je gaat een storyboard maken voor dit spel. Je mag het te raden woord als een variabele gebruiken. Bijvoorbeeld: `woord = 'picknick'`. 
+
+Volg het storyboard sjabloon van *Raad het getal*. Natuurlijk krijg je meer interacties en schermen :)
 
 :::
 
@@ -68,6 +81,7 @@ Pseudocode
 
 Python code
 ```python
+# Startscherm
 print("Welkom bij Raad-het-getal")
 score = 0
 doelgetal = randint(1,100)
@@ -83,7 +97,8 @@ Pseudocode
 
 Python code
 ```python
-invoer = int(input())
+# Invoer van de gebruiker
+invoer = int(input("Voer een getal in tussen de 1 en de 100: "))
 score += 1
 ```
 
@@ -97,6 +112,8 @@ Pseudocode
 
 Python code
 ```python
+
+# Vergelijking en feedback
 if invoer < doelgetal:
     print("Te laag")
 elif invoer > doelgetal:
@@ -110,14 +127,78 @@ Pseudocode
 `Druk felicitatie en score af`
 
 ```python
+# Einduitslag
 print("Gefeliciteerd! Je hebt het getal juist geraden")
 print("Je score is " + str(score) + " punten.")
 ```
 
+:::{exercise} Invoervalidatie blok 2
+In de conversie van pseudocode naar Python code in het blok **2. Invoer van gebruikers** wordt in het voorbeeld nog gebruik gemaakt van `int(input())`. Deze code is natuurlijk niet erg robuust. Je kunt als gebruiker het programma snel crashen.
 
+Verander deze code zodanig dat het programma niet meer crashed bij invoer, die geen geheel getal is, maar netjes een foutmelding teruggeeft en alleen gehele getallen als invoer accepteert.
+:::
+
+:::{exercise} Python codeblokken Galgje
+
+Schrijf de Python codeblokken op basis van je storyboard van het spel Galgje van opdracht {ref}`storyboard_galgje`
+
+:::
 
 ## Van code blokken naar programma
+We zijn er nu nog niet. We hebben nu losse codeblokken, maar hebben nog niet vastgesteld wat er nu precies moet gebeuren als de gebruiker het getal niet goed geraden heeft. Het programma moet het dan *weer* aan de gebruiker vragen. Dit wordt een herhaling. Wanneer je er even over nadenkt, dan wil je dat het programma blijft vragen naar de invoer, totdat het juist antwoord is gegeven. Je maakt dan gebruik van een interactie lus. In pseudecode ziet dat er zo uit:
 
+```python
+goedgeraden = False
 
+while not goedgeraden: # deze lus 
+    # vraag invoer
+    # vergelijk invoer
+    # onjuist? geef feedback
+    
+    # juist! Dan voer je de regel hieronder uit
+    goedgeraden = True
 
-TODO: Validatie van invoer!
+# wanneer het programma uit de vorige while lus is, weten we 100% zeker dat het getal geraden is
+
+# Einduitslag
+```
+
+Dit vertaalt zich voor **Raad het getal** naar het volgende programma:
+
+**Het hele programma**
+```python
+# de regel hieronder is nodig om randint te kunnen gebruiken
+from random import randint
+
+# Startscherm
+print("Welkom bij Raad-het-getal")
+score = 0
+doelgetal = randint(1,100)
+
+goedgeraden = False
+
+while not goedgeraden:
+    # Invoer van de gebruiker
+    invoer = int(input("Voer een getal in tussen de 1 en de 100: "))
+    score += 1
+
+    # Vergelijking en feedback
+    if invoer < doelgetal:
+        print("Te laag")
+    elif invoer > doelgetal:
+        print("Te hoog")
+    else: # invoer == doelgetal
+        goedgeraden = True
+
+# Einduitslag
+print("Gefeliciteerd! Je hebt het getal juist geraden")
+print("Je score is " + str(score) + " punten.")
+```
+
+:::{exercise} Python code Galgje
+
+Schrijf het volledige programma op basis van je eerder gemaakte codeblokken van het spel Galgje van opdracht {ref}`storyboard_galgje`. 
+
+Maak ook hier gebruik van de interactie lus zoals in het voorbeeld bij *Raad het getal* is gebruikt.
+
+:::
