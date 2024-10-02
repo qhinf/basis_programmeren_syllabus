@@ -1,10 +1,10 @@
 (programma_schrijven)=
-# Een programma schrijven
+# Een groter programma schrijven
 
-Wanneer je klaar bent met de oefeningen van de vorige lessen, dan ben je al een beetje bekend met de basiselementen van de taal Python. Als het goed is, ben je in staat om bijvoorbeeld 5 regels Python-code te schrijven, die doen wat jij wil dat het moet doen. Maar hoe zit dat nou met grotere programma's van bijvoorbeeld 200 regels? Dat is andere koek. Wanneer je programma groter wordt dan wat je nu gewend bent, is het gemakkelijk om het overzicht kwijt te raken en niet te weten wat je moet doen. In dit hoofdstuk staat uitleg en een oefening hoe je een groter programma kunt aanpakken. Dit is best handig voor het maken van de eindopdracht.
+Wanneer je klaar bent met de oefeningen van de vorige lessen, dan ben je al een beetje bekend met de basiselementen van de taal Python. Als het goed is, ben je in staat om bijvoorbeeld 5 regels Python-code te schrijven, die doen wat jij wil dat het moet doen. Maar hoe zit dat nou met grotere programma's van bijvoorbeeld 200 regels? Dat is andere koek. Bij grotere programma’s raak je sneller het overzicht kwijt. In dit hoofdstuk staan uitleg en een oefening hoe je een groter programma kunt schrijven. Dit is best handig voor het maken van de {ref}`eindopdracht`.
 
 ## Verdeel en heers
-Je hebt vast wel eens een keer in een probleem of puzzel vastgezeten. Er zijn heel veel mogelijkheden om uit zo'n puzzel of probleem te komen. De gemakkelijkste is natuurlijk naar de oplossing kijken, maar dat een beetje flauw. Het is wel de bedoeling dat je zelf tot een oplossing komt. Een van de mogelijkheden is om het probleem op te delen in kleinere problemen. Of de grote stappen op te delen in kleinere stappen. In het programmeer-onderwijs noemen we dit de *Top-Down*-benadering. In deze benadering bekijk je een opdracht van een kleine afstand en breek je de opdracht op in kleinere deelopdrachten. Eigenlijk net zoals je een bord met veel eten aanvalt. Die eet je ook niet in één hap op. 
+Je hebt vast wel eens een keer in een probleem of puzzel vastgezeten. Er zijn heel veel mogelijkheden om uit zo'n puzzel of probleem te komen. De gemakkelijkste is natuurlijk naar de oplossing kijken, maar dat is een beetje flauw. Het is wel de bedoeling dat je zelf tot een oplossing komt. Een van de mogelijkheden is om het probleem op te delen in kleinere problemen. Of de grote stappen op te delen in kleinere stappen. In het programmeer-onderwijs noemen we dit de *Top-Down*-benadering. In deze benadering bekijk je een opdracht van afstand en breek je de opdracht op in kleinere deelopdrachten. Eigenlijk net zoals je een bord met veel eten aanvalt. Die hoeveelheid eten eet je ook niet in één hap op. 
 
 Met de Top-down benadering voor jouw grotere Python-programma ga je gebruik maken van *Storyboarden*. Een storyboard is een reeks eenvoudige tekeningen, waarmee je laat zien wat er in je programma gebeurt. Dit helpt je na te denken over de structuur van je programma, zonder dat je meteen met Python-code bezig bent. Vervolgens ga je de verschillende delen van het overzicht uitwerken in *pseudo-code*. Dat is een opstap naar echte Python code. Wanneer je alle delen hebt uitgewerkt, kun je aan de slag met het omzetten van je pseudo-code naar werkende Python code en uiteindelijk naar een compleet programma. Dat wordt dus het volgende stappenplan:
 
@@ -33,7 +33,7 @@ We gaan een storyboard maken.
 **1. Startscherm**
 | | |
 |-|-|
-|Wat is er te zien? | Een welkomstboodschap op het scherm. Bijv. "Welkom bij Raad het Getal! Voer een getal in tussen 1 en 100." |
+|Wat is er te zien? | Een welkomstboodschap op het scherm. Bijv. "Welkom bij Raad het Getal!" |
 |Wat gebeurt er? | Een welkomstboodschap wordt op het scherm gezet.<br/>De score wordt op 0 gezet.<br/>Bepaal het getal wat geraden moet worden. |
 |Pseudocode | `Druk welkomstboodschap af.`<br/>`Zet score op 0`<br/>`Kies een willekeurig doelgetal tussen 1 en 100`.|
 
@@ -56,12 +56,12 @@ We gaan een storyboard maken.
 |-|-|
 |Wat is er te zien? | Een boodschap met felicitaties en de behaalde score |
 |Wat gebeurt er? | Het programma drukt "Gefeliciteerd, je hebt het juiste getal geraden!" en de score af |
-|Pseudocode | `Druk felicitatie en score af`|
+|Pseudocode | `Druk felicitatie af`<br\>`Druk score af`|
 
 (storyboard_galgje)=
 :::{exercise} Galgje
 
-Je kent het spel Galgje vast wel. Je kiest een woord en de speler moet het woord letter voor letter raden. Je begint met een aantal ..., net zoveel als er letters in het woord zijn. De speler moet een letter raden. Heeft deze het juist, dan zet je de letter op de juiste puntjes. Heeft de speler de letter niet juist, dan wordt de galg iets meer opgebouwd. In totaal mag je meestal 10 letters fout hebben. De fout geraden letters schrijf je ook op.
+Je kent het spel Galgje vast wel. Je kiest een woord en de speler moet het woord letter voor letter raden. Je begint met een aantal puntjes, net zoveel als er letters in het woord zijn. De speler moet een letter raden. Heeft deze het juist, dan zet je de letter op de juiste puntjes. Heeft de speler de letter niet juist, dan wordt de galg iets meer opgebouwd. In totaal mag je meestal 10 letters fout hebben. De fout geraden letters schrijf je ook op.
 
 Je gaat een storyboard maken voor dit spel. Je mag het te raden woord als een variabele gebruiken. Bijvoorbeeld: `woord = 'picknick'`. 
 
@@ -108,7 +108,7 @@ De regel met `invoer = int(input(...` werkt natuurlijk op zich prima, wanneer de
 
 Pseudocode 
 
-`Als het ingevoerde getal lager is dan het doelgetal, zeg "Te laag" en ga naar scherm 2.`<br/>`Als het ingevoerde getal hoger is dan het doelgetal, zeg "Te hoog".`
+`Als het ingevoerde getal lager is dan het doelgetal, zeg "Te laag" en ga naar scherm 2.`<br/>`Als het ingevoerde getal hoger is dan het doelgetal, zeg "Te hoog" en ga naar scherm 2.`
 
 Python code
 ```python
@@ -120,20 +120,24 @@ elif invoer > doelgetal:
     print("Te hoog")
 ```
 
+Uitleg
+
+We kunnen nog niet zoveel doen met de pseudocode `ga naar scherm 2`. Hoe we dit oplossen krijg je uiteindelijk te zien wanneer we de code aan elkaar lijmen. Voor nu skippen we de opmerking `ga naar scherm 2`.
+
 **4. Einduitslag**
 
 Pseudocode
 
-`Druk felicitatie en score af`
+`Druk felicitatie af`<br\>`Druk score af`
 
 ```python
 # Einduitslag
 print("Gefeliciteerd! Je hebt het getal juist geraden")
-print("Je score is " + str(score) + " punten.")
+print(f"Je score is {score} punten.")
 ```
 
 :::{exercise} Invoervalidatie blok 2
-In de conversie van pseudocode naar Python code in het blok **2. Invoer van gebruikers** wordt in het voorbeeld nog gebruik gemaakt van `int(input())`. Deze code is natuurlijk niet erg robuust. Je kunt als gebruiker het programma snel crashen.
+Tijdens de conversie van pseudocode naar Python code in het blok **2. Invoer van gebruikers** wordt in het voorbeeld nog gebruik gemaakt van `int(input())`. Deze code is natuurlijk niet erg robuust. Je kunt als gebruiker het programma snel crashen.
 
 Verander deze code zodanig dat het programma niet meer crashed bij invoer, die geen geheel getal is, maar netjes een foutmelding teruggeeft en alleen gehele getallen als invoer accepteert.
 :::
@@ -145,7 +149,7 @@ Schrijf de Python codeblokken op basis van je storyboard van het spel Galgje van
 :::
 
 ## Van code blokken naar programma
-We zijn er nu nog niet. We hebben nu losse codeblokken, maar hebben nog niet vastgesteld wat er nu precies moet gebeuren als de gebruiker het getal niet goed geraden heeft. Het programma moet het dan *weer* aan de gebruiker vragen. Dit wordt een herhaling. Wanneer je er even over nadenkt, dan wil je dat het programma blijft vragen naar de invoer, totdat het juist antwoord is gegeven. Je maakt dan gebruik van een interactie lus. In pseudecode ziet dat er zo uit:
+We zijn er nu nog niet. We hebben nu losse codeblokken, maar hebben nog niet vastgesteld wat er nu precies moet gebeuren als de gebruiker het getal niet goed geraden heeft. Het programma moet het dan *weer* aan de gebruiker vragen. Dit wordt een herhaling. Wanneer je er even over nadenkt, dan wil je dat het programma blijft vragen naar de invoer, totdat het juist antwoord is gegeven. Je maakt dan gebruik van een interactie lus. In pseudocode ziet dat er zo uit:
 
 ```python
 goedgeraden = False
@@ -192,13 +196,32 @@ while not goedgeraden:
 
 # Einduitslag
 print("Gefeliciteerd! Je hebt het getal juist geraden")
-print("Je score is " + str(score) + " punten.")
+print(f"Je score is {score} punten.")
 ```
 
-:::{exercise} Python code Galgje
+:::{exercise} Uitbreiding Raad-het-getal
+
+Wanneer het getal goed geraden is, stop het programma *Raad-het-getal*. Wijzig het programma zodanig dat het programma na een rondje spelen de speler vraagt om nog een keer te spelen. Wanneer de speler met J antwoordt, laat je de speler nog een keer spelen, wanneer de speler met N antwoordt, beeindig je het spel.
+
+Tips:
+- maak een storyboard voor de vraag of de speler nog een keer wil spelen
+- werk dit storyboard via pseudo-code uit naar Python code.
+- maak gebruik van een extra `while`-lus.
+- de uitdaging zit hem er in op juiste 'moment' in je code de `while`-lus te zetten, zodat je met een nieuw te raden getal en een nieuwe score begint.
+  
+:::
+
+::::{exercise} Python code Galgje
 
 Schrijf het volledige programma op basis van je eerder gemaakte codeblokken van het spel Galgje van opdracht {ref}`storyboard_galgje`. 
 
-Maak ook hier gebruik van de interactie lus zoals in het voorbeeld bij *Raad het getal* is gebruikt.
+Tips:
+- Maak ook hier gebruik van de interactie lus zoals in het voorbeeld bij *Raad het getal* is gebruikt.
+- Voor het printen van de galg kun je gebruik maken van een aparte functie, die je zelf definieert:
+```python
+def print_galg(score):
+    # hier komt jouw code
+```
+Hier kun je de blingbling-print van [Wikipedia](https://nl.wikipedia.org/wiki/Galgje#Constructie_van_de_galg) gebruiken. 
 
-:::
+::::

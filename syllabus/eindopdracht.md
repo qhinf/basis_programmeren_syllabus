@@ -1,3 +1,4 @@
+(eindopdracht)=
 # Eindopdracht
 
 Iedereen kent het spelletje Boter, Kaas en Eieren. Je tekent snel een paar lijntjes in de vorm van een hashtag op papier en zet om de beurt een `O` of een `X` in de vakjes. De speler, die als eerste drie van zijn tekentjes op een rij heeft, heeft gewonnen. Wanneer je weet hoe het moet, kun je met dit eenvoudige spelletjes nooit meer verliezen.
