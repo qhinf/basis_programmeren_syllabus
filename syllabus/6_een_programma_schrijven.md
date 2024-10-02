@@ -47,4 +47,13 @@ We gaan een storyboard maken.
 |Wat gebeurt er? | Het programma drukt "Gefeliciteerd, je hebt het juiste getal geraden!" en de score af |
 |Pseudocode | `Druk felicitatie en score af`|
 
+<<<<<<< Updated upstream
 :::
+=======
+## 
+
+:::
+
+
+Validatie van invoer!
+>>>>>>> Stashed changes
