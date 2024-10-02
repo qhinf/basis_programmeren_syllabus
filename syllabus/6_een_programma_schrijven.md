@@ -19,14 +19,14 @@ De methode van storyboarden kan je later ook helpen, wanneer je programma's wil 
 We gaan het spelletje *Raad het getal* als voorbeeld nemen. In dit spelletje moet de speler een getal raden. De computer zegt dan of je gok te hoog, te laag of juist is. Je score is het aantal pogingen wat je nodig hebt gehad om het getal te raden. Tot zover de beschrijving van het spel.
 We gaan een storyboard maken.
 
-:::{admonition} Storyboard Raad het getal
+### Storyboard Raad het getal
 
 **1. Startscherm**
 | | |
 |-|-|
 |Wat is er te zien? | Een welkomstboodschap op het scherm. Bijv. "Welkom bij Raad het Getal! Voer een getal in tussen 1 en 100." |
-|Wat gebeurt er? | Een welkomstboodschap wordt op het scherm gezet.<br/>De score wordt op 0 gezet. |
-|Pseudocode | `Druk welkomstboodschap af.`<br/>`Zet score op 0`.|
+|Wat gebeurt er? | Een welkomstboodschap wordt op het scherm gezet.<br/>De score wordt op 0 gezet.<br/>Bepaal het getal wat geraden moet worden. |
+|Pseudocode | `Druk welkomstboodschap af.`<br/>`Zet score op 0`<br/>`Kies een willekeurig doelgetal tussen 1 en 100`.|
 
 **2. Invoer van de gebruiker**
 | | |
@@ -49,7 +49,74 @@ We gaan een storyboard maken.
 |Wat gebeurt er? | Het programma drukt "Gefeliciteerd, je hebt het juiste getal geraden!" en de score af |
 |Pseudocode | `Druk felicitatie en score af`|
 
+:::{exercise} 
+
+TODO: Opdracht Galgje storyboard
+
+:::
+
+## Van storyboard naar code blokken
+Nu we de belangrijkste interacties van ons programma *Raad het getal* hebben beschreven, gaan we per interactie de Python-code schrijven. Dit zijn nog losse blokken. Je zult zien dat het resultaat al behoorlijk op een werkend programma lijkt. Dit is het nog niet, want het zijn nog losse blokken. In de volgende paragraaf gaan we kijken hoe we deze blokken aan elkaar gaan koppelen.
+
+### Code blokken
+**1. Startscherm**
+
+Pseudocode
+
+`Druk welkomstboodschap af.`<br/>`Zet score op 0`.<br/>`Kies een willekeurig doelgetal tussen 1 en 100`|
+
+Python code
+```python
+print("Welkom bij Raad-het-getal")
+score = 0
+doelgetal = randint(1,100)
+```
+
+Met de functie `randint` kun je de computer een random integer laten kiezen tussen twee grenzen. In dit geval tussen 1 en 100. Deze functie maakt deel uit van de Python bibliotheek `random`. Voor nu laten we deze code zo staan. Wanneer we het complete programma maken, moeten we nog een extra regel toevoegen aan ons programma willen we het werkend krijgen.
+
+**2. Invoer van de gebruiker**
+
+Pseudocode
+
+ `De speler voert een getal in`<br/>`Sla het getal op.`<br/>`Verhoog de score met 1` 
+
+Python code
+```python
+invoer = int(input())
+score += 1
+```
+
+De regel met `invoer = int(input(...` werkt natuurlijk op zich prima, wanneer de gebruiker ook daadwerkelijk een getal invoert. Je zult bij CS Circles al gemerkt hebben dat Python een vervelende foutmelding geeft wanneer je iets anders dan een geheel getal invoert. Als je het echt een beetje boomer-proof wil maken, dan gebruik je hier een functie met input-validatie!
+
+**3. Vergelijking en feedback**
+
+Pseudocode 
+
+`Als het ingevoerde getal lager is dan het doelgetal, zeg "Te laag" en ga naar scherm 2.`<br/>`Als het ingevoerde getal hoger is dan het doelgetal, zeg "Te hoog".`
+
+Python code
+```python
+if invoer < doelgetal:
+    print("Te laag")
+elif invoer > doelgetal:
+    print("Te hoog")
+```
+
+**4. Einduitslag**
+
+Pseudocode
+
+`Druk felicitatie en score af`
+
+```python
+print("Gefeliciteerd! Je hebt het getal juist geraden")
+print("Je score is " + str(score) + " punten.")
+```
 
 
 
-Validatie van invoer!
+## Van code blokken naar programma
+
+
+
+TODO: Validatie van invoer!
