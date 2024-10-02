@@ -18,7 +18,8 @@ parts:
     - file: 3_input_if
     - file: 4_loops
     - file: 5_eigen_functies_lijsten
-    - file: 6_een_programma_schrijven
+    - file: 6_programma_patronen
+    - file: 7_een_programma_schrijven
   - caption: Extra
     chapters:
     - file: tips
