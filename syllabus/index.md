@@ -16,9 +16,9 @@ Om te laten zien dat je dat aan het eind van de module ook echt kunt, ga je een 
 
 En tot slot, enkele belangrijke data:
 
-- Deadline voor het inleveren van de eindopdracht: **{{ deadline }}**
-- Deadline voor het aanvragen van uitstel: **{{ deadline_uitstel_aanvragen }}**
-  - Uitgestelde deadline: **{{ deadline_uitstel }}**
+- Eerste inlevermoment voor de eindopdracht: **{{ eerste_inlevermoment }}**
+- Tweede inlevermoment voor de eindopdracht: **{{ tweede_inlevermoment }}**
+  - Meld je voor **{{ tweede_inlevermoment_melden }}** om het tweede inlevermoment te gebruiken
 
 Inhoudsopgave:
 
