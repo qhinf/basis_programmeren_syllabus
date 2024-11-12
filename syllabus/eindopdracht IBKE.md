@@ -1,22 +1,38 @@
+(eindopdracht)=
 # Eindopdracht
 
 Iedereen kent het spelletje Boter, Kaas en Eieren. Je tekent snel een paar lijntjes in de vorm van een hashtag op papier en zet om de beurt een `O` of een `X` in de vakjes. De speler, die als eerste drie van zijn tekentjes op een rij heeft, heeft gewonnen. Wanneer je weet hoe het moet, kun je met dit eenvoudige spelletjes nooit meer verliezen.
 
-Voor deze opdracht ga je een Boter, Kaas en Eieren met andere spelregels programmeren. De Italiaanse variant. De start van het spel is hetzelfde als bij traditioneel Boter, Kaas en Eieren. Elke speler mag om de beurt zijn eerste **drie** stenen zetten. Na deze fase wordt het anders dan je gewend bent. Er staan nu dus 6 stenen op het bord en zijn er nog 3 plekken vrij op het bord. De tweede fase van het spel is dat je met de stenen gaat schuiven. het schuiven is ook aan regels gebonden:
+Voor deze opdracht ga je een Boter, Kaas en Eieren met andere spelregels programmeren. 
+
+**De Italiaanse variant.** 
+
+*Fase 1*
+
+De start van het spel is hetzelfde als bij traditioneel Boter, Kaas en Eieren. Elke speler mag *om de beurt* zijn eerste **drie** stenen zetten. Het kan natuurlijk zijn dat in deze fase een speler slim genoeg is geweest om drie stenen op een rij te leggen. Dan is het spel afgelopen. Als dat niet het geval is, ga je door naar volgende fase.
+
+*Fase 2*
+
+Na deze fase wordt het anders dan je gewend bent. Er staan nu dus 6 stenen op het bord en zijn er nog 3 plekken vrij op het bord. De tweede fase van het spel is dat je met de stenen gaat *schuiven*. Een soort dammen. Het schuiven is ook aan regels gebonden:
 1. Je mag een steen alleen naar een onbezette plaats schuiven,
 2. Je mag altijd van en naar het midden schuiven,
 3. Stenen aan de rand mogen alleen één plek verder of één plek terug over de rand.
 Om een voorbeeld te geven: een `X` of een `O` op positie `2` mag naar positie `1`, `3` en `5` bewegen. Mits deze plek natuurlijk vrij is.
 
 ```
- 1 | X | 3
+*1*| X |*3*
 ---+---+---
- 4 | 5 | 6 
+ 4 |*5*| 6 
 ---+---+---
  7 | 8 | 9 
 ```
 
+*Einde van het spel*
+
 Dit schuiven gaat door, totdat één van de spelers drie stenen op een rij heeft. Deze speler heeft gewonnen.
+
+*Jouw spel*
+
 Het spel dat je maakt, is te spelen in de console. Je hoeft dus alleen `print` te gebruiken om het speelbord te 
 tonen en `input` om gebruikers om hun input te vragen. Hoe die interactie er precies uitziet en hoe je de staat van het bord weergeeft, is aan jou. Als je niet weet hoe je moet beginnen en iemand raadt je aan om met pygame aan de slag te gaan, dan moet je dat advies niet opvolgen. Dit is de **basis** van programmeren en pygame is wel een tikkie ingewikkelder dan de basis.
 
@@ -110,7 +126,7 @@ Zet boven in je code het volgende fragment:
 
 ### De tijd loopt! (1 ster)
 
-Net zoals bij schaken, kun je afspreken dat je een beperkte speeltijd hebt. Met deze uitbreiding programmeer je per speler per rond een timer. Je vraagt of de spelers dit spel met of zonder timer willen spelen. Als ze met timer willen spelen, vraag je hoeveel seconden een speler in totaal heeft (tussen de 10 en 100 seconden). Wanneer een speler aan de beurt is, loopt de tijd voor die speler af. Je hoeft de tijd niet actief op het scherm te laten zien. Wanneer een speler een zet heeft gedaan, laat je de resterende tijd van die speler zien. Wanneer een speler als eerste geen tijd meer over heeft, verliest deze automatisch de ronde.
+Net zoals bij schaken, kun je afspreken dat je een beperkte speeltijd hebt. Met deze uitbreiding programmeer je per speler per rond een timer. Je vraagt of de spelers dit spel met of zonder timer willen spelen. Als ze met timer willen spelen, vraag je hoeveel seconden een speler in totaal heeft (tussen de 10 en 100 seconden). Wanneer een speler aan de beurt is, loopt de tijd voor die speler af. Je hoeft de tijd niet actief op het scherm te laten zien. Wanneer een speler een zet heeft gedaan, laat je de resterende tijd van die speler zien. Wanneer een speler als eerste geen tijd meer over heeft, verliest deze automatisch de ronde. Voor deze functionaliteit kun je de Python-bibliotheek `time` gebruiken. 
 
 Zet boven in je code het volgende fragment:
 
