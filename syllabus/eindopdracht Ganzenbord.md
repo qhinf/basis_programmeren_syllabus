@@ -4,7 +4,7 @@ Het spel dat jullie gaan maken is speciale editie van Ganzenbord. Hieronder staa
 
 Het spel dat je maakt, is te spelen in de console. Je hoeft dus alleen `print` te gebruiken om het speelbord te tonen en `input` om gebruikers om hun input te vragen. Het zou er dus bijvoorbeeld zo uit kunnen zien:
 
-![Voorbeeld van ganzenbord als een tekst-gebaseerd spel.](assets/spel.gif)
+![Voorbeeld van ganzenbord als een tekst-gebaseerd spel.](assets/ganzenbord.gif)
 
 Hoe die interactie er precies uitziet en hoe je de staat van het bord weergeeft, is aan jou. Als je niet weet hoe je moet beginnen en iemand raadt je aan om met pygame aan de slag te gaan, dan moet je dat advies niet opvolgen. Dit is de **basis** van programmeren en pygame is wel een tikkie ingewikkelder dan de basis.
 
