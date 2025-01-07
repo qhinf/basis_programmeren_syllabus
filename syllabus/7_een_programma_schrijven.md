@@ -44,19 +44,19 @@ We gaan een storyboard maken.
 |Wat gebeurt er? | Vraag de speler om een getal in te voeren en sla dit getal op als 'gok' |
 |Pseudocode | `De speler voert een getal in`<br/>`Sla het getal op.`<br/>`Verhoog de score met 1` |
 
-**3. Vergelijking en feedback**
+**3. Antwoord**
 | | |
 |-|-|
 |Wat is er te zien? | Een tekst die aangeeft of het ingevoerde getal te hoog, te laag of correct is. |
 |Wat gebeurt er? | Het programma vergelijkt de invoer van de speler met het doelgetal en geeft feedback. Als het fout is, wordt de speler gevraagd opnieuw een getal in te voeren. |
-|Pseudocode | `Als het ingevoerde getal lager is dan het doelgetal, zeg "Te laag" en ga naar scherm 2.`<br/>`Als het ingevoerde getal hoger is dan het doelgetal, zeg "Te hoog" en ga naar scherm 2.`|
+|Pseudocode | `Als het ingevoerde getal lager is dan het doelgetal, zeg "Te laag" en ga naar scherm 2.`<br/>`Als het ingevoerde getal hoger is dan het doelgetal, zeg "Te hoog" en ga naar scherm 2.`<br/>`Als het ingevoerde getal correct is, ga naar scherm 4.`|
 
 **4. Einduitslag**
 | | |
 |-|-|
 |Wat is er te zien? | Een boodschap met felicitaties en de behaalde score |
 |Wat gebeurt er? | Het programma drukt "Gefeliciteerd, je hebt het juiste getal geraden!" en de score af |
-|Pseudocode | `Druk felicitatie af`<br\>`Druk score af`|
+|Pseudocode | `Druk felicitatie af`<br/>`Druk score af`|
 
 (storyboard_galgje)=
 :::{exercise} Galgje
@@ -108,7 +108,7 @@ De regel met `invoer = int(input(...` werkt natuurlijk op zich prima, wanneer de
 
 Pseudocode 
 
-`Als het ingevoerde getal lager is dan het doelgetal, zeg "Te laag" en ga naar scherm 2.`<br/>`Als het ingevoerde getal hoger is dan het doelgetal, zeg "Te hoog" en ga naar scherm 2.`
+`Als het ingevoerde getal lager is dan het doelgetal, zeg "Te laag" en ga naar scherm 2.`<br/>`Als het ingevoerde getal hoger is dan het doelgetal, zeg "Te hoog" en ga naar scherm 2.`<br/>`Als het ingevoerde getal correct is, ga naar scherm 4.`
 
 Python code
 ```python
@@ -128,7 +128,7 @@ We kunnen nog niet zoveel doen met de pseudocode `ga naar scherm 2`. Hoe we dit 
 
 Pseudocode
 
-`Druk felicitatie af`<br\>`Druk score af`
+`Druk felicitatie af`<br/>`Druk score af`
 
 ```python
 # Einduitslag
