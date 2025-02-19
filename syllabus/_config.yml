@@ -55,7 +55,7 @@ sphinx:
     myst_substitutions:
       eerste_inlevermoment: "donderdag 20 maart, 16:00"
       tweede_inlevermoment_melden: "maandag 10 maart, 16:00"
-      tweede_inlevermoment: "dinsdag 11 april, 16:00"
+      tweede_inlevermoment: "dinsdag 8 april, 16:00"
       docent: "Jeroen van Langen"
       docent_email: "j punt vanlangen apenstaartje quadraam punt nl"
       guru_name: "jvanlangen"  # vul hier de CS Circles gebruikersnaam van de docent in
