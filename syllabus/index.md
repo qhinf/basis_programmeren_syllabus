@@ -12,14 +12,14 @@ Wat ga je leren? Aan het eind van deze module kun je ...
 - beschrijven welke stappen een computer moet uitvoeren om een doel te bereiken, en
 - code schrijven in Python om een computer die stappen uit te laten voeren.
 
-```{warning}Let op!
-In dit blok wordt de module 2x gegeven aan een groep leerlingen uit:
+```{warning} Let op!
+In dit blok wordt de module 2x op dezelfde dag gegeven aan een groep leerlingen uit:
 - de regio Arnhem
 - de regio Liemers
 
-Kijk goed in de [Q-Highschool app](https://app.q-highschool.nl/) onder het kopje *Bijeenkomsten* om te zien waar en wanneer je les is.
+Kijk goed in de [Q-Highschool app](https://app.q-highschool.nl/) onder het kopje *Bijeenkomsten* om te zien waar en wanneer je les is. Ongeacht welke groep je in zit, je hebt elke week les. Behalve de herfstvakantie natuurlijk :)
 
-In Teams kun je dit overzicht ook vinden.
+In jouw Teams-tegel kun je dit overzicht ook vinden.
 ```
 
 Om te laten zien dat je dat aan het eind van de module ook echt kunt, ga je een (tekst)game maken. Meer informatie vind je bij {doc}`eindopdracht`.
