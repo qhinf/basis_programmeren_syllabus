@@ -15,7 +15,7 @@ We hebben even meegeluisterd met de schatkist en dit is wat we hoorden:
 Schatkist:  Hé jij daar! Ja, jij met die nieuwsgierige blik. 
             Jij denkt zeker dat je mijn schat zomaar kunt pakken?
             Ha! Je moet eerst mijn ultrageheime-superdeluxe-code kraken.
-            Vier cijfers, geen herhaling. Succes… je zult het nodig hebben.
+            Vier cijfers. Succes… je zult het nodig hebben.
 
 Speler:        3709
 
