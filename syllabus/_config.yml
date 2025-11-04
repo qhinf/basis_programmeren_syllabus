@@ -53,12 +53,12 @@ sphinx:
     # zaken die vaker terugkomen en bijvoorbeeld aangepast moeten worden voor
     # een volgende editie.
     myst_substitutions:
-      eerste_inlevermoment: "donderdag 30 oktober, 16.00u"
-      tweede_inlevermoment_melden: "maandag 20 oktober, 16.00u"
-      tweede_inlevermoment: "dinsdag 25 november, 16.00u"
-      docent: "Pieter van Engelen"
-      docent_email: "p punt vanengelen apestaartje quadraam punt nl"
-      guru_name: "PietervanEngelen"  # vul hier de CS Circles gebruikersnaam van de docent in
+      eerste_inlevermoment: "donderdag 15 januari, 16.00u"
+      tweede_inlevermoment_melden: "donderdag 18 december, 16.00u"
+      tweede_inlevermoment: "donderdag 5 februari, 16.00u"
+      docent: "Arthur Rump"
+      docent_email: "a punt rump apestaartje quadraam punt nl"
+      guru_name: "ArthurRump"  # vul hier de CS Circles gebruikersnaam van de docent in
 
 
 # html, repository en launch_buttons instellingen worden globaal voor alle
