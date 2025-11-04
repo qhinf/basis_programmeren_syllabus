@@ -38,21 +38,4 @@ Je hebt nu je eerste project! Om een nieuw bestand te maken klik je met de recht
 
 Nu weet je hoe je PyCharm gebruikt! Verdere informatie kan je vinden bij de [documentatie van JetBrains](https://www.jetbrains.com/help/pycharm/quick-start-guide.html).
 
-## Replit
-
-Replit is een online programmeeromgeving waarmee je ook heel makkelijk aan code kunt samenwerken. Je kunt Replit gratis gebruiken, maar dan is de code die je schrijft wel openbaar toegankelijk. Als je dat geen probleem vindt, dan is hier een stappenplan om met Replit te starten:
-
-1. Ga naar [replit.com](https://replit.com)
-2. Maak een account aan. **Tip**: Kies een herkenbare gebruikersnaam en gebruik een e-mailadres wat je ook leest, want dat kan nog eens van pas komen.
-
-Zo maak je een nieuw programma in Replit:
-
-- Klik in je dashboard op `Create`. 
-- Selecteer in Templates `Python`. Staat die er niet tussen? Dan kun je in hetzelfde vakje zoeken naar de template voor Python.
-- Vul een zinvolle naam in bij `Title`.
-- Klik op `+ Create Repl`
-- Maak een nieuw bestand aan door bij *Files* een nieuw bestand aan te maken.
-- Typ je code in het bestand
-- Druk op de groene knop `Run` om je code uit te voeren!
-
-Je mag altijd een andere editor gebruiken dan de vier die we hier genoemd hebben, maar dan moet je zelf uitzoeken hoe je de Python interpreter instelt (als dat nodig is).
+Je mag altijd een andere editor gebruiken dan de drie die we hier genoemd hebben, maar dan moet je zelf uitzoeken hoe je de Python interpreter instelt (als dat nodig is).
