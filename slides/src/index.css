@@ -12,6 +12,10 @@
     text-decoration: underline;
 }
 
+.reveal pre {
+    font-size: .8em;
+}
+
 .reveal table.noborder td {
     border-bottom: none;
 }
