@@ -74,6 +74,10 @@ ul.mc.grid li {
     gap: var(--r-block-margin);
 }
 
+.reveal section.full-height.top {
+    justify-content: flex-start;
+}
+
 .reveal section.full-height > * {
     margin-top: 0;
     margin-bottom: 0;
