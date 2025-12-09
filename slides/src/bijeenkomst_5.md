@@ -187,7 +187,7 @@ Drink met mate. Andere dranken naar keuze zijn ook toegestaan.
 def bottles_of_beer(n):
     # hier komt dus jouw code
 
-for n in range(100, 1, -1):
+for n in range(100, 0, -1):
     bottles_of_beer(n)
 ```
 
