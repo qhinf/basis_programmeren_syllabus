@@ -11,6 +11,7 @@ Q-highschool / Bijeenkomst 5
 - Opfrisquiz
 - Zelf functies maken met `def`
 - Lijsten
+- Aan de slag
 - Afsluiting
 
 ***
@@ -229,6 +230,12 @@ def gemiddelde(getallen):
 
     return totaal/len(getallen)
 ```
+
+***
+
+## Aan de slag!
+
+[*Les 5* in de syllabus](../5_eigen_functies_lijsten.html)
 
 ***
 
