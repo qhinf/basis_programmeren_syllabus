@@ -34,27 +34,46 @@ Met welke functie kun je de lengte van een lijst vinden?
 Wat doet `def`?
 
 - Maakt een variabele **def**initief
+- Geeft een variabele later (**def**erred) een waarde
 - Geeft de standaard (**def**ault) keuze
 - **Def**inieert een functie
-- **Def**inieert een variabele
 
 <!-- .element: class="mc" -->
 
 ---
 
 ```python
-dieren = [ "Olifant", "Vink", "Goudvis", 
-           "Leguaan", "Muis" ]
+steden = [ "Arnhem", "Nijmegen", "Groningen",
+           "Enschede", "Zwolle", "Leeuwarden" ]
 ```
 
-Wat is `dieren[2]`?
+Hoe haal je "Arnhem" uit deze lijst?
 
-- Olifant
-- Vink
-- Goudvis
-- Leguaan
+- `steden[0]`
+- `steden[1]`
+- `steden[len(steden)]`
+- `steden[len(steden) + 1]`
 
 <!-- .element: class="mc" -->
+
+---
+
+```python
+steden = [ "Arnhem", "Nijmegen", "Groningen",
+           "Enschede", "Zwolle", "Leeuwarden" ]
+```
+
+Hoe haal je "Leeuwarden" uit deze lijst?
+
+- `steden[0]`
+- `steden[-1]`
+- `steden[len(steden)]`
+- `steden[len(steden) - 1]`
+
+<!-- .element: class="mc" -->
+
+Notes:
+Zowel `steden[-1]` als `steden[len(steden) - 1]` zijn correct
 
 ---
 
@@ -117,16 +136,16 @@ Schrijf een functie die twee getallen optelt.
 ---
 
 ```python
-dieren = [ "Olifant", "Vink", "Goudvis", 
-           "Leguaan", "Muis" ]
+steden = [ "Arnhem", "Nijmegen", "Groningen",
+           "Enschede", "Zwolle", "Leeuwarden" ]
 ```
 
-Wat is `dieren[5]`?
+Wat is `steden[6]`?
 
-- Muis
+- Arnhem
+- Leeuwarden
 - `IndexError: list index out of range` <!-- .element: style="font-size: .8em" -->
-- Penguin
-- Olifant
+- Nijmegen
 
 <!-- .element: class="mc" -->
 
@@ -164,25 +183,6 @@ for i in range(2):
   ```
 
 <!-- .element: class="mc" style="font-size: .7em" -->
-
----
-
-```python
-dieren = [ "Olifant", "Vink", "Goudvis", 
-           "Leguaan", "Muis" ]
-```
-
-Hoe pak je het laatste element uit deze lijst?
-
-- `dieren[0]`
-- `dieren[-1]`
-- `dieren[len(dieren)]`
-- `dieren[len(dieren) - 1]`
-
-<!-- .element: class="mc" -->
-
-Notes:
-Zowel `dieren[-1]` als `dieren[len(dieren) - 1]` zijn correct
 
 ***
 
