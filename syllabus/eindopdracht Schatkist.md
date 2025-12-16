@@ -1,4 +1,5 @@
 # Eindopdracht
+
 Op een zonnig, winderig strand ligt hij te wachten: een oude, krakkemikkige schatkist. Zijn hout is verweerd, zijn scharnieren kraken bij elke windvlaag, en op het deksel zijn nog net wat vervaagde letters te lezen: “Eigendom van Kapitein Chaos. Niet openen.”
 
 Maar dit is geen gewone schatkist. Nee, deze kist kan praten. En niet zomaar praten — hij kan zeuren, mopperen en grapjes maken waar zelfs je oom op een verjaardag zich voor zou schamen.
@@ -38,17 +39,19 @@ Schatkist:  WAT?! Hoe kan dit?
 ```
 
 ## Opdracht basisvariant
-Schrijf een programma in Python, waarmee dit spel door één speler gespeeld kan worden. Je programma dient:
-1. Een welkomstboodschap af te drukken
-2. de rol van Schatkist aan te nemen. 
-3. naar de code te vragen
-4. Aan te geven met *Goud* en *Zilver* hoeveel cijfers er op de goede plek staan en hoeveel cijfers er goed zijn.
-5. tegen foutieve invoer kunnen.
-6. De score bij te houden. De eindscore is het aantal keren dat een speler nodig heeft gehad om de juiste code te raden.
-7. Wanneer de code juist is geraden, de score afdrukken.
-8. Na afloop vragen of de speler nog een keer wil spelen en dan nog een keer te spelen met een nieuwe code.
 
-**In de basisvariant hoef je dus *niet* het hele theater van de schatkist te programmeren**
+Schrijf een programma in Python, waarmee dit spel door één speler gespeeld kan worden. Je programma dient:
+
+1. Een welkomstboodschap af te drukken
+2. De rol van Schatkist aan te nemen
+3. Naar de code te vragen
+4. Aan te geven met *Goud* en *Zilver* hoeveel cijfers er op de goede plek staan en hoeveel cijfers er goed zijn
+5. Tegen foutieve invoer te kunnen
+6. De score bij te houden: de eindscore is het aantal keren dat een speler nodig heeft gehad om de juiste code te raden
+7. Wanneer de code juist is geraden, de score af te drukken
+8. Na afloop de speler de keuze geven om het spel nog een keer te spelen of om het programma af te sluiten
+
+**In de basisvariant hoef je dus *niet* het hele theater van de schatkist te programmeren.**
 
 Neem in je programma de volgende code op:
 
@@ -74,6 +77,7 @@ Deze basisvariant is 2 sterren waard, waarmee je *maximaal* een 7 kunt halen als
 ## Uitbreidingen
 
 Wanneer je een uitbreiding wil programmeren, wordt deze alleen beoordeeld, wanneer je bovenaan in je code (nog boven `import random`) hebt staan:
+
 ```python
 # Uitbreidingen:
 # - <naam van de uitbreiding>
@@ -85,7 +89,7 @@ Wanneer je een uitbreiding wil programmeren, wordt deze alleen beoordeeld, wanne
 Aan het begin van het spel vraag je aan de speler met welke moeilijkheidsgraad het spel gespeeld gaat worden. De moeilijkheidsgraad kun je variëren door te gebruiker te laten kiezen in het aantal cijfers in de code. Het maximum aantal cijfers is 8.
  
 ### Schatkist drama (0,5 ster)
-In het voorbeeld gesprek met de schatkist heb je gezien dat deze nog wel van een beetje drama houdt. In deze uitbreiding ga je de reactie van de schatkist wat veelzijdiger maken.
+In het voorbeeldgesprek met de schatkist heb je gezien dat deze nog wel van een beetje drama houdt. In deze uitbreiding ga je de reactie van de schatkist wat veelzijdiger maken.
 
 1. Wanneer de speler dicht in de buurt van het antwoord komt (dus een hoge goud of zilver score heeft), laat je de schatkist meer 'zweten'. Dus je laat de schatkist antwoorden geven, die aangeven dat de speler dichtbij de juiste code zit.
 2. Wanneer de speler verder weg van een juiste score gaat (dus het aantal goud of zilver daalt), dan laat je de schatkist een beetje jennen en plagen. 
@@ -93,8 +97,8 @@ In het voorbeeld gesprek met de schatkist heb je gezien dat deze nog wel van een
 ### Highscore bijhouden (2 sterren)
 Het is niet alleen tof om de score bij te houden, maar ook om de laagste score ooit bij te houden. Gebruik een tekstbestand `score.txt` om de beste score in op te slaan (inclusief de naam van de speler). Wanneer er een speler is, die een nieuwe beste score heeft, dan 
 1. Geef je de score weer
-2. Feliciteert de speler
-3. Vraag je de naam van de speler en sla je die naam en score op in het bestand. 
+2. Feliciteer je de speler
+3. Vraag je de naam van de speler en sla je die naam en score op in het bestand
 
 Dit bestand lees en schrijf je in je Python code middels `write()` en `readline()`. Het bestand `score.txt` bevat precies twee regels. Op de eerste regel staat de naam van de speler met de hoogste score en op de tweede regel staat de score.
 
@@ -107,12 +111,18 @@ Henk
 Let op: wanneer je deze uitbreiding combineert met de uitbreiding **Moeilijkheidsgraad** dan zul je ook de moeilijkheidsgraad op moeten slaan.
 
 ### De tijd loopt (1 ster)
-Met deze uitbreiding programmeer je een tijdsduur, waarbinnen de speler de code moet kraken. Bij deze uitbreiding is het dus mogelijk dat de speler 'af' gaat. Je vraagt of de speler dit spel met of zonder timer willen spelen. Als die met timer willen spelen, vraag je hoeveel seconden een speler in totaal heeft (tussen de 10 en 100 seconden). De tijd begint, zodra de eerste code gevraagd wordt. Je hoeft de tijd niet actief op het scherm te laten zien. Wanneer een speler een code heeft ingevoerd, laat je de resterende tijd zien. Het spel is dus verloren, wanneer de speler te laat antwoord geeft. Voor deze functionaliteit kun je de Python-bibliotheek `time` gebruiken. 
+Met deze uitbreiding programmeer je een tijdsduur, waarbinnen de speler de code moet kraken. Bij deze uitbreiding is het dus mogelijk dat de speler 'af' gaat. Je vraagt of de speler dit spel met of zonder timer willen spelen. Als die met timer willen spelen, vraag je hoeveel seconden een speler in totaal heeft (tussen de 10 en 100 seconden). De tijd begint zodra de eerste code gevraagd wordt. Je hoeft de tijd niet actief op het scherm te laten zien. Wanneer een speler een code heeft ingevoerd, laat je de resterende tijd zien. Het spel is dus verloren, wanneer de speler te laat antwoord geeft. Voor deze functionaliteit kun je de Python-bibliotheek `time` gebruiken. 
 
 ### De rollen omgedraaid (3 sterren)
 Deze uitbreiding is de meest complexe. Je gaat hier de rollen omdraaien. Je gaat een apart deel programmeren. Dit deel komt dus als uitbreiding op de basisvariant. Je vraagt aan het begin van het spel of de speler de code wil raden of het goud en zilver wil uitdelen.
 
 Wanneer de speler in de rol van de Schatkist duikt, zal de speler dus moeten antwoorden in goud en zilver. Je moet uitprogrammeren hoe de computer tot het raden van de juiste code kan komen op basis van de antwoorden goud en zilver.
+
+## Inleveren
+
+Je levert je programma in als een .py-bestand via je portfolio op [app.q-highschool.nl](https://app.q-highschool.nl). Als je je programma in Thonny of VSCode hebt geschreven, dan kun je dat bestand terugvinden op je computer in de map waar je het hebt opgeslagen. Andere soorten bestanden, zoals code in een Word-document, kunnen we niet uitvoeren en worden dus niet beoordeeld. 
+
+Als je je programma over meerdere Python-bestanden hebt verdeeld, maak dan een .zip-bestand met daarin alle code en lever dat .zip-bestand in. Zie [deze pagina](https://informatica.q-highschool.nl/informatie/meerdere-bestanden-inleveren) als je daar hulp bij nodig hebt.
 
 ## Beoordeling
 
@@ -132,11 +142,11 @@ Bij het gebruik van de verschillende elementen van Python (if, for, while etc.) 
 
 De eerste 10 punten krijg je gratis, dus kun je maximaal 100 punten verdienen. Je eindcijfer is het aantal punten gedeeld door 10.
 
+### In gesprek
 
-### Vaststellen van je cijfer
-Omdat we graag willen weten hoe je tot jouw uitwerking van de eindopdracht bent gekomen, selecteren we ongeveer de helft van de uitwerkingen en vragen deze leerlingen op gesprek. Als zo'n gesprek plaats vindt, dan wordt je eindcijfer na afloop van dit gesprek bepaald. Als je niet geselecteerd wordt voor een gesprek, is eindcijfer zonder gesprek bepaald :)
+Omdat we graag willen weten hoe je tot jouw uitwerking van de eindopdracht bent gekomen, selecteren we ongeveer de helft van de uitwerkingen en vragen deze leerlingen op gesprek. Als je hiervoor wordt gekozen, dan wordt je eindcijfer na afloop van dit gesprek bepaald. Wil je zelf graag iets uitleggen over je code? Geef dan bij je docent aan dat je ook graag een beoordelingsgesprek wilt hebben.
 
-**Het gesprek**: Tijdens zo'n gesprek zal de docent aan de hand van je ingeleverde code je enkele vragen stellen. Je mag uitleggen wat bepaalde stukken code doen en hoe je ze geschreven hebt.
+Tijdens zo'n gesprek krijg je eerst de kans om je programma te demonstreren en vervolgens zal de docent aan de hand van je ingeleverde code je enkele vragen stellen. Je mag uitleggen wat bepaalde stukken code doen, hoe je ze geschreven hebt en welke keuzes je daarbij gemaakt hebt.
 
 ### Code kopiëren?
 
@@ -161,6 +171,8 @@ Ook code uit ChatGPT en andere chatbots dien je van een bronvermelding te voorzi
 Het is uitdrukkelijk niet de bedoeling dat je grote blokken code of het hele spel kopieert. In dat geval zien we het als plagiaat en zullen we daar ook naar handelen. Voor diegenen die dit ingewikkeld vinden: meer dan 5 regels code is een groot blok.
 
 ## Tips voor een goeie eindopdracht
+
+Je leest deze opdracht helemaal tot het einde!? Dan hier een paar tips om een goede eindopdracht te maken:
 
 - Volg het stappenplan van {ref}`programma_schrijven`.
 - Speel je spel zelf!
