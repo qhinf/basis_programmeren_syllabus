@@ -47,6 +47,8 @@ steden = [ "Arnhem", "Nijmegen", "Groningen",
            "Enschede", "Zwolle", "Leeuwarden" ]
 ```
 
+<!-- .element: style="font-size: .7em" -->
+
 Hoe haal je "Arnhem" uit deze lijst?
 
 - `steden[0]`
@@ -62,6 +64,8 @@ Hoe haal je "Arnhem" uit deze lijst?
 steden = [ "Arnhem", "Nijmegen", "Groningen",
            "Enschede", "Zwolle", "Leeuwarden" ]
 ```
+
+<!-- .element: style="font-size: .7em" -->
 
 Hoe haal je "Leeuwarden" uit deze lijst?
 
@@ -139,6 +143,8 @@ Schrijf een functie die twee getallen optelt.
 steden = [ "Arnhem", "Nijmegen", "Groningen",
            "Enschede", "Zwolle", "Leeuwarden" ]
 ```
+
+<!-- .element: style="font-size: .7em" -->
 
 Wat is `steden[6]`?
 
@@ -300,7 +306,7 @@ De game loop <!-- .element: class="fragment" -->
 
 ---
 
-```python [1-2|4|4-6|8-12|5-12|14]
+```python [1-2|4|4-6|8-12|5-12|14|5-12|]
 def vraagJaNee(bericht): # Zie oefening 6.2
     pass # Geeft "J" of "N" terug
 
