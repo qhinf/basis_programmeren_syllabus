@@ -12,13 +12,22 @@ Wat ga je leren? Aan het eind van deze module kun je ...
 - beschrijven welke stappen een computer moet uitvoeren om een doel te bereiken, en
 - code schrijven in Python om een computer die stappen uit te laten voeren.
 
-Om te laten zien dat je dat aan het eind van de module ook echt kunt, ga je een (tekst)game maken. Meer informatie vind je bij {doc}`eindopdracht`.
-
-En tot slot, enkele belangrijke data:
+Om te laten zien dat je dat aan het eind van de module ook echt kunt, ga je een (tekst)game maken. Meer informatie vind je bij {doc}`eindopdracht`. De deadlines daarvoor zijn als volgt:
 
 - Eerste inlevermoment voor de eindopdracht: **{{ eerste_inlevermoment }}**
 - Tweede inlevermoment voor de eindopdracht: **{{ tweede_inlevermoment }}**
   - Meld je voor **{{ tweede_inlevermoment_melden }}** om het tweede inlevermoment te gebruiken
+
+:::{seealso}
+
+Vond je deze module leuk? Dan zijn de volgende modules misschien ook iets voor jou:
+
+- [*Objectgeoriënteerd Programmeren*](https://informatica.q-highschool.nl/ogp): zin om een groter project te bouwen in Python? In deze module bouwen we een game en leer je meer over de structuur van een groter programma.
+- [*Python Plus*](https://informatica.q-highschool.nl/pythonplus): wil je meer weten over Python en de tools die professionele programmeurs gebruiken? In deze module ga je daar in een zelfgekozen project mee aan de slag.
+- [*Programmeren met JavaScript*](https://informatica.q-highschool.nl/javascript): uitgekeken op Python, maar nog niet op programmeren? In deze module leer je programmeren in JavaScript, de programmeertaal waarmee je interactieve websites kunt bouwen.
+- *Programmeren met Arduino*: breng je code naar de echte wereld! Je leert hoe je door te programmeren lampjes, motoren, speakers, knoppen en nog veel meer kunt besturen.
+
+:::
 
 Inhoudsopgave:
 
