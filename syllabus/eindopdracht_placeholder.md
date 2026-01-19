@@ -1,6 +1,6 @@
 # Eindopdracht
 
-De eindopdracht wordt 11 september 2024 gepubliceerd.
+De eindopdracht wordt in de vierde week van dit blok gepubliceerd.
 
 ### Code kopiëren?
 
