@@ -159,7 +159,7 @@ Wat is niet een soort fout bij programmeren?
 
 ## Volgende week
 
-Fysieke bijeenkomst tot *17:00*
+Fysieke bijeenkomst tot 16:00
 
 Neem je **opgeladen** laptop mee!
 
