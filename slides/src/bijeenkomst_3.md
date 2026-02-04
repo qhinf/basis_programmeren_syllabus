@@ -317,6 +317,17 @@ Schrijf een Python programma dat controleert of een ingevoerd wachtwoord correct
 
 <!-- .element: style="font-size: .75em" -->
 
+Notes:
+Uitwerking:
+
+```python
+wachtwoord = input("Voer het wachtwoord in: ")
+if wachtwoord == "geheim123":
+    print("Wachtwoord correct!")
+else:
+    print("Wachtwoord onjuist.")
+```
+
 ***
 
 ## Aan de slag!
