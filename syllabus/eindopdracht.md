@@ -1,128 +1,139 @@
+(eindopdracht)=
 # Eindopdracht
 
-Op een zonnig, winderig strand ligt hij te wachten: een oude, krakkemikkige schatkist. Zijn hout is verweerd, zijn scharnieren kraken bij elke windvlaag, en op het deksel zijn nog net wat vervaagde letters te lezen: “Eigendom van Kapitein Chaos. Niet openen.”
+Iedereen kent het spelletje Boter, Kaas en Eieren. Je tekent snel een paar lijntjes in de vorm van een hashtag op papier en zet om de beurt een `O` of een `X` in de vakjes. De speler, die als eerste drie van zijn tekentjes op een rij heeft, heeft gewonnen. Wanneer je weet hoe het moet, kun je met dit eenvoudige spelletjes nooit meer verliezen.
 
-Maar dit is geen gewone schatkist. Nee, deze kist kan praten. En niet zomaar praten — hij kan zeuren, mopperen en grapjes maken waar zelfs je oom op een verjaardag zich voor zou schamen.
+Voor deze opdracht ga je een Boter, Kaas en Eieren met andere spelregels programmeren. 
 
-“Ah, daar ben je eindelijk!” klinkt een krakerige stem. “Ik ben De Kist des Geheimen. Vier cijfers. Dat is alles wat je hoeft te vinden. Maar pas op: ik geef je alleen een paar cryptische hints. En nee, ik verklap nooit de code, hoe zielig je ook kijkt. Ik ben tenslotte een kist met principes.”
+**De Italiaanse variant.** 
 
-En zo begint jouw avontuur. Jij bent de codekraker. Jij gaat het opnemen tegen een kist die denkt dat hij slimmer is dan iedereen. Elke poging die je doet, wordt beantwoord met een mengeling van sarcasme en hints: hoeveel cijfers op de juiste plek zitten (*Goud*) en hoeveel cijfers wel in de code zitten maar op de verkeerde plek (*Zilver*).
+*Fase 1*
 
-Lukt het jou om de kist te slim af te zijn? Of blijft hij lachen terwijl jij je suf raadt?
+De start van het spel is hetzelfde als bij traditioneel Boter, Kaas en Eieren. Elke speler mag *om de beurt* zijn eerste **drie** stenen zetten. Het kan natuurlijk zijn dat in deze fase een speler slim genoeg is geweest om drie stenen op een rij te leggen. Dan is het spel afgelopen. Als dat niet het geval is, ga je door naar volgende fase.
 
-We hebben even meegeluisterd met de schatkist en dit is wat we hoorden:
+*Fase 2*
+
+Na deze fase wordt het anders dan je gewend bent. Er staan nu dus 6 stenen op het bord en zijn er nog 3 plekken vrij op het bord. De tweede fase van het spel is dat je met de stenen gaat *schuiven*. Een soort dammen. Het schuiven is ook aan regels gebonden:
+1. Je mag een steen alleen naar een onbezette plaats schuiven,
+2. Je mag altijd van en naar het midden schuiven,
+3. Stenen aan de rand mogen alleen één plek verder of één plek terug over de rand.
+Om een voorbeeld te geven: een `X` of een `O` op positie `2` mag naar positie `1`, `3` en `5` bewegen. Mits deze plek natuurlijk vrij is.
 
 ```
-Schatkist:  Hé jij daar! Ja, jij met die nieuwsgierige blik. 
-            Jij denkt zeker dat je mijn schat zomaar kunt pakken?
-            Ha! Je moet eerst mijn ultrageheime-superdeluxe-code kraken.
-            Vier cijfers. Succes… je zult het nodig hebben.
-
-Speler:        3709
-
-Schatkist:  Oei, oei, oei… Goud: 1, Zilver: 0.
-            Niet slecht, maar je bent er nog lang niet. 
-            Misschien moet je een andere bril opzetten? 
-
-Speler:        4768
-
-Schatkist:  Nou ja zeg, Goud: 2, Zilver: 1.
-            Je komt gevaarlijk dichtbij. Ik begin al te zweten, hoor!
-
-Speler:        4756
-
-Schatkist:  WAT?! Hoe kan dit? 
-            Goud: 4, Zilver: 0. 
-            Neeeeee… Mijn prachtige schatten… weg!
-            Nou ja, gefeliciteerd dan maar, slimmerik.
-            Je score is 3.
+*1*| X |*3*
+---+---+---
+ 4 |*5*| 6 
+---+---+---
+ 7 | 8 | 9 
 ```
+
+*Einde van het spel*
+
+Dit schuiven gaat door, totdat één van de spelers drie stenen op een rij heeft. Deze speler heeft gewonnen.
+
+*Jouw spel*
+
+Het spel dat je maakt, is te spelen in de console. Je hoeft dus alleen `print` te gebruiken om het speelbord te 
+tonen en `input` om gebruikers om hun input te vragen. Hoe die interactie er precies uitziet en hoe je de staat van het bord weergeeft, is aan jou. Als je niet weet hoe je moet beginnen en iemand raadt je aan om met pygame aan de slag te gaan, dan moet je dat advies niet opvolgen. Dit is de **basis** van programmeren en pygame is wel een tikkie ingewikkelder dan de basis.
+
+Begin met het maken van de basisvariant, alle andere opties kun je daar dan aan toevoegen voor extra punten.
 
 ## Opdracht basisvariant
+Schrijf een programma in Python, waarmee dit spel door twee spelers gespeeld kan worden. Je programma dient:
+1.	Een welkomstboodschap af te drukken.
+2.	Te vragen naar de namen van de spelers.
+3.	Fase 1 te doorlopen (het plaatsen van de eerste 2x 3 stenen).
+4.	In fase 2 de speler de mogelijke posities, waar naartoe geschoven kan worden, te geven.
+5.	De speler (vriendelijk) te wijzen op foutieve invoer.
+6.	De speler (vriendelijk) te wijzen op een ongeldige zet.
+7.	De winnaar bekend te maken.
+8.	Na afloop van het spel de keuze geven om nog een ronde te spelen.
 
-Schrijf een programma in Python, waarmee dit spel door één speler gespeeld kan worden. Je programma dient:
-
-1. Een welkomstboodschap af te drukken
-2. De rol van Schatkist aan te nemen
-3. Naar de code te vragen
-4. Aan te geven met *Goud* en *Zilver* hoeveel cijfers er op de goede plek staan en hoeveel cijfers er goed zijn
-5. Tegen foutieve invoer te kunnen
-6. De score bij te houden: de eindscore is het aantal keren dat een speler nodig heeft gehad om de juiste code te raden
-7. Wanneer de code juist is geraden, de score af te drukken
-8. Na afloop de speler de keuze geven om het spel nog een keer te spelen of om het programma af te sluiten
-
-**In de basisvariant hoef je dus *niet* het hele theater van de schatkist te programmeren.**
-
-Neem in je programma de volgende code op:
-
-Helemaal bovenaan:
-```python
-import random
-```
-
-en daar ergens onder:
-```python
-def genereer_code():
-    code = ''.join(random.choices('0123456789', k=4))
-    return code
-```
-
-Je kunt nu een willekeurige code in je programma maken door `geheimeCode = genereer_code()` aan te plaatsen. Let op dat `geheimeCode` een `string` is en geen `int`.
-
-Het spel dat je maakt, is te spelen in de console. Je hoeft dus alleen `print()` te gebruiken om het speelbord te tonen en `input()` om gebruikers om hun invoer te vragen.
-Hoe die interactie er precies uitziet en hoe je de staat van het spel weergeeft, is aan jou. Als je niet weet hoe je moet beginnen en iemand raadt je aan om met `pygame` aan de slag te gaan, dan moet je dat advies niet opvolgen. Dit is de basis van programmeren en `pygame` is wel een tikkie ingewikkelder dan de basis.
-
-Deze basisvariant is 2 sterren waard, waarmee je *maximaal* een 7 kunt halen als je verder alle punten haalt (zie verderop in deze opdracht). Als je een hoger cijfer wilt, kun je meer dingen aan het spel toevoegen voor meer sterren. Met 5 sterren kun je een 10 halen.
+Deze basisvariant is 2 sterren waard, waarmee je *maximaal* een 7 kunt halen als je verder alle punten haalt (zie verderop in deze opdracht). Als je een hoger cijfer wilt, kun je meer dingen aan het spel toevoegen voor meer sterren. Met 5 sterren kun je een 10 halen. Hieronder de uitbreidingen voor jouw versie van Italiaans Boter, Kaas en Eieren.
 
 ## Uitbreidingen
 
-Wanneer je een uitbreiding wil programmeren, wordt deze alleen beoordeeld, wanneer je bovenaan in je code (nog boven `import random`) hebt staan:
+### Score bijhouden (1 ster)
+
+Meestal laat je het niet bij 1x zo'n spelletje spelen en wil je er meer spelen. Dan is het fijn om de score bij te houden. Met deze uitbreiding houdt je spel de score per persoon bij. Na afloop van elke ronde, zet je de score op het scherm *en* vraag je of de spelers nog een ronde willen spelen. Wanneer de spelers klaar zijn met het spel, roep je de speler met het meeste aantal gewonnen spelen uit tot winnaar.
+
+Bijvoorbeeld:
+```
+Henk: 4
+Truus: 5
+====
+Truus heeft gewonnen
+```
+
+Zet boven in je code het volgende fragment:
 
 ```python
 # Uitbreidingen:
-# - <naam van de uitbreiding>
+# - Score bijhouden ...
 ```
 
-`<naam van de uitbreiding>` vervang je natuurlijk de door naam of namen van de uitbreidingen die je hebt geprogrammeerd.
+### Highscore bijhouden (1 ster) samen met Score bijhouden
 
-### Moeilijkheidsgraad (1 ster)
-Aan het begin van het spel vraag je aan de speler met welke moeilijkheidsgraad het spel gespeeld gaat worden. De moeilijkheidsgraad kun je variëren door te gebruiker te laten kiezen in het aantal cijfers in de code. Het maximum aantal cijfers is 8.
- 
-### Schatkist drama (0,5 ster)
-In het voorbeeldgesprek met de schatkist heb je gezien dat deze nog wel van een beetje drama houdt. In deze uitbreiding ga je de reactie van de schatkist wat veelzijdiger maken.
-
-1. Wanneer de speler dicht in de buurt van het antwoord komt (dus een hoge goud of zilver score heeft), laat je de schatkist meer 'zweten'. Dus je laat de schatkist antwoorden geven, die aangeven dat de speler dichtbij de juiste code zit.
-2. Wanneer de speler verder weg van een juiste score gaat (dus het aantal goud of zilver daalt), dan laat je de schatkist een beetje jennen en plagen. 
-
-### Highscore bijhouden (2 sterren)
-Het is niet alleen tof om de score bij te houden, maar ook om de laagste score ooit bij te houden. Gebruik een tekstbestand `score.txt` om de beste score in op te slaan (inclusief de naam van de speler). Wanneer er een speler is, die een nieuwe beste score heeft, dan 
-1. Geef je de score weer
-2. Feliciteer je de speler
-3. Vraag je de naam van de speler en sla je die naam en score op in het bestand
-
-Dit bestand lees en schrijf je in je Python code middels `write()` en `readline()`. Het bestand `score.txt` bevat precies twee regels. Op de eerste regel staat de naam van de speler met de hoogste score en op de tweede regel staat de score.
+Het is niet alleen tof om de score bij te houden, maar ook om de hoogste score ooit bij te houden. Gebruik een tekstbestand `score.txt` om de hoogste score in op te slaan (inclusief de naam van de speler). Wanneer er een speler is, die een nieuwe hoogste score heeft, dan sla je die naam en score op in het bestand. Dit bestand lees en schrijf je in je Python code middels `write()` en `readline()`. Het bestand `score.txt` bevat precies twee regels. Op de eerste regel staat de naam van de speler met de hoogste score en op de tweede regel staat de score.
 
 Een voorbeeld van een `score.txt`:
 ```
 Henk
 4
 ```
+```python
+# Uitbreidingen:
+# - Score bijhouden
+# - Highscore bijhouden
+```
 
-Let op: wanneer je deze uitbreiding combineert met de uitbreiding **Moeilijkheidsgraad** dan zul je ook de moeilijkheidsgraad op moeten slaan.
+### Schuif het bord (1 ster)
 
-### De tijd loopt (1 ster)
-Met deze uitbreiding programmeer je een tijdsduur, waarbinnen de speler de code moet kraken. Bij deze uitbreiding is het dus mogelijk dat de speler 'af' gaat. Je vraagt of de speler dit spel met of zonder timer willen spelen. Als die met timer willen spelen, vraag je hoeveel seconden een speler in totaal heeft (tussen de 10 en 100 seconden). De tijd begint zodra de eerste code gevraagd wordt. Je hoeft de tijd niet actief op het scherm te laten zien. Wanneer een speler een code heeft ingevoerd, laat je de resterende tijd zien. Het spel is dus verloren, wanneer de speler te laat antwoord geeft. Voor deze functionaliteit kun je de Python-bibliotheek `time` gebruiken. 
+Je maakt een uitbreiding, waarbij elke speler per ronde 1x een schuifkaart in mag zetten. Een schuifkaart verschuift het bord. Een verschuiving kan naar links, naar rechts, naar boven of naar onder plaats vinden (`L, R, B, O`). Een verschuiving naar links ziet er als volgt uit:
 
-### De rollen omgedraaid (3 sterren)
-Deze uitbreiding is de meest complexe. Je gaat hier de rollen omdraaien. Je gaat een apart deel programmeren. Dit deel komt dus als uitbreiding op de basisvariant. Je vraagt aan het begin van het spel of de speler de code wil raden of het goud en zilver wil uitdelen.
+De stenen op het bord 
+```
+ 1 | 2 | 3  
+---+---+--- 
+ 4 | 5 | 6  
+---+---+--- 
+ 7 | 8 | 9  
+```
 
-Wanneer de speler in de rol van de Schatkist duikt, zal de speler dus moeten antwoorden in goud en zilver. Je moet uitprogrammeren hoe de computer tot het raden van de juiste code kan komen op basis van de antwoorden goud en zilver.
+worden met een links verschuiving dan als volgt verplaatst:
 
-## Inleveren
+```
+ 2 | 3 | 1
+---+---+---  
+ 5 | 6 | 4
+---+---+--- 
+ 8 | 9 | 7
+```
 
-Je levert je programma in als een .py-bestand via je portfolio op [app.q-highschool.nl](https://app.q-highschool.nl). Als je je programma in Thonny of VSCode hebt geschreven, dan kun je dat bestand terugvinden op je computer in de map waar je het hebt opgeslagen. Andere soorten bestanden, zoals code in een Word-document, kunnen we niet uitvoeren en worden dus niet beoordeeld. 
+**Regels voor de schuifkaart**
+Per ronde mag een speler maar 1x een schuifkaart inzetten. Een schuifkaart kan alleen in fase 2 ingezet worden. 
 
-Als je je programma over meerdere Python-bestanden hebt verdeeld, maak dan een .zip-bestand met daarin alle code en lever dat .zip-bestand in. Zie [deze pagina](https://informatica.q-highschool.nl/informatie/meerdere-bestanden-inleveren) als je daar hulp bij nodig hebt.
+Wanneer een schuifkaart gespeeld wordt:
+- vraag je de speler of deze naar links, rechts, boven of onder wil schuiven (`L, R, B, O`),
+- mag de speler geen stenen meer schuiven in die beurt. Een schuifkaart komt dus in plaats van het verschuiven van een steen.
+
+Zet boven in je code het volgende fragment:
+
+```python
+# Uitbreidingen:
+# - Schuif het bord ...
+```
+
+### De tijd loopt! (1 ster)
+
+Net zoals bij schaken, kun je afspreken dat je een beperkte speeltijd hebt. Met deze uitbreiding programmeer je per speler per rond een timer. Je vraagt of de spelers dit spel met of zonder timer willen spelen. Als ze met timer willen spelen, vraag je hoeveel seconden een speler in totaal heeft (tussen de 10 en 100 seconden). Wanneer een speler aan de beurt is, loopt de tijd voor die speler af. Je hoeft de tijd niet actief op het scherm te laten zien. Wanneer een speler een zet heeft gedaan, laat je de resterende tijd van die speler zien. Wanneer een speler als eerste geen tijd meer over heeft, verliest deze automatisch de ronde. Voor deze functionaliteit kun je de Python-bibliotheek `time` gebruiken. 
+
+Zet boven in je code het volgende fragment:
+
+```python
+# Uitbreidingen:
+# - De tijd loopt! ...
+```
 
 ## Beoordeling
 
@@ -136,7 +147,7 @@ Je programma wordt beoordeeld op drie dingen: of het goed werkt, hoeveel functio
 | Goede, duidelijke, beschrijvende variabelenamen              | 0 tot 10                  |
 | Zinvol en informatief commentaar waarin je je programma uitlegt | 0 tot 10                  |
 
-Let op: bij het aantal punten dat je voor logisch correct kunt krijgen, telt dus ook mee hoeveel sterren je in je project verwerkt hebt. Heb je het minimale spel gemaakt, dan krijg je daar maximaal 2 sterren × 10 punten = 20 punten voor. Per uitbreiding staat vermeld hoeveel sterren er te verdienen zijn. Het maximale cijfer voor je eindopdracht is een 10, ook al heb je meer dan 5 sterren
+Let op: bij het aantal punten dat je voor logisch correct kunt krijgen, telt dus ook mee hoeveel sterren je in je project verwerkt hebt. Heb je het minimale spel gemaakt, dan krijg je daar maximaal 2 sterren × 10 punten = 20 punten voor. Heb je alle uitbreidingen gemaakt, dan kun je tot 5 sterren × 10 punten = 50 punten krijgen voor dat onderdeel.
 
 Bij het gebruik van de verschillende elementen van Python (if, for, while etc.) kijken we niet alleen of je de verschillende onderdelen onder de knie hebt, maar ook of je de beste oplossing voor een probleem hebt gekozen.
 
@@ -150,11 +161,7 @@ Tijdens zo'n gesprek krijg je eerst de kans om je programma te demonstreren en v
 
 ### Code kopiëren?
 
-Je mag externe bronnen gebruiken als hulp bij het maken van je spel, want daar kun je veel van leren. Je mag ook stukjes code overnemen, maar die moet je wel uitgebreid van commentaar voorzien om uit te leggen wat die code doet (minstens 1 regel commentaar per regel code!) en in commentaar de bron vermelden. 
-
-De bron vermelden betekent dat je een link naar de exacte bron toevoegt, dus "uit een video op YouTube" is geen bronvermelding! Een link naar de code is minimaal wat we verwachten. Heb je code gekregen van iemand die je kent, bijvoorbeeld je vader, moeder, oma, een vriend of buurman? Vermeld dan hun naam en je relatie tot die persoon. 
-
-Gebruik `# BRON:` om duidelijk aan te geven dat dit een bronvermelding is en zodat wij het makkelijk terug kunnen vinden. Bijvoorbeeld:
+Je mag externe bronnen gebruiken als hulp bij het maken van je spel, want daar kun je veel van leren. Je mag ook stukjes code overnemen, maar die moet je wel uitgebreid van commentaar voorzien om uit te leggen wat die code doet (minstens 1 regel commentaar per regel code!) en in commentaar de bron vermelden. De bron vermelden betekent dat je een link naar de exacte bron toevoegt, dus "uit een video op YouTube" is geen bronvermelding! Een link naar de code is minimaal wat we verwachten. Indien de code via persoonlijke communicatie gedeeld, vermeld dan minstens de naam van de persoon en jouw relatie tot die persoon. Gebruik `# BRON:` om duidelijk aan te geven dat dit een bronvermelding is en zodat wij het makkelijk terug kunnen vinden. Bijvoorbeeld:
 
 ```python
 # BRON: https://rosettacode.org/wiki/Reverse_words_in_a_string#Python
@@ -175,8 +182,6 @@ Ook code uit ChatGPT en andere chatbots dien je van een bronvermelding te voorzi
 Het is uitdrukkelijk niet de bedoeling dat je grote blokken code of het hele spel kopieert. In dat geval zien we het als plagiaat en zullen we daar ook naar handelen. Voor diegenen die dit ingewikkeld vinden: meer dan 5 regels code is een groot blok.
 
 ## Tips voor een goeie eindopdracht
-
-Je leest deze opdracht helemaal tot het einde!? Dan hier een paar tips om een goede eindopdracht te maken:
 
 - Volg het stappenplan van {ref}`programma_schrijven`.
 - Speel je spel zelf!

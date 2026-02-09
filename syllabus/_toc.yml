@@ -9,7 +9,7 @@ parts:
     chapters:
     - file: werken_met_de_module
     - file: programmeeromgevingen
-    - file: eindopdracht_placeholder.md
+    - file: eindopdracht.md
   - caption: Lessen
     numbered: true
     chapters:
