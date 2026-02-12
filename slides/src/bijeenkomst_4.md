@@ -267,6 +267,12 @@ for getal in range(1, 11):
 
 ***
 
+## De eindopdracht
+
+[De eindopdracht staat in de syllabus](../eindopdracht.html)
+
+***
+
 ## Afsluiting
 
 ---
