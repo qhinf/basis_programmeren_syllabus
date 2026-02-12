@@ -92,7 +92,7 @@ Welk van deze codes print "Hallo" als de variabele `invoer` gelijk is aan "zeg h
     print("Hallo")
     ```
 
-<!-- .element: class="mc" style="width: 70%" -->
+<!-- .element: class="mc" style="width: 70%; font-size:0.8em" -->
 
 ---
 
@@ -197,7 +197,7 @@ print("Gestopt.")
     ...
     ```
 
-<!-- .element: class="mc" style="font-size: .95em" -->
+<!-- .element: class="mc" style="font-size: .6em" -->
 
 ---
 
@@ -231,13 +231,13 @@ print("Gestopt.")
     ...
     ```
 
-<!-- .element: class="mc" style="font-size: .95em" -->
+<!-- .element: class="mc" style="font-size: .6em" -->
 
 ---
 
 ### Oefening
 
-Schrijf een programma dat de getallen 1 t/m 10 print.
+Schrijf een programma dat de getallen 1 t/m 10 print. Maak gebruik van een loop.
 
 ```python
 getal = 1
@@ -304,7 +304,7 @@ print("Goedemiddag")
     Oke, doen we
     ...
     ```
-<!-- .element: class="mc" style="font-size: .8em"  -->
+<!-- .element: class="mc" style="font-size: .6em"  -->
 
 ---
 
@@ -351,4 +351,13 @@ Je wilt de tafel van 7 printen. Welke Python constructie kies je?
 
 ## Volgende week
 
+Vakantie!!
+
+<div class="fragment">
+
+## Over twee weken
+
 Online bijeenkomst
+
+Zorg voor een werkende camera
+<div>
