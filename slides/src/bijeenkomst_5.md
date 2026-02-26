@@ -97,7 +97,7 @@ print("Goedemiddag")
     ...
     ```
 
-<!-- .element: class="mc" style="font-size: .8em" -->
+<!-- .element: class="mc" style="font-size: .6em" -->
 
 ---
 
@@ -277,14 +277,14 @@ Wat is de output? (1)
 def zeghallo(naam):
     print("Hallo, " + naam + "!")
 
-zeghallo("Pieter")
-zeghallo("Jeroen")
+zeghallo("Arthur")
+zeghallo("Henk")
 ```
 
 <!-- .element: style="font-size: .6em" -->
 
 - ```plaintext
-    Hallo, PieterJeroen!
+    Hallo, ArthurHenk!
     ```
 - ```plaintext
     
@@ -294,11 +294,11 @@ zeghallo("Jeroen")
     Hallo, !
     ```
 - ```plaintext
-    Hallo, Pieter!
-    Hallo, Jeroen!
+    Hallo, Arthur!
+    Hallo, Henk!
     ```
 
-<!-- .element: class="mc" style="font-size: .8em" -->
+<!-- .element: class="mc" style="font-size: .6em" -->
 
 ---
 
@@ -308,14 +308,14 @@ Wat is de output? (2)
 def zeghallo(naam):
     return "Hallo, " + naam + "!"
 
-zeghallo("Pieter")
-zeghallo("Jeroen")
+zeghallo("Arthur")
+zeghallo("Henk")
 ```
 
 <!-- .element: style="font-size: .6em" -->
 
 - ```plaintext
-    Hallo, PieterJeroen!
+    Hallo, ArthurHenk!
     ```
 - ```plaintext
     
@@ -325,11 +325,11 @@ zeghallo("Jeroen")
     Hallo, !
     ```
 - ```plaintext
-    Hallo, Pieter!
-    Hallo, Jeroen!
+    Hallo, Arthur!
+    Hallo, Henk!
     ```
 
-<!-- .element: class="mc" style="font-size: .8em" -->
+<!-- .element: class="mc" style="font-size: .6em" -->
 
 ---
 
@@ -339,28 +339,28 @@ Wat is de output? (3)
 def zeghallo(naam):
     return "Hallo, " + naam + "!"
 
-print(zeghallo("Pieter"))
-print(zeghallo("Jeroen"))
+print(zeghallo("Arthur"))
+print(zeghallo("Henk"))
 ```
 
 <!-- .element: style="font-size: .6em" -->
 
 - ```plaintext
-    Hallo, PieterJeroen!
+    Hallo, ArthurHenk!
     ```
 - ```plaintext
     
     ```
 - ```plaintext
-    zeghallo("Pieter")
-    zeghallo("Jeroen")
+    zeghallo("Arthur")
+    zeghallo("Henk")
     ```
 - ```plaintext
-    Hallo, Pieter!
-    Hallo, Jeroen!
+    Hallo, Arthur!
+    Hallo, Henk!
     ```
 
-<!-- .element: class="mc" style="font-size: .8em" -->
+<!-- .element: class="mc" style="font-size: .6em" -->
 
 ---
 
