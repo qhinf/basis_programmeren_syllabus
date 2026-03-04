@@ -164,7 +164,7 @@ for i in range(2):
     print("Hallo, wereld!")
 ```
 
-<!-- .element: style="font-size: .7em" -->
+<!-- .element: style="font-size: .6em" -->
 
 - ```plaintext
   Hallo, wereld!
@@ -188,7 +188,7 @@ for i in range(2):
     ...
   ```
 
-<!-- .element: class="mc" style="font-size: .7em" -->
+<!-- .element: class="mc" style="font-size: .6m" -->
 
 ***
 
@@ -292,6 +292,8 @@ print("Je hebt het getal", a, "ingevoerd")
 
 Oefening 6.1 t/m 6.3 van [*Les 6* in de syllabus](../6_programma_patronen.html)
 
+> Tip: maak deze opdrachten al in Thonny of Visual Studio Code. Heb je die nog niet? Installeer ze, heb je ook nodig voor de eindopdracht.
+
 ***
 
 ## Interactieve lus
@@ -392,6 +394,6 @@ wens("Jip", 2026)
 
 ---
 
-## Fijne vakantie!
+## Volgende week
 
-Na de vakantie: laatste online bijeenkomst over hoe je een groter programma schrijft
+Laatste bijeenkomst, online!
