@@ -659,3 +659,6 @@ Voeg de codeblokken voor je eindopdracht samen.
 Denk aan de deadline:\
 {{ eerste_inlevermoment }}
 
+> Lever een `.py`-bestand in <br/>bij de Q-Highschool App! 
+<!-- .element: style="background-color: lightgrey; border: 1px solid black;" -->
+
