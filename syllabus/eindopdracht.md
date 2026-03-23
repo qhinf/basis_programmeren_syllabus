@@ -1,3 +1,3 @@
 # Eindopdracht
 
-De eindopdracht wordt uiterelijk in de vierde week van dit blok gepubliceerd.
+De eindopdracht wordt uiterlijk in de vierde week van dit blok gepubliceerd.
