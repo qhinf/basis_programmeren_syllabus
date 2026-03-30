@@ -225,15 +225,6 @@ variabelen heb je nodig?
 
 ***
 
-## Eindopdracht
-
-[*Eindopdracht* in de syllabus](../eindopdracht.html)
-
-Notes:
-\+ programmeeromgevingen
-
-***
-
 ## Aan de slag!
 
 [*Les 2: Functies* in de syllabus](../2_functies.html)
