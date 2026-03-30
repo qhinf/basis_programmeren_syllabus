@@ -12,6 +12,7 @@ Q-highschool / Bijeenkomst 2
 -   Wat is programmeren
 -   Opfrisquiz
 -   Zelf aan de slag
+-   `input()` en `if`-statements
 -   Afsluiting
 
 ***
@@ -234,6 +235,133 @@ Tussendoor kunnen we oefeningen bespreken.
 
 ***
 
+## Input vragen
+
+---
+
+Maak een papegaai, die precies terugzegt wat jij tegen de papegaai zegt.
+
+&nbsp;
+
+```python[|2|2-3]
+print("Ik ben een papegaai!")
+tekst = input("Wat zeg jij? ")
+print(tekst)
+```
+
+<!-- .element: class="fragment" -->
+
+---
+
+<!-- .slide: data-auto-animate data-auto-animate-id="rekenmachine" -->
+
+Een simpele rekenmachine: vraag twee getallen en print de vermenigvuldiging.
+
+&nbsp;
+
+```python
+a = input("Eerste getal: ")
+b = input("Tweede getal: ")
+print(a * b)
+```
+
+<!-- .element: class="fragment" data-id="rekenmachine-code" -->
+
+&nbsp;
+
+```text
+TypeError: can't multiply sequence by 
+           non-int of type 'str'
+```
+
+<!-- .element: class="fragment" -->
+
+---
+
+<!-- .slide: data-auto-animate data-auto-animate-id="rekenmachine" -->
+
+Een simpele rekenmachine: vraag twee getallen en print de vermenigvuldiging.
+
+&nbsp;
+
+```python
+a = int(input("Eerste getal: "))
+b = int(input("Tweede getal: "))
+print(a * b)
+```
+
+<!-- .element: data-id="rekenmachine-code" -->
+
+Notes:
+En wat als we met kommagetallen willen rekenen?
+
+***
+
+## `if`/`else`-statements
+
+---
+
+### Keuzes maken
+
+Een bot die alleen iets doet als je er Hallo tegen zegt.
+
+```python
+tekst = input("Hoi! ")
+if tekst == "Hallo":
+    print("Tot ziens!")
+```
+<!-- .element: class="fragment" -->
+
+---
+
+<div class="columns" style="font-size: .8em">
+<div>
+
+`=`
+
+<!-- .element: style="font-size: 6em; line-height: .6;" -->
+
+- Een waarde in een variabele zetten
+  <!-- .element: class="fragment" data-fragment-index="1" -->
+- Spreek uit als 'wordt'
+  <!-- .element: class="fragment" data-fragment-index="2" -->
+
+</div>
+<div>
+
+`==`
+
+<!-- .element: style="font-size: 6em; line-height: .6;" -->
+
+- Twee waardes vergelijken
+  <!-- .element: class="fragment" data-fragment-index="1" -->
+- Spreek uit als 'is'
+  <!-- .element: class="fragment" data-fragment-index="2" -->
+<li class="fragment">
+
+    Geeft een booleaanse waarde:\
+    `True` (waar) of\
+    `False` (niet waar)
+
+</li>
+
+</div>
+</div>
+
+---
+
+### Of anders
+
+```python
+tekst = input("Hoi! ")
+if tekst == "Hallo":
+    print("Tot ziens!")
+else:
+    print("Je moet Hallo zeggen.")
+```
+
+***
+
 ## Afsluiting
 
 Hoe ver ben je gekomen?
@@ -281,4 +409,8 @@ print(smaller + bigger)
 
 ## Volgende week
 
-Online bijeenkomst
+Is het pasen 🐣
+
+Volgens de planning *zelfstudie*: input() en if-statements
+
+Vragenuur op *dinsdag om 16:15-17:00*
