@@ -10,6 +10,7 @@ Q-highschool / Bijeenkomst 4
 
 - Opfrisquiz
 - Code herhalen: loops
+- Enquête over afstandsonderwijs
 - Afsluiting
 
 ***
@@ -70,6 +71,69 @@ Wat staat op de verborgen plek?
 
 </div>
 </div>
+
+---
+
+Wat is het verschil tussen een `int` en een `float`?
+
+- `int` is een geheel getal; `float` is een decimaal getal
+- `int` is een tekst; `float` is een getal
+- `int` is een negatief getal; `float` is een positief getal
+- Er is geen verschil; beide zijn hetzelfde
+
+<!-- .element: class="mc" -->
+
+---
+
+Wat print dit programma?
+
+```python
+print("5" + "3")
+print(5 + 3)
+```
+
+- 8\
+  8
+- 53\
+  53
+- 53\
+  8
+- 8\
+  53
+
+<!-- .element: class="mc" style="font-size: .9em" -->
+
+---
+
+Wat print dit programma?
+
+```python
+a = "3"
+b = "5"
+print(a * b)
+```
+
+- 15
+- 555
+- 33333
+- `TypeError: can't multiply sequence by non-int of type 'str'`
+
+<!-- .element: class="mc" -->
+
+---
+
+Hoe reken je met een `str`?
+
+```python
+getal = "15"
+```
+
+- `2 * int(getal)`
+- `"2" * getal`
+- `2 * int("getal")`
+- `int(2) * getal`
+
+<!-- .element: class="mc" -->
 
 ---
 
@@ -273,6 +337,14 @@ for getal in range(1, 11):
 
 ***
 
+## Enquête over afstandsonderwijs
+
+<https://forms.office.com/e/6ViyNp3iu5>
+
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALkAAAC5CAAAAABRxsGAAAABxElEQVR42u3bQY6DMAwFUO5/aWZfDZnvGKZKeKwqQcujUm3HTo9z1eMgJycnJycnJycnJycn30V+/H1cXvxxYvyh9buRk5Ofl1ePz6bUj4tn70ZOTn4ZC8ZhpR50gruRk5NPyMdhIEnj5OTkD8t/e0dQ75OTkz9Yn4/DRRBWvrayICdfXh50nW589c/dOXLyleXxqGa4eA5q9q9NuMjJV5YHv/sgR5fmSaV6gZz83fLJmVDa6EofaaI+Jyd/g3zcZrqnC3254aKf/cnJN5e3W9H1TlnweeTk5HF+D/pek6m9X5+Tk28uT7dFpIGo3t++fcJFTr6RvLQUrm9kDL6EO6MiOfmW8mBVXWelpXmrPicnf4287q3PmMZPQ05OPluf1xfFnX1W5OTkSXquj4PSNXea+MnJyWsFdAmdtp0n6nNy8nfJ6yEkAKbZf/bfCuTkm8s7fa9LZbvJTU5OPjtvTd9beuDZ+pyc/A3yYMTbGdPWC3JycvIz+LXX182dbRvk5OQt+bj5NZan5QM5OXlL3g5OEwsBcnLy4Ozds6N4vERO/mp5ac9S/ZHGmf7p7hw5+cryJQ5ycnJycnJycnJycnLyFY8fo1HSOzSFN+MAAAAASUVORK5CYII=" class="r-stretch" />
+
+***
+
 ## Afsluiting
 
 ---
@@ -357,11 +429,11 @@ Je wilt de tafel van 7 printen. Welke Python constructie kies je?
 
 ## Volgende week
 
-Vakantie!!
+Vakantie!
 
 <div class="fragment">
 
-## Over twee weken
+## Over vier (!) weken
 
 Online bijeenkomst
 
