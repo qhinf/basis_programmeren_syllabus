@@ -1,118 +1,96 @@
 # Eindopdracht
 
-Het spel dat jullie gaan maken is Ludus Coriovalli. Dit is een Romeins bordspel waarvan het speelbord is gevonden in het Thermenmuseum in Heerlen, in het zuiden van Nederland. De Romeinen noemden Heerlen *Coriovallum*, vandaar de naam. Het bijzondere aan dit spel is dat niemand meer wist hoe het gespeeld werd — totdat onderzoekers van de Universiteit Maastricht in 2026 met behulp van kunstmatige intelligentie de spelregels hebben gereconstrueerd. Ze lieten een AI miljoenen potjes spelen op het bord en vergeleken het slijtagepatroon van de spelstukken met het slijtagepatroon op de originele steen. Zo ontdekten ze welke regels het beste bij het spel pasten. Het is daarmee het eerste bordspel waarvan de regels door AI zijn gereconstrueerd! Wil je er meer over weten, bekijk dan de [pagina op het Ludii-portaal](https://ludii.games/details.php?keyword=Ludus%20Coriovalli).
+Het spel dat jullie gaan maken is Ludus Coriovalli. Dit is een Romeins bordspel waarvan het speelbord is gevonden in het Thermenmuseum in Heerlen, Limburg. De Romeinen noemden Heerlen *Coriovallum*, vandaar de naam. Het bijzondere aan dit spel is dat niemand meer wist hoe het gespeeld werd — totdat onderzoekers van de Universiteit Maastricht in 2026 met behulp van kunstmatige intelligentie de spelregels hebben gereconstrueerd. Ze lieten een AI miljoenen potjes spelen op het bord en vergeleken het slijtagepatroon van de spelstukken met het slijtagepatroon op de originele steen. Zo ontdekten ze welke regels het beste bij het spel pasten. Het is daarmee het eerste bordspel waarvan de regels door AI zijn gereconstrueerd! Wil je er meer over weten, lees dan [dit artikel van de VRT](https://www.vrt.be/vrtnws/nl/2026/02/10/belgische-onderzoekers-onthullen-met-ai-oorsprong-oud-romeins-bo/).
 
-Het spel is een zogeheten *jachtspel* (in het Engels: *hunt game*), vergelijkbaar met het Deense spel Haretavl. Eén speler speelt met de **honden** en de andere speler speelt met de **hazen**. De honden proberen de hazen in te sluiten zodat ze niet meer kunnen bewegen. De hazen proberen zo lang mogelijk vrij te blijven.
+Het spel is een zogeheten *jachtspel* (in het Engels: *hunt game*). Eén speler speelt met de **honden** en de andere speler speelt met de **hazen**. De honden proberen de hazen in te sluiten zodat ze niet meer kunnen bewegen. De hazen proberen zo lang mogelijk vrij te blijven.
 
 Het spel dat je maakt, is te spelen in de console. Je hoeft dus alleen `print` te gebruiken om het speelbord te tonen en `input` om gebruikers om hun input te vragen. Het zou er dus bijvoorbeeld zo uit kunnen zien:
 
 ```
-        [1]
-       / | \
-      /  |  \
-   [2]--[3]--[4]
-    | \  |  / |
-    |  \ | /  |
-   [5]--[6]--[7]
-    |  / | \  |
-    | /  |  \ |
-   [8]--[9]-[10]
-      \  |  /
-       \ | /
-       [11]
+  [🐰]--[2 ]--[🐶]
+   |   / |  \  |
+   |  /  |   \ |
+  [4 ]   |    [🐶]
+   |     |     |
+  [6 ]   |    [🐶]
+   |  \  |   / |
+   |   \ |  /  |
+  [🐰]--[9 ]--[🐶]
 
-Honden: 1, 2, 4
-Hazen: 8, 11
+De beurt is aan de hazen.
+Welke haas mag verplaatsen? 1
+Naar welke positie? 4
 ```
 
 Hoe die interactie er precies uitziet en hoe je de staat van het spel weergeeft, is aan jou. Als je niet weet hoe je moet beginnen en iemand raadt je aan om met pygame aan de slag te gaan, dan moet je dat advies niet opvolgen. Dit is de **basis** van programmeren en pygame is wel een tikkie ingewikkelder dan de basis.
 
 ## Het speelbord
 
-Het speelbord bestaat uit 11 punten die met lijnen zijn verbonden. Stukken staan op de punten en mogen alleen bewegen langs de lijnen naar een aangrenzend punt. Het bord ziet er als volgt uit:
+Het speelbord bestaat uit 10 posities, die met lijnen zijn verbonden. Stukken staan op de punten en kunnen over een lijn verschoven worden naar een aangrenzend punt. Het bord ziet er als volgt uit:
 
 ```
-        [1]
-       / | \
-      /  |  \
-   [2]--[3]--[4]
-    | \  |  / |
-    |  \ | /  |
-   [5]--[6]--[7]
-    |  / | \  |
-    | /  |  \ |
-   [8]--[9]-[10]
-      \  |  /
-       \ | /
-       [11]
+  [1]--[2]--[3]
+   |  / | \  |
+   | /  |  \ |
+  [4]   |   [5]
+   |    |    |
+  [6]   |   [7]
+   | \  |  / |
+   |  \ | /  |
+  [8]--[9]--[10]
 ```
 
-De verbindingen (welke punten aan elkaar grenzen) zijn:
+De verbindingen zijn als volgt:
 
-- **1**: verbonden met 2, 3, 4
-- **2**: verbonden met 1, 3, 5, 6
-- **3**: verbonden met 1, 2, 4, 6
-- **4**: verbonden met 1, 3, 6, 7
-- **5**: verbonden met 2, 6, 8
-- **6**: verbonden met 2, 3, 4, 5, 7, 8, 9, 10 *(het midden)*
-- **7**: verbonden met 4, 6, 10
-- **8**: verbonden met 5, 6, 9, 11
-- **9**: verbonden met 6, 8, 10, 11
-- **10**: verbonden met 6, 7, 9, 11
-- **11**: verbonden met 8, 9, 10
+- **1**: verbonden met 2, 4
+- **2**: verbonden met 1, 3, 4, 5
+- **3**: verbonden met 2, 5
+- **4**: verbonden met 1, 2, 6
+- **5**: verbonden met 2, 3, 7
+- **6**: verbonden met 4, 8, 9
+- **7**: verbonden met 5, 9, 10
+- **8**: verbonden met 6, 9
+- **9**: verbonden met 6, 7, 8, 10
+- **10**: verbonden met 7, 9
 
 ## De spelregels
 
 Voor de basisvariant gelden de volgende spelregels:
 
-Eén speler speelt met **drie honden** en de andere speler speelt met **twee hazen**. De honden beginnen bovenaan het bord op de punten **1**, **2** en **4**. De hazen beginnen onderaan het bord op de punten **8** en **11**.
+Eén speler speelt met **vier honden** en de andere speler speelt met **twee hazen**. De honden beginnen rechts op het bord op de punten **3**, **5**, **7** en **9**. De hazen beginnen links op het bord op de punten **1** en **8**.
 
 - Spelers zijn om de beurt aan zet en verplaatsen één stuk per beurt naar een aangrenzend *leeg* punt. Er wordt dus niet geslagen: stukken worden nooit van het bord verwijderd.
-- De **honden** mogen alleen **naar beneden of opzij** bewegen. Ze mogen *niet* naar een punt dat hoger op het bord ligt (richting punt 1). Concreet: een hond mag nooit naar een punt met een *lager* nummer bewegen dat hoger op het bord ligt (zie de uitgebreide tabel hieronder). De honden proberen de hazen in te sluiten.
-- De **hazen** mogen **alle kanten** op bewegen langs de verbindingen. De hazen proberen zo lang mogelijk vrij te blijven.
-- De honden winnen als **beide hazen** niet meer kunnen bewegen (ze zijn ingesloten).
-- De hazen winnen als ze de honden voorbij weten te komen, dat wil zeggen: als een haas een punt bereikt dat *boven* alle honden op het bord ligt. Concreet: een haas wint als die punt **1** bereikt, of als de hazen op het bord zo gepositioneerd zijn dat de honden ze niet meer kunnen insluiten.
-
-Om het spel eerlijk te maken wordt er **twee keer** gespeeld: na de eerste ronde wisselen de spelers van rol. De speler die als hazen het langste heeft volgehouden (het meeste beurten), wint het spel. Als beide spelers even lang volhielden, is het gelijkspel.
-
-:::{admonition} Bewegingsbeperking honden
-:class: note
-
-Om het simpel te houden zijn dit de toegestane richtingen per punt voor de honden:
-
-| Hond op punt | Mag naar                    |
-| ------------ | ----------------------------|
-| 1            | 2, 3, 4                     |
-| 2            | 3, 5, 6                     |
-| 3            | 6                           |
-| 4            | 3, 6, 7                     |
-| 5            | 6, 8                        |
-| 6            | 5, 7, 8, 9, 10              |
-| 7            | 6, 10                       |
-| 8            | 9, 11                       |
-| 9            | 10, 11                      |
-| 10           | 11                          |
-| 11           | *(kan nergens heen)*        |
-
-De hazen mogen langs elke verbinding in beide richtingen bewegen.
-:::
+- De honden winnen als **beide hazen** niet meer kunnen bewegen (ze zijn ingesloten). De eindscore is het aantal rondes dat de hazen vrij konden lopen.
 
 Verder moet je programma aan de volgende eisen voldoen:
 
 - Het spel start met een begroeting en een korte uitleg van het spel.
-- Je vraagt de namen van de twee spelers en gebruikt tijdens de rest van het spel die namen. Twee spelers mogen niet dezelfde naam invoeren.
-- Je programma kiest willekeurig welke speler in de eerste ronde met de honden begint.
 - Per beurt laat je programma duidelijk het bord zien, inclusief waar de honden en hazen staan.
-- De speler kiest welk stuk hij/zij wil verplaatsen en naar welk punt. Bij een foutieve invoer (bijvoorbeeld geen geldig punt, een punt dat niet aangrenzend is, een punt dat bezet is, of een hond die de verkeerde kant op beweegt) wordt de speler daarop gewezen en mag opnieuw iets invoeren.
-- Het spel detecteert automatisch wanneer de honden gewonnen hebben (hazen kunnen niet meer bewegen) of wanneer de hazen gewonnen hebben (een haas is voorbij de honden gekomen).
-- Na de eerste ronde wisselen de spelers van rol en wordt er opnieuw gespeeld. Na twee rondes wordt de winnaar bekendgemaakt.
+- De hazen krijgen als eerst de beurt om een zet te doen.
+- De speler kiest welk stuk hij/zij wil verplaatsen en naar welk punt. Bij een foutieve invoer (bijvoorbeeld geen geldig punt, een punt dat niet aangrenzend is, of een punt dat bezet is) wordt de speler daarop gewezen en mag opnieuw iets invoeren.
+- Het spel detecteert automatisch wanneer de honden gewonnen hebben (hazen kunnen niet meer bewegen) en print de score.
 - Na afloop vraagt je programma of de spelers nog een keer willen spelen of willen stoppen.
 
 De basisvariant is 2 sterren waard, waarmee je *maximaal* een 7 kunt halen als je verder alle punten haalt (zie verderop in deze opdracht). Als je een hoger cijfer wilt, kun je meer dingen aan het spel toevoegen voor meer sterren. Met 5 sterren kun je een 10 halen. Hieronder vind je een aantal mogelijke uitbreidingen:
 
+### Twee rondes (0.5 sterren)
+
+De hazen kunnen in dit spel niet winnen, dus een van de spelers zal uiteindelijk altijd verliezen. Dat is natuurlijk niet eerlijk! Daarom spelen we het spel in twee rondes: de speler die met de hazen speelde, mag in de tweede rond met de honden spelen en vice versa. De speler die met de honden de hoogste score haalt, heeft gewonnen.
+
+- Je vraagt de namen van de twee spelers en gebruikt tijdens de rest van het spel die namen. Twee spelers mogen niet dezelfde naam invoeren.
+- Je programma kiest willekeurig welke speler in de eerste ronde met de honden begint.
+- Na de eerste ronde wisselen de spelers van rol en wordt er opnieuw gespeeld. Na twee rondes wordt de winnaar bekendgemaakt.
+
+Zet in het commentaar bovenaan je programma:
+
+```python
+# Uitbreidingen:
+# - Twee rondes
+```
+
 ### Plaatsingsfase (0.5 sterren)
 
-In de basisvariant staan de stukken op vaste startposities. In deze uitbreiding beginnen de spelers met een lege bord en plaatsen de stukken om de beurt op het bord. Eerst plaatst de hondenspeler al zijn drie honden (één per beurt), daarna plaatst de hazenspeler zijn twee hazen (één per beurt). De honden mogen alleen op de bovenste helft van het bord geplaatst worden (punten 1 t/m 7) en de hazen alleen op de onderste helft (punten 5 t/m 11). Punt 5, 6 en 7 mogen dus door beide spelers gekozen worden. Daarna gaat het spel verder als normaal.
+In de basisvariant staan de stukken op vaste startposities. In deze uitbreiding beginnen de spelers met een lege bord en plaatsen de stukken om de beurt op het bord. Eerst plaatst de hondenspeler al zijn vier honden (één per beurt), daarna plaatst de hazenspeler zijn twee hazen (één per beurt). Daarna gaat het spel verder als normaal.
 
 Bij een ongeldige plaatsing (bezet punt, verkeerde helft) vraagt je programma opnieuw wat de speler wil.
 
@@ -123,39 +101,26 @@ Zet in het commentaar bovenaan je programma:
 # - Plaatsingsfase
 ```
 
-### Vier honden (0.5 sterren)
+### Meerdere borden (1 ster)
 
-In deze uitbreiding speelt de hondenspeler met **vier** honden in plaats van drie. De vierde hond begint op punt **3** (in de basisvariant) of wordt als vierde geplaatst (als je ook de plaatsingsfase hebt). Het bord wordt hierdoor wat krapper voor de hazen, maar door het grotere aantal stukken is het ook uitdagender om te programmeren.
+We weten eigenlijk niet precies hoe het bord eruit hoort te zien: de versie hierboven is de beste gok op basis van een analyse met AI, maar er zijn nog veel andere mogelijkheden die de onderzoekers hebben overwogen. Op de afbeelding hieronder zie je een aantal verschillende borden en mogelijke startposities (de witte stenen zijn de honden, de zwarte de hazen).
 
-Zet in het commentaar bovenaan je programma:
+![18 verschillende bordconfiguraties voor het spel](assets/eindopdracht/luduscoriovalli_borden.png)
 
-```python
-# Uitbreidingen:
-# - Vier honden
-```
+*Bron: [10.15184/aqy.2025.10264](https://doi.org/10.15184/aqy.2025.10264)*
 
-### Score bijhouden (0.5 sterren)
-
-Meestal laat je het niet bij één potje en wil je er meer spelen. Met deze uitbreiding houdt je spel de score per persoon bij over meerdere rondes. Na afloop van elke volledige ronde (twee keer spelen met rolwisseling) zet je de score op het scherm en vraag je of de spelers nog een ronde willen spelen. Wanneer de spelers klaar zijn met spelen, roep je de speler met de meeste gewonnen rondes uit tot winnaar.
-
-Bijvoorbeeld:
-```
-Henk: 3
-Truus: 2
-====
-Henk heeft gewonnen!
-```
+Voeg nog minstens één ander bord toe aan je spel en laat de speler bij de start kiezen op welk bord er gespeeld wordt.
 
 Zet in het commentaar bovenaan je programma:
 
 ```python
 # Uitbreidingen:
-# - Score bijhouden
+# - Meerdere borden
 ```
 
 ### Slimme hond (0.5 tot 1 sterren)
 
-In deze variant laat je de gebruiker kiezen of ze met twee spelers willen spelen, of tegen de computer. De computer speelt dan als de honden en probeert de hazen zo slim mogelijk in te sluiten. Bedenk een strategie waarbij de honden samenwerken om de hazen klem te zetten. Hoe slimmer je computerspeler, hoe meer punten je krijgt (0.5 voor een eenvoudige strategie, 1 ster voor een sterke strategie).
+In deze variant laat je de gebruiker kiezen of ze met twee spelers willen spelen, of tegen de computer. De computer speelt dan als de honden en probeert de hazen zo slim mogelijk in te sluiten. Bedenk een strategie waarbij de honden samenwerken om de hazen klem te zetten. Hoe slimmer je computerspeler, hoe meer punten je krijgt (0.5 voor een eenvoudige strategie (bijvoorbeeld willekeurig), 1 ster voor een sterke strategie).
 
 Zet in het commentaar bovenaan je programma:
 
@@ -164,15 +129,29 @@ Zet in het commentaar bovenaan je programma:
 # - Slimme hond
 ```
 
-### De tijd loopt! (0.5 sterren)
+### Highscore bijhouden (1.5 sterren)
 
-Net zoals bij schaken kun je afspreken dat je een beperkte speeltijd hebt. Met deze uitbreiding programmeer je per speler een timer. Je vraagt of de spelers met of zonder timer willen spelen. Als ze met timer willen spelen, vraag je hoeveel seconden een speler in totaal heeft (tussen de 10 en 120 seconden). Wanneer een speler aan de beurt is, loopt de tijd voor die speler af. Je hoeft de tijd niet actief op het scherm te laten zien. Wanneer een speler een zet heeft gedaan, laat je de resterende tijd van die speler zien. Wanneer een speler geen tijd meer over heeft, verliest deze automatisch de ronde. Voor deze functionaliteit kun je de Python-bibliotheek `time` gebruiken.
+Meestal laat je het niet bij één potje en wil je er meer spelen. Met deze uitbreiding houdt je spel de score per persoon bij over meerdere rondes. Gebruik een tekstbestand `score.txt` om de beste score in op te slaan (inclusief de naam van de speler). 
+
+Wanneer er een speler is, die een nieuwe beste score heeft, dan 
+1. Geef je de score weer
+2. Feliciteer je de speler
+3. Vraag je de naam van de speler en sla je die naam en score op in het bestand
+
+Dit bestand lees en schrijf je in je Python code middels `write()` en `readline()`. Het bestand `score.txt` bevat precies twee regels. Op de eerste regel staat de naam van de speler met de hoogste score en op de tweede regel staat de score.
+
+Een voorbeeld van een `score.txt`:
+
+```
+Henk
+11
+```
 
 Zet in het commentaar bovenaan je programma:
 
 ```python
 # Uitbreidingen:
-# - De tijd loopt!
+# - Score bijhouden
 ```
 
 ## Beoordeling
@@ -194,6 +173,7 @@ Bij het gebruik van de verschillende elementen van Python (if, for, while etc.) 
 De eerste 10 punten krijg je gratis, dus kun je maximaal 100 punten verdienen. Je eindcijfer is het aantal punten gedeeld door 10.
 
 ### Samenwerken
+
 Soms is het fijn om samen te werken voor een eindopdracht. Voor de meeste eindopdrachten bij Informatica Q-Highschool is dit wel mogelijk. Voor de module Basis van Programmeren met Python is samenwerken **niet** toegestaan. We willen namelijk weten wat _jij_ kan. Daarom hebben we besloten dat je voor deze module de eindopdracht alleen maakt (dus ook niet met intensieve hulp van een broer/zus/vriend/kennis die wel goed kan programmeren).
 
 ### In gesprek
