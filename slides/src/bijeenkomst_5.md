@@ -9,6 +9,7 @@ Q-highschool / Bijeenkomst 5
 ## Vandaag
 
 - Opfrisquiz
+- Planning en eindopdracht
 - Zelf functies maken met `def`
 - Lijsten
 - Aan de slag
@@ -17,6 +18,188 @@ Q-highschool / Bijeenkomst 5
 ***
 
 ## Opfrisquiz
+
+---
+
+Hoe print je de tekst *Welkom terug!* met Python?
+
+- `print "Welkom terug!"`
+- `print(Welkom terug!)`
+- `print("Welkom terug!")`
+- `print('Welkom terug!')`
+
+<!-- .element: class="mc" -->
+
+---
+
+Wat print dit programma?
+
+```python
+a = 27
+a = 5
+print(a)
+```
+
+- 27
+- 5
+- 32
+- Dat kun je niet weten
+
+<!-- .element: class="mc" -->
+
+---
+
+Wat print dit programma?
+
+```python
+smaller = min(14, 99
+bigger = max(3, 4)
+print(smaller + bigger)
+```
+
+- 28
+- SyntaxError: invalid syntax
+- 102
+- NameError: smaller is not defined
+
+<!-- .element: class="mc" -->
+
+---
+
+Welk Python commando gebruik je om iets te vragen?
+
+- `get`
+- `print`
+- `input`
+- `ask`
+
+<!-- .element: class="mc" -->
+
+---
+
+Wat is een valide output van dit programma?
+
+```python
+naam = input("Wat is je naam? ")
+print("Hallo, " + naam + "!")
+```
+
+- ```
+  Wat is je naam?
+  Hallo, + naam + !
+  ```
+- ```
+  Wat is je naam? Arthur
+  Hallo, Arthur!
+  ```
+- ```
+  Wat is je naam? Arthur
+  Hallo, naam!
+  ```
+- ```
+  Wat is je naam? Pieter
+  Hallo, Arthur!
+  ```
+
+<!-- .element: class="mc" -->
+
+---
+
+Wat is de output van dit programma?
+
+```python
+teller = input("Teller: ")
+noemer = input("Noemer: ")
+print("Kommagetal: " + teller / noemer)
+```
+
+```
+Teller: 3
+Noemer: 10
+```
+
+- Kommagetal: 0.3
+- Kommagetal: 0.30000000000000002
+- TypeError: unsupported operand type(s) for /: 'str' and 'str'
+- TypeError: can only concatenate str (not "float") to str
+
+<!-- .element: class="mc" style="font-size: .75em;" -->
+
+---
+
+Hoe los je die error op?
+
+- ```python
+  int(teller) = input("Teller: ")
+  int(noemer) = input("Noemer: ")
+  print("Kommagetal: " + teller / noemer)
+  ```
+- ```python
+  teller = int(input("Teller: "))
+  noemer = int(input("Noemer: "))
+  print("Kommagetal: " + teller / noemer)
+  ```
+- ```python
+  teller = input("Teller: ")
+  noemer = input("Noemer: ")
+  print("Kommagetal: " + int(teller / noemer))
+  ```
+- ```python
+  teller = input("Teller: ")
+  noemer = input("Noemer: ")
+  print("Kommagetal: " + int(teller) / int(noemer))
+  ```
+
+<!-- .element: class="mc" style="font-size: .75em; width: 90%;" -->
+
+---
+
+Wat is de output van dit programma?
+
+```python
+teller = int(input("Teller: "))
+noemer = int(input("Noemer: "))
+print("Kommagetal: " + teller / noemer)
+```
+
+```
+Teller: 3
+Noemer: 10
+```
+
+- Kommagetal: 0.3
+- Kommagetal: 0.30000000000000002
+- TypeError: unsupported operand type(s) for /: 'str' and 'str'
+- TypeError: can only concatenate str (not "float") to str
+
+<!-- .element: class="mc" style="font-size: .75em;" -->
+
+---
+
+Hoe los je die error op?
+
+- ```python
+  teller = int(input("Teller: "))
+  noemer = int(input("Noemer: "))
+  print(int("Kommagetal: ") + teller / noemer)
+  ```
+- ```python
+  teller = int(input("Teller: "))
+  noemer = int(input("Noemer: "))
+  print("Kommagetal: " + str(teller / noemer))
+  ```
+- ```python
+  teller = int(input("Teller: "))
+  noemer = int(input("Noemer: "))
+  print("Kommagetal: ", teller / noemer)
+  ```
+- ```python
+  teller = int(input("Teller: "))
+  noemer = int(input("Noemer: "))
+  print("Kommagetal: " + str(teller) / str(noemer))
+  ```
+
+<!-- .element: class="mc" style="font-size: .75em; width: 90%;" -->
 
 ---
 
@@ -140,6 +323,31 @@ for i in range(0, 10):
 ## Tip:
 
 Maak een spiekbriefje!
+
+***
+
+## Planning
+
+| Datum | |
+|-------|-|
+| ma&nbsp;11&nbsp;mei | Vandaag: online |
+| ma&nbsp;18&nbsp;mei | Fysiek: handige programmeerpatronen<br/>+ deadline keuze tweede inlevermoment |
+| *ma&nbsp;25&nbsp;mei* <!-- .element: style="opacity: .6" --> | *Tweede Pinksterdag* <!-- .element: style="opacity: .6" --> |
+| ma&nbsp;1&nbsp;juni | Online: een groter programma schrijven |
+| do&nbsp;4&nbsp;juni | Eerste inlevermoment |
+| di&nbsp;23&nbsp;juni | Tweede inlevermoment |
+<!-- .element: style="font-size: .8em" -->
+
+---
+
+## Eindopdracht
+
+[*Eindopdracht* in de syllabus](../eindopdracht.html)
+
+Met iedereen [in gesprek](../eindopdracht.html#in-gesprek): zie planning in Teams
+
+Notes:
+Ik zal volgende week meer vertellen over hoe zo'n gesprek eruit ziet, zodat je je daar op kunt voorbereiden. Als je gewoon zelf de opdracht maakt, ben je in principe genoeg voorbereid.
 
 ***
 
@@ -277,14 +485,14 @@ Wat is de output? (1)
 def zeghallo(naam):
     print("Hallo, " + naam + "!")
 
-zeghallo("Arthur")
-zeghallo("Henk")
+zeghallo("Merijn")
+zeghallo("Hugo")
 ```
 
 <!-- .element: style="font-size: .6em" -->
 
 - ```plaintext
-    Hallo, ArthurHenk!
+    Hallo, MerijnHugo!
     ```
 - ```plaintext
     
@@ -294,8 +502,8 @@ zeghallo("Henk")
     Hallo, !
     ```
 - ```plaintext
-    Hallo, Arthur!
-    Hallo, Henk!
+    Hallo, Merijn!
+    Hallo, Hugo!
     ```
 
 <!-- .element: class="mc" style="font-size: .6em" -->
@@ -308,14 +516,14 @@ Wat is de output? (2)
 def zeghallo(naam):
     return "Hallo, " + naam + "!"
 
-zeghallo("Arthur")
-zeghallo("Henk")
+zeghallo("Allart")
+zeghallo("Niek")
 ```
 
 <!-- .element: style="font-size: .6em" -->
 
 - ```plaintext
-    Hallo, ArthurHenk!
+    Hallo, AllartNiek!
     ```
 - ```plaintext
     
@@ -325,8 +533,8 @@ zeghallo("Henk")
     Hallo, !
     ```
 - ```plaintext
-    Hallo, Arthur!
-    Hallo, Henk!
+    Hallo, Allart!
+    Hallo, Niek!
     ```
 
 <!-- .element: class="mc" style="font-size: .6em" -->
@@ -339,25 +547,25 @@ Wat is de output? (3)
 def zeghallo(naam):
     return "Hallo, " + naam + "!"
 
+print(zeghallo("Pieter"))
 print(zeghallo("Arthur"))
-print(zeghallo("Henk"))
 ```
 
 <!-- .element: style="font-size: .6em" -->
 
 - ```plaintext
-    Hallo, ArthurHenk!
+    Hallo, PieterArthur!
     ```
 - ```plaintext
     
     ```
 - ```plaintext
+    zeghallo("Pieter")
     zeghallo("Arthur")
-    zeghallo("Henk")
     ```
 - ```plaintext
+    Hallo, Pieter!
     Hallo, Arthur!
-    Hallo, Henk!
     ```
 
 <!-- .element: class="mc" style="font-size: .6em" -->
