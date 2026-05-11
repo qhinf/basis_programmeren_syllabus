@@ -43,14 +43,14 @@ Het speelbord bestaat uit 10 posities, die met lijnen zijn verbonden. Stukken st
 De verbindingen zijn als volgt:
 
 - **1**: verbonden met 2, 4
-- **2**: verbonden met 1, 3, 4, 5
+- **2**: verbonden met 1, 3, 4, 5, 9
 - **3**: verbonden met 2, 5
 - **4**: verbonden met 1, 2, 6
 - **5**: verbonden met 2, 3, 7
 - **6**: verbonden met 4, 8, 9
 - **7**: verbonden met 5, 9, 10
 - **8**: verbonden met 6, 9
-- **9**: verbonden met 6, 7, 8, 10
+- **9**: verbonden met 2, 6, 7, 8, 10
 - **10**: verbonden met 7, 9
 
 ## De spelregels
@@ -67,7 +67,7 @@ Verder moet je programma aan de volgende eisen voldoen:
 - Het spel start met een begroeting en een korte uitleg van het spel.
 - Per beurt laat je programma duidelijk het bord zien, inclusief waar de honden en hazen staan.
 - De hazen krijgen als eerst de beurt om een zet te doen.
-- De speler kiest welk stuk hij/zij wil verplaatsen en naar welk punt. Bij een foutieve invoer (bijvoorbeeld geen geldig punt, een punt dat niet aangrenzend is, of een punt dat bezet is) wordt de speler daarop gewezen en mag opnieuw iets invoeren.
+- De speler kiest welk stuk die wil verplaatsen en naar welk punt. Bij een foutieve invoer (bijvoorbeeld geen geldig punt, een punt dat niet aangrenzend is, of een punt dat bezet is) wordt de speler daarop gewezen en mag opnieuw iets invoeren.
 - Het spel detecteert automatisch wanneer de honden gewonnen hebben (hazen kunnen niet meer bewegen) en print de score.
 - Na afloop vraagt je programma of de spelers nog een keer willen spelen of willen stoppen.
 
@@ -75,7 +75,7 @@ De basisvariant is 2 sterren waard, waarmee je *maximaal* een 7 kunt halen als j
 
 ### Twee rondes (0.5 sterren)
 
-De hazen kunnen in dit spel niet winnen, dus een van de spelers zal uiteindelijk altijd verliezen. Dat is natuurlijk niet eerlijk! Daarom spelen we het spel in twee rondes: de speler die met de hazen speelde, mag in de tweede rond met de honden spelen en vice versa. De speler die met de honden de hoogste score haalt, heeft gewonnen.
+De hazen kunnen in dit spel niet winnen, dus een van de spelers zal uiteindelijk altijd verliezen. Dat is natuurlijk niet eerlijk! Daarom spelen we het spel in twee rondes: de speler die met de hazen speelde, mag in de tweede ronde met de honden spelen en vice versa. De speler die met de honden de hoogste score haalt, heeft gewonnen.
 
 - Je vraagt de namen van de twee spelers en gebruikt tijdens de rest van het spel die namen. Twee spelers mogen niet dezelfde naam invoeren.
 - Je programma kiest willekeurig welke speler in de eerste ronde met de honden begint.
@@ -92,7 +92,7 @@ Zet in het commentaar bovenaan je programma:
 
 In de basisvariant staan de stukken op vaste startposities. In deze uitbreiding beginnen de spelers met een lege bord en plaatsen de stukken om de beurt op het bord. Eerst plaatst de hondenspeler al zijn vier honden (één per beurt), daarna plaatst de hazenspeler zijn twee hazen (één per beurt). Daarna gaat het spel verder als normaal.
 
-Bij een ongeldige plaatsing (bezet punt, verkeerde helft) vraagt je programma opnieuw wat de speler wil.
+Bij een ongeldige plaatsing (bijvoorbeeld op een al bezet punt) vraagt je programma opnieuw wat de speler wil.
 
 Zet in het commentaar bovenaan je programma:
 
@@ -178,7 +178,7 @@ Soms is het fijn om samen te werken voor een eindopdracht. Voor de meeste eindop
 
 ### In gesprek
 
-Omdat we graag willen weten hoe je tot jouw uitwerking van de eindopdracht bent gekomen, selecteren we ongeveer de helft van de uitwerkingen en vragen deze leerlingen op gesprek. Als we je niet in de les hebben gezien of we hebben het idee dat je je code niet zelf hebt geschreven, dan kun je natuurlijk sowieso rekenen op een uitnodiging. Als je hiervoor wordt gekozen, dan wordt je eindcijfer na afloop van dit gesprek bepaald. Wil je zelf graag iets uitleggen over je code? Geef dan bij je docent aan dat je ook graag een beoordelingsgesprek wilt hebben.
+Omdat we graag willen weten hoe je tot jouw uitwerking van de eindopdracht bent gekomen, selecteren we een aantal leerlingen en vragen hen op gesprek. Als we je niet in de les hebben gezien of we hebben het idee dat je je code niet zelf hebt geschreven, dan kun je natuurlijk sowieso rekenen op een uitnodiging. Als je hiervoor wordt gekozen, dan wordt je eindcijfer na afloop van dit gesprek bepaald. Wil je zelf graag iets uitleggen over je code? Geef dan bij je docent aan dat je ook graag een beoordelingsgesprek wilt hebben.
 
 Tijdens zo'n gesprek krijg je eerst de kans om je programma te demonstreren en vervolgens zal de docent aan de hand van je ingeleverde code je enkele vragen stellen. Je mag uitleggen wat bepaalde stukken code doen, hoe je ze geschreven hebt en welke keuzes je daarbij gemaakt hebt.
 
