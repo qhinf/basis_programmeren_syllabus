@@ -57,7 +57,7 @@ De verbindingen zijn als volgt:
 
 Voor de basisvariant gelden de volgende spelregels:
 
-Eén speler speelt met **vier honden** en de andere speler speelt met **twee hazen**. De honden beginnen rechts op het bord op de punten **3**, **5**, **7** en **9**. De hazen beginnen links op het bord op de punten **1** en **8**.
+Eén speler speelt met **vier honden** en de andere speler speelt met **twee hazen**. De honden beginnen rechts op het bord op de punten **3**, **5**, **7** en **10**. De hazen beginnen links op het bord op de punten **1** en **8**.
 
 - Spelers zijn om de beurt aan zet en verplaatsen één stuk per beurt naar een aangrenzend *leeg* punt. Er wordt dus niet geslagen: stukken worden nooit van het bord verwijderd.
 - De honden winnen als **beide hazen** niet meer kunnen bewegen (ze zijn ingesloten). De eindscore is het aantal rondes dat de hazen vrij konden lopen.
