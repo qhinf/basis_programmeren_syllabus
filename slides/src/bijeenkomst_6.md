@@ -327,6 +327,27 @@ print("Bedankt voor het spelen!")
 
 <!-- .element: style="width: 107%; height: calc(14em * 1.2 + 12px)" -->
 
+***
+
+## Eindopdracht
+
+Gesprekken: plan jezelf in via het bestand *Gespreksplanning.xlsx* in Teams.
+
+---
+
+### Een gesprek?
+
+Twee soorten vragen:
+
+1. Hoe werkt je programma?
+2. Hoe zou je \<een wijziging\> aanpakken?
+
+Notes:
+Vragen: hoe ziet een goed antwoord eruit?
+
+1. evt wat vervolgvragen. Slecht antwoord: kan dingen niet uitleggen. Goed antwoord: duidelijke uitleg bij de eerste vraag, niet per se van boven naar beneden.
+2. kleine wijziging, tot uitbreiding. Welke constructies, grote lijnen, hoe in jouw programma, evt reflectie. Hoeft geen code te dicteren.
+
 ---
 
 ### Aan de slag!
@@ -342,27 +363,26 @@ Verder met CSCircles, of
 ---
 
 ```python
-rendieren = [ 
-    "Dasher", "Dancer", "Prancer", "Vixen", 
-    "Comet", "Cupid", "Donder", "Blitzen", 
-    "Rudolph" 
+planten = [ 
+    "Madeliefje", "Tulp", "Klaproos", "Narcis", 
+    "Paardenbloem", "Fluitenkruid", "Jasmijn"
 ]
 ```
 
 <!-- .element: style="width: 100%" -->
 
-Wie is `rendieren[len(rendieren) - 2]`?
+Wie is `planten[len(planten) - 2]`?
 
-- Rudolph
-- Blitzen
-- Donder
-- Dancer 
+- Jasmijn
+- Fluitenkruid
+- Paardenbloem
+- Narcis
 
 <!-- .element: class="mc" -->
 
 ---
 
-Schrijf een functie die iemand de beste wensen doet.
+Schrijf een functie die iemand een fijne zomer wenst.
 
 ```python
 wens("Jip", 2026)
@@ -371,22 +391,22 @@ wens("Jip", 2026)
 
 - ```python
   def wens naam jaar:
-    print(naam + ", de beste wensen voor " + str(jaar) + "!")
+    print("Fijne zomer " + str(jaar) + ", " + naam + "!")
   ```
     <!-- .element style="margin-left: 0; margin-right: 0; width: 100%; font-size: .6em" -->
 - ```python
   def wens(naam, jaar):
-    print(naam + ", de beste wensen voor " + str(jaar) + "!")
+    print("Fijne zomer " + str(jaar) + ", " + naam + "!")
   ```
     <!-- .element style="margin-left: 0; margin-right: 0; width: 100%; font-size: .6em" -->
 - ```python
   def wens naam jaar:
-    print(naam + ", de beste wensen voor " + jaar + "!")
+    print("Fijne zomer " + jaar + ", " + naam + "!")
   ```
     <!-- .element style="margin-left: 0; margin-right: 0; width: 100%; font-size: .6em" -->
 - ```python
   def wens(naam, jaar):
-    print(naam + ", de beste wensen voor " + jaar + "!")
+    print("Fijne zomer " + jaar + ", " + naam + "!")
   ```
     <!-- .element style="margin-left: 0; margin-right: 0; width: 100%; font-size: .6em" -->
 
