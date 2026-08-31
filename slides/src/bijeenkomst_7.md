@@ -2,7 +2,7 @@
 
 # Basis van Programmeren
 
-Q-highschool / Bijeenkomst 7
+Q-vak Informatica / Bijeenkomst 7
 
 ---
 
@@ -659,6 +659,6 @@ Voeg de codeblokken voor je eindopdracht samen.
 Denk aan de deadline:\
 {{ eerste_inlevermoment }}
 
-> Lever een `.py`-bestand in <br/>bij de Q-Highschool App! 
+> Lever een `.py`-bestand in <br/>bij de Q-vakken App! 
 <!-- .element: style="background-color: lightgrey; border: 1px solid black;" -->
 

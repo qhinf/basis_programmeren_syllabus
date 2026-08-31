@@ -2,7 +2,7 @@
 
 # Basis van Programmeren
 
-Q-highschool / Introductie
+Q-vak Informatica / Introductie
 
 Notes:
 Programmeren: de computer vertellen wat 'ie moet doen
@@ -20,10 +20,10 @@ Voorstellen / wie is er hier voor het eerst? / Iedereen door elkaar, verschil in
 
 ---
 
-## Leren bij Q-highschool
+## Leren bij Q-vakken
 
 - Zelf de regie nemen
-- Fysiek/afstand &rarr; zie Q-highschool app
+- Fysiek/afstand &rarr; zie Q-vakken app
 - Communicatie
 
 ---
@@ -105,7 +105,7 @@ Waar denken jullie aan?
 
 ## Syllabus
 
-[informatica.q-highschool.nl/basis_programmeren](../)
+[informatica.q-vakken.nl/basis_programmeren](../)
 
 Notes:
 Zet die in je favorieten

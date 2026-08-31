@@ -122,7 +122,7 @@ Wanneer de speler in de rol van de Schatkist duikt, zal de speler dus moeten ant
 
 Je levert je programma in als een .py-bestand via je portfolio op [app.q-highschool.nl](https://app.q-highschool.nl). Als je je programma in Thonny of VSCode hebt geschreven, dan kun je dat bestand terugvinden op je computer in de map waar je het hebt opgeslagen. Andere soorten bestanden, zoals code in een Word-document, kunnen we niet uitvoeren en worden dus niet beoordeeld. 
 
-Als je je programma over meerdere Python-bestanden hebt verdeeld, maak dan een .zip-bestand met daarin alle code en lever dat .zip-bestand in. Zie [deze pagina](https://informatica.q-highschool.nl/informatie/meerdere-bestanden-inleveren) als je daar hulp bij nodig hebt.
+Als je je programma over meerdere Python-bestanden hebt verdeeld, maak dan een .zip-bestand met daarin alle code en lever dat .zip-bestand in. Zie [deze pagina](https://informatica.q-vakken.nl/informatie/meerdere-bestanden-inleveren) als je daar hulp bij nodig hebt.
 
 ## Beoordeling
 
@@ -143,7 +143,7 @@ Bij het gebruik van de verschillende elementen van Python (if, for, while etc.) 
 De eerste 10 punten krijg je gratis, dus kun je maximaal 100 punten verdienen. Je eindcijfer is het aantal punten gedeeld door 10.
 
 ### Samenwerken
-Soms is het fijn om samen te werken voor een eindopdracht. Voor de meeste eindopdrachten bij Informatica Q-Highschool is dit wel mogelijk. Voor de module Basis van Programmeren met Python is samenwerken **niet** toegestaan. We willen namelijk weten wat _jij_ kan. Daarom hebben we besloten dat je voor deze module de eindopdracht alleen maakt (dus ook niet met intensieve hulp van een broer/zus/vriend/kennis die wel goed kan programmeren).
+Soms is het fijn om samen te werken voor een eindopdracht. Voor de meeste eindopdrachten bij Q-vak Informatica is dit wel mogelijk. Voor de module Basis van Programmeren met Python is samenwerken **niet** toegestaan. We willen namelijk weten wat _jij_ kan. Daarom hebben we besloten dat je voor deze module de eindopdracht alleen maakt (dus ook niet met intensieve hulp van een broer/zus/vriend/kennis die wel goed kan programmeren).
 
 ### In gesprek
 

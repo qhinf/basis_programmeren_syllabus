@@ -22,9 +22,9 @@ Om te laten zien dat je dat aan het eind van de module ook echt kunt, ga je een 
 
 Vond je deze module leuk? Dan zijn de volgende modules misschien ook iets voor jou:
 
-- [*Objectgeoriënteerd Programmeren*](https://informatica.q-highschool.nl/ogp): zin om een groter project te bouwen in Python? In deze module bouwen we een game en leer je meer over de structuur van een groter programma.
-- [*Python Plus*](https://informatica.q-highschool.nl/pythonplus): wil je meer weten over Python en de tools die professionele programmeurs gebruiken? In deze module ga je daar in een zelfgekozen project mee aan de slag.
-- [*Programmeren met JavaScript*](https://informatica.q-highschool.nl/javascript): uitgekeken op Python, maar nog niet op programmeren? In deze module leer je programmeren in JavaScript, de programmeertaal waarmee je interactieve websites kunt bouwen.
+- [*De Gamewerkplaats*](https://informatica.q-vakken.nl/ogp): zin om een groter project te bouwen in Python? In deze module bouwen we een game en leer je meer over de structuur van een groter programma.
+- [*Python Plus*](https://informatica.q-vakken.nl/pythonplus): wil je meer weten over Python en de tools die professionele programmeurs gebruiken? In deze module ga je daar in een zelfgekozen project mee aan de slag.
+- [*Programmeren met JavaScript*](https://informatica.q-vakken.nl/javascript): uitgekeken op Python, maar nog niet op programmeren? In deze module leer je programmeren in JavaScript, de programmeertaal waarmee je interactieve websites kunt bouwen.
 - *Programmeren met Arduino*: breng je code naar de echte wereld! Je leert hoe je door te programmeren lampjes, motoren, speakers, knoppen en nog veel meer kunt besturen.
 
 :::

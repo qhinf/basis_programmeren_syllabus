@@ -2,7 +2,7 @@
 
 # Basis van Programmeren
 
-Q-highschool / Bijeenkomst 3
+Q-vak Informatica / Bijeenkomst 3
 
 ---
 
