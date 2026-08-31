@@ -1,4 +1,4 @@
-# Basis van Programmeren met Python
+# {{ titel }}
 
 <!-- Deze regel niet wijzigen! -->
 *Versie {{ versie }}. Jouw docent: {{ docent }} ({{ docent_email }})*
