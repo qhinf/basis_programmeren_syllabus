@@ -120,7 +120,7 @@ Wanneer de speler in de rol van de Schatkist duikt, zal de speler dus moeten ant
 
 ## Inleveren
 
-Je levert je programma in als een .py-bestand via je portfolio op [app.q-highschool.nl](https://app.q-highschool.nl). Als je je programma in Thonny of VSCode hebt geschreven, dan kun je dat bestand terugvinden op je computer in de map waar je het hebt opgeslagen. Andere soorten bestanden, zoals code in een Word-document, kunnen we niet uitvoeren en worden dus niet beoordeeld. 
+Je levert je programma in als een .py-bestand via je portfolio op [app.q-vakken.nl](https://app.q-vakken.nl). Als je je programma in Thonny of VSCode hebt geschreven, dan kun je dat bestand terugvinden op je computer in de map waar je het hebt opgeslagen. Andere soorten bestanden, zoals code in een Word-document, kunnen we niet uitvoeren en worden dus niet beoordeeld. 
 
 Als je je programma over meerdere Python-bestanden hebt verdeeld, maak dan een .zip-bestand met daarin alle code en lever dat .zip-bestand in. Zie [deze pagina](https://informatica.q-vakken.nl/informatie/meerdere-bestanden-inleveren) als je daar hulp bij nodig hebt.
 
