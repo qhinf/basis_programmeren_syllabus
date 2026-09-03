@@ -118,7 +118,7 @@ Syllabus doorlopen: werken met de module, programmeeromgevingen, CSCircles
 
 -   Maak een account aan op CSCircles
 -   Wijs **{{ guru_name }}** als guru aan (bij je accountinstellingen)
--   Begin met CSCircles 0, 1, 1E
+-   Begin met CSCircles 0, 1, 1E 
 
 ***
 
@@ -161,5 +161,8 @@ Wat is niet een soort fout bij programmeren?
 
 Fysieke bijeenkomst tot *17:00*
 
-Neem je **opgeladen** laptop mee!
+> Deze bijeenkomst wordt gegeven door Arthur Rump ivm mijn afwezigheid
+<!-- .element: class="fragment" style="background: tomato; color: white; border: 1px solid black;"  -->
+
+Neem je **opgeladen** laptop en een lader mee!
 

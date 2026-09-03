@@ -409,8 +409,6 @@ print(smaller + bigger)
 
 ## Volgende week
 
-Is het pasen 🐣
+Online bijeenkomst van 14:30 tot 16:00u
 
-Volgens de planning *zelfstudie*: input() en if-statements
-
-Vragenuur op *dinsdag om 16:15-17:00*
+Zorg voor een werkende camera en werkende microfoon!

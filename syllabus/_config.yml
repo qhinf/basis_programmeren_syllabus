@@ -56,9 +56,9 @@ sphinx:
       eerste_inlevermoment: "donderdag 5 november, 16:00" # donderdag in week 8
       tweede_inlevermoment_melden: "maandag 12 oktober, 16:00" # maandag in week 6
       tweede_inlevermoment: "dinsdag 1 december, 16:00" # dinsdag in week 3 van het volgende blok
-      docent: "Arthur Rump"
-      docent_email: "a punt rump apestaartje quadraam punt nl"
-      guru_name: "ArthurRump"  # vul hier de CS Circles gebruikersnaam van de docent in
+      docent: "Pieter van Engelen"
+      docent_email: "p punt vanengelen apestaartje quadraam punt nl"
+      guru_name: "PietervanEngelen"  # vul hier de CS Circles gebruikersnaam van de docent in
 
 
 # html, repository en launch_buttons instellingen worden globaal voor alle
