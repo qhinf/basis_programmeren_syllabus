@@ -1,6 +1,6 @@
 <!-- .slide: data-background-gradient="linear-gradient(to bottom right, #f1881c, #ffffff)" -->
 
-# Basis van Programmeren
+# Programmeren met Python
 
 Q-vak Informatica / Bijeenkomst 4
 
