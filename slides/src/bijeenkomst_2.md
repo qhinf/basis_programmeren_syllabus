@@ -12,7 +12,7 @@ Q-vak Informatica / Bijeenkomst 2
 -   Wat is programmeren
 -   Opfrisquiz
 -   Zelf aan de slag
--   `input()` en `if`-statements
+-   Beginnetje met `input()`
 -   Afsluiting
 
 ***
@@ -226,6 +226,42 @@ variabelen heb je nodig?
 
 ***
 
+## Functies
+
+```python
+print("Hallo, wereld!")
+```
+
+---
+
+```python
+naam = "Sam"
+print("Hallo", naam)
+```
+
+---
+
+<div class="columns">
+<div>
+
+```python
+a = 7 + 9
+print(a)
+```
+
+</div>
+<div class="fragment">
+
+```python
+a = max(7, 9)
+print(a)
+```
+
+</div>
+</div>
+
+***
+
 ## Aan de slag!
 
 [*Les 2: Functies* in de syllabus](../2_functies.html)
@@ -276,89 +312,8 @@ TypeError: can't multiply sequence by
 
 <!-- .element: class="fragment" -->
 
----
-
-<!-- .slide: data-auto-animate data-auto-animate-id="rekenmachine" -->
-
-Een simpele rekenmachine: vraag twee getallen en print de vermenigvuldiging.
-
-&nbsp;
-
-```python
-a = int(input("Eerste getal: "))
-b = int(input("Tweede getal: "))
-print(a * b)
-```
-
-<!-- .element: data-id="rekenmachine-code" -->
-
 Notes:
-En wat als we met kommagetallen willen rekenen?
-
-***
-
-## `if`/`else`-statements
-
----
-
-### Keuzes maken
-
-Een bot die alleen iets doet als je er Hallo tegen zegt.
-
-```python
-tekst = input("Hoi! ")
-if tekst == "Hallo":
-    print("Tot ziens!")
-```
-<!-- .element: class="fragment" -->
-
----
-
-<div class="columns" style="font-size: .8em">
-<div>
-
-`=`
-
-<!-- .element: style="font-size: 6em; line-height: .6;" -->
-
-- Een waarde in een variabele zetten
-  <!-- .element: class="fragment" data-fragment-index="1" -->
-- Spreek uit als 'wordt'
-  <!-- .element: class="fragment" data-fragment-index="2" -->
-
-</div>
-<div>
-
-`==`
-
-<!-- .element: style="font-size: 6em; line-height: .6;" -->
-
-- Twee waardes vergelijken
-  <!-- .element: class="fragment" data-fragment-index="1" -->
-- Spreek uit als 'is'
-  <!-- .element: class="fragment" data-fragment-index="2" -->
-<li class="fragment">
-
-    Geeft een booleaanse waarde:\
-    `True` (waar) of\
-    `False` (niet waar)
-
-</li>
-
-</div>
-</div>
-
----
-
-### Of anders
-
-```python
-tekst = input("Hoi! ")
-if tekst == "Hallo":
-    print("Tot ziens!")
-else:
-    print("Je moet Hallo zeggen.")
-```
+Wie is al bezig met hoofdstuk 4 over types?
 
 ***
 
@@ -366,7 +321,7 @@ else:
 
 Hoe ver ben je gekomen?
 
-Voor volgende les: zorg dat je een deel verder bent
+Voor volgende les: CSCircles 2, 3 (t/m tekenreeksen) en 4
 
 Notes:
 evt rekensom van aantal uren te besteden aan de module
@@ -409,8 +364,8 @@ print(smaller + bigger)
 
 ## Volgende week
 
-Is het pasen 🐣
+Online bijeenkomst
 
-Volgens de planning *zelfstudie*: input() en if-statements
+Verder met input() en if-statements
 
-Vragenuur op *dinsdag om 16:15-17:00*
+Geef via de appsite door of je erbij bent!
