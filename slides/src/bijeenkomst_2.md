@@ -11,7 +11,7 @@ Q-vak Informatica / Bijeenkomst 2
 -   Kennismaking
 -   Wat is programmeren
 -   Opfrisquiz
--   Zelf aan de slag
+-   Aan de slag met functies
 -   Beginnetje met `input()`
 -   Afsluiting
 
