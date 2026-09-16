@@ -1,6 +1,6 @@
 <!-- .slide: data-background-gradient="linear-gradient(to bottom right, #f1881c, #ffffff)" -->
 
-# Basis van Programmeren
+# Programmeren met Python
 
 Q-vak Informatica / Introductie
 
@@ -20,11 +20,22 @@ Voorstellen / wie is er hier voor het eerst? / Iedereen door elkaar, verschil in
 
 ---
 
-## Leren bij Q-vakken
+## Leren bij de Q-vakken
 
 - Zelf de regie nemen
 - Fysiek/afstand &rarr; zie Q-vakken app
 - Communicatie
+
+---
+
+<!-- .slide: data-background-image="assets/regie_slide.svg" data-background-size="contain" -->
+
+Notes:
+Planning laten zien in de appsite
+
+---
+
+<!-- .slide: data-background-image="assets/regie.png" data-background-size="contain" -->
 
 ---
 
@@ -38,13 +49,26 @@ Met een beetje begeleiding, natuurlijk
 
 <!-- .element: class="fragment" -->
 
----
+***
 
 ## Programmeren in Python
 
 Notes:
 1. Programmeren: welke stappen moet de computer uitvoeren
 2. in Python: die stappen beschrijven in Python-code
+
+---
+
+## Programmeren
+
+Waar denken jullie aan?
+
+Notes:
+Wie van jullie heeft al eens iets geprogrammeerd? Bijvoorbeeld met Scratch of GameMaker?
+
+---
+
+<iframe width="784" height="441" src="https://www.youtube-nocookie.com/embed/FN2RM-CHkuI?si=j_1-5yCf2slQNvEv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -90,16 +114,6 @@ Beginnerstaal
 
 </div>
 </div>
-
-***
-
-## Programmeren
-
-Waar denken jullie aan?
-
----
-
-<iframe width="784" height="441" src="https://www.youtube-nocookie.com/embed/FN2RM-CHkuI?si=j_1-5yCf2slQNvEv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ***
 
