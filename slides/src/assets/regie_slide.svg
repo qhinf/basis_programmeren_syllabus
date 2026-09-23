@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="1279.6801"
+   height="720"
+   viewBox="0 0 1279.6801 720"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3">
+      <path
+         d="M 0,1.2207e-4 H 959.76002 V 540.00014 H 0 Z"
+         clip-rule="evenodd"
+         id="path3" />
+    </clipPath>
+    <mask
+       maskUnits="userSpaceOnUse"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="mask3">
+      <image
+         width="1"
+         height="1"
+         style="image-rendering:optimizeSpeed"
+         preserveAspectRatio="none"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE8AAABLCAAAAAAUzoVMAAAAAXNCSVQI5gpbmQAAAzBJREFUWIWt2E9MHVUUx/HvuY9AEUotWEAFEhMDhJiW2IguWl0Y/9Q/CxMTN2oXdmPipt134aZdmGiUhXHhygUa09Ym1jaNkpAgSdOQwsLEooBpRKpS2tJQgZL7czGvwOP9mZk392znvk/OuX9m7juQKizd8OKfFwFWmSz71GQCcq27Gx7ID7q7fOufe4Ch1J4J2h5/al/vQw31dflBKyvLi1cnL0/NR49TeCaaX3h1oNugIBcD+H38/LmFikluwwz6Ppxak+S9toX3ktZnPupPiIFB7+C8VERtQaWFL59MutptJ/+tqOXF24OPxIMGhyZjtbz4y1vxyTWeWE6iRbH22a4YruN0ouTyKXpd7K5Y7BMTybWo6KmDFbiBqXSc5DV3oCy4bzotJ0mz5cDeX9Njktfs/pL7pvnnarKTpInOEpNX83m1nNep2mLw3fUqOcn7o0UVd/9RrSZJi9tfDzVfZeG8ztRuTdA4tJbFk19/p6Di+uFMnKSJgpP8ykpWT4c3E7Tcd9Xulc0YrbeN2Ru4k5nTf88D4ADebCxxXtKFdrwRWcDuyczZSZptjfIz+voypwe+41ksqvdATdJPaYVwNc8hcMgOZr3mRLF/p4Ez9vSE0OCxFoETnS0BygXaugAHj+4KUq6sB8NBl4sfnMSjA3BGexAOox3hsAcT37xiogVwWF0YDWoBZ7nshzcfApz83VAegMOvhvW0FOa45T1xPZwGDq4F2i73vbk7AUFn/Hkj7Pz9NROOw2EaC3XgiN73oz5cwQ5x5bdgHA5YGAnqmU6tBZtAB2JkrOz/2So8WP0i2IpE344fxgNxkWdLn/hABTsA2emfAhUc1avV4zdCetiljxWk4rwnPj0bZM9s3A2Wj02HmMLNu8bse38H9WzkyM2Qnuz797Mv8pa7lfjm7etZX60FdzW78NqVjKtc4MnGXx9K3uiK9RBzhz+YD/byAgz6v72XoqmzEV5ny4i5l39cTS+W8zCofXFoUaXaf7FerqTop8+cm3ctdQZKfPuyq1+XbQkaoqHz6Wf2tjc1lWiGlI6LL8X2d3MP72lu2pmMc9eGY0ZYXLc5daTm/ge3zq9QhYrTdAAAAABJRU5ErkJggg=="
+         id="image3" />
+    </mask>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4">
+      <path
+         d="M 0,0.99999999 H 1 V 0 H 0 Z"
+         clip-rule="evenodd"
+         id="path4" />
+    </clipPath>
+  </defs>
+  <g
+     id="g1"
+     transform="translate(0,1.6866667e-4)">
+    <g
+       id="g2">
+      <path
+         id="path2"
+         d="m 0,-0.13507 h 959.76 v 540.14 H 0 Z"
+         style="fill:#ffe9dd;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         transform="matrix(1.3333333,0,0,-1.3333333,0,720)"
+         clip-path="url(#clipPath3)" />
+    </g>
+    <g
+       id="g3">
+      <image
+         width="1"
+         height="1"
+         style="image-rendering:optimizeSpeed"
+         preserveAspectRatio="none"
+         xlink:href="data:image/png;base64,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"
+         mask="url(#mask3)"
+         id="image4"
+         transform="matrix(50.88,0,0,48.012,52.8,51.854667)"
+         clip-path="url(#clipPath4)" />
+    </g>
+    <g
+       id="g4"
+       transform="matrix(1.3204047,0,0,1,-16.917369,0)">
+      <path
+         id="path5"
+         d="m 39.6,422.14 c 0,14.98 12.138,27.12 27.11,27.12 h 372.74 c 14.97,0 27.11,-12.14 27.11,-27.12 V 70.192 c 0,-14.976 -12.14,-27.116 -27.11,-27.116 H 66.71 c -14.972,0 -27.11,12.14 -27.11,27.116 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         transform="matrix(1.3333333,0,0,-1.3333333,0,720)" />
+    </g>
+    <g
+       id="g6">
+      <text
+         id="text6"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,148.04,91.066667)"><tspan
+           id="tspan6"
+           style="font-variant:normal;font-weight:700;font-size:36.05px;font-family:Calibri;writing-mode:lr-tb;fill:#ff7600;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 -1.6583 0.18025 -0.25235 -0.2163 0.2163 -0.54075003 -0.50470001 -0.50470001 0.57679999 -0.61285001 0.46865001 -0.18025 -0.10815 -0.2163 -0.46865001 0.18025 0 0 0 0.1442"
+           y="0">Wat vragen we van jou?</tspan></text>
+    </g>
+    <g
+       id="g7">
+      <text
+         id="text7"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,120.828,182.2)"><tspan
+           id="tspan7"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Arial;writing-mode:lr-tb;fill:#ffc7d5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">•</tspan></text>
+    </g>
+    <g
+       id="g8">
+      <text
+         id="text8"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,150.85333,182.2)"><tspan
+           id="tspan8"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Calibri;writing-mode:lr-tb;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 -0.82915002 -0.10815 0.59482503 -0.52272499 0.23432501 -0.072099999 0.39655 -0.46865001 0 0.25235 -0.55877501 -0.27037501 0 -0.072099999 -0.072099999 0.126175 0.16222499 -0.342475 0.126175 0.126175 -0.342475 -0.072099999 0.23432501 0.054074999 -0.10815 -0.52272499 0.126175 0.23432501 -0.70297498 0.39655 0.23432501 -0.63087499 0.39655 -0.54075003 0.25235 0.23432501 -0.23432501 -0.10815 -0.10815 0.18025 -0.46865001 0.39655 -0.342475 0.63087499 -0.46865001 0.072099999 0.39655 -0.52272499 -0.28839999 -0.342475 -0.072099999 0.63087499 -0.342475 0.23432501 -0.54075003 0 0.63087499 -0.27037501 -0.10815 -0.072099999"
+           y="0">Voor de afstandslessen zorg je zelf voor een werkende laptop </tspan></text>
+    </g>
+    <g
+       id="g9">
+      <text
+         id="text9"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,150.85333,211.04)"><tspan
+           id="tspan9"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Calibri;writing-mode:lr-tb;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 -0.342475 0.63087499 -0.46865001 0.18025 -0.072099999 0.126175 -0.27037501 0.16222499 -0.57679999 0.39655 0.23432501 -0.072099999 0.16222499 -0.342475 -0.28839999"
+           y="0">en rustige plek </tspan></text>
+    </g>
+    <g
+       id="g10">
+      <text
+         id="text10"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,299.78667,211.04)"><tspan
+           id="tspan10"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Calibri;writing-mode:lr-tb;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 0.30642501 -0.27037501 0.10815 0.1442 -0.66692501 0.30642501 0.10815 0.25235 -0.59482503 0.10815 0.10815 0.25235 0 0.2163 -0.63087499 0 0.36050001 -0.97334999 0 0.1442 0.10815 0 0.30642501 0.1442 -0.52272499 0.43259999 -0.39655 0.126175 -0.43259999 0.126175 0.126175 0.10815"
+           y="0">(camera aan &amp; werkende microfoon)</tspan></text>
+    </g>
+    <g
+       id="g11">
+      <text
+         id="text11"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,120.828,295.65333)"><tspan
+           id="tspan11"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Arial;writing-mode:lr-tb;fill:#ffc7d5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">•</tspan></text>
+    </g>
+    <g
+       id="g12">
+      <text
+         id="text12"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,150.85333,295.65333)"><tspan
+           id="tspan12"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Calibri;writing-mode:lr-tb;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 -0.25235 0.39655 0.23432501 -0.072099999 0.16222499 0 -0.072099999 -0.072099999 0.16222499 -0.072099999 0.126175 -0.46865001 -0.23432501 0 -0.072099999 0.23432501 -0.072099999 0.39655 0.23432501 -0.072099999 -0.342475 0.16222499 0.39655 -0.46865001 0 -0.090125002 0.63087499 -0.072099999 0.16222499 -0.342475 0.23432501 -0.55877501 -0.27037501 0 0 -0.27037501 0.23432501 -0.10815 -0.072099999 0.16222499 0.16222499 -0.072099999 0.39655"
+           y="0">De planning van de hele module staat online.</tspan></text>
+    </g>
+    <g
+       id="g13">
+      <text
+         id="text13"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,120.828,337.94667)"><tspan
+           id="tspan13"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Arial;writing-mode:lr-tb;fill:#ffc7d5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">•</tspan></text>
+    </g>
+    <g
+       id="g14">
+      <text
+         id="text14"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,150.85333,337.94667)"><tspan
+           id="tspan14"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Calibri;writing-mode:lr-tb;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 0 -0.32444999 0.23432501 0.126175 -0.342475 0.39655 -0.450625 0.43259999 -0.46865001 0.054074999 -0.342475 0.16222499 -0.450625 0.23432501 0 0 -0.072099999 0.23432501 -0.10815 0.25235 0.23432501 0 -0.32444999 0.23432501 0 0 -0.072099999 -0.63087499 0.39655 0.054074999 -0.54075003 0.126175 0.23432501 -0.072099999 -0.342475 -0.072099999 0.43259999 -0.46865001 0.63087499 -0.54075003 0 0.23432501 0.39655 -0.342475 -0.072099999 0.23432501 -0.072099999 0.16222499 0 -0.32444999 0.39655 -0.072099999 -1.0094 0.59482503 0 -0.54075003"
+           y="0">Je geeft zelf aan of je aanwezig bent bij een bijeenkomst</tspan></text>
+    </g>
+    <g
+       id="g15">
+      <text
+         id="text15"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,168.86667,373.53333)"><tspan
+           id="tspan15"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Arial;writing-mode:lr-tb;fill:#ffc7d5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">•</tspan></text>
+    </g>
+    <g
+       id="g16">
+      <text
+         id="text16"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,198.88,373.53333)"><tspan
+           id="tspan16"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Calibri;writing-mode:lr-tb;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 0.198275 -0.46865001 0.59482503 0 -0.55877501 0.36050001 -0.10815 0.23432501 -0.95532501 0 0.61285001 -0.46865001 -0.27037501 0.36050001 -0.23432501 -0.1442 -0.52272499 0.36050001 -0.10815 0.23432501 -0.28839999 0.18025 0.16222499 -0.70297498 0.126175 0.23432501 0 -0.32444999 0.23432501 0.36050001 -0.342475 -0.10815 0.23432501 0 0 0.16222499 -0.54075003 0.23432501 0 -0.342475 0.43259999"
+           y="0">5 dagen van tevoren krijg je een mail met:</tspan></text>
+    </g>
+    <g
+       id="g17">
+      <text
+         id="text17"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,216.89333,409.12)"><tspan
+           id="tspan17"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Arial;writing-mode:lr-tb;fill:#ffc7d5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">•</tspan></text>
+    </g>
+    <g
+       id="g18">
+      <text
+         id="text18"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,246.92,409.12)"><tspan
+           id="tspan18"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Calibri;writing-mode:lr-tb;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 0 -0.48667499 0 -0.27037501 -0.27037501 0.16222499 0.126175 0.27037501 -0.10815 -0.342475 0.23432501 0.16222499 -0.10815 -0.450625 -0.1442 0.18025 0 -0.72100002 0.43259999 -0.54075003"
+           y="0">Praktische informatie</tspan></text>
+    </g>
+    <g
+       id="g19">
+      <text
+         id="text19"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,216.89333,444.68)"><tspan
+           id="tspan19"
+           style="font-variant:normal;font-weight:normal;font-size:18.05px;font-family:Arial;writing-mode:lr-tb;fill:#ffc7d5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">•</tspan></text>
+    </g>
+    <g
+       id="g20">
+      <text
+         id="text20"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,246.92,444.68)"><tspan
+           id="tspan20"
+           style="font-variant:normal;font-weight:normal;font-size:18.05px;font-family:Calibri;writing-mode:lr-tb;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 -0.23465 -0.1083 0.5776 -0.1444 -0.1083 -0.1083 0.2166 -0.23465 0 -0.12635 0.2166 -0.1083 -0.34294999 0.2166 -0.1083 0.1444 0 -0.34294999 0.361 -0.1083 -0.2888 -0.1444 0 -0.59565002 0.41514999"
+           y="0">Inhoud van de bijeenkomst </tspan></text>
+    </g>
+    <g
+       id="g21">
+      <text
+         id="text21"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,216.89333,480.26667)"><tspan
+           id="tspan21"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Arial;writing-mode:lr-tb;fill:#ffc7d5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">•</tspan></text>
+    </g>
+    <g
+       id="g22">
+      <text
+         id="text22"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,246.92,480.26667)"><tspan
+           id="tspan22"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Calibri;writing-mode:lr-tb;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 -0.91927499 0.36050001 -0.52272499 0.41457501 0.054074999 -0.54075003 0 0.072099999 -0.342475 0.23432501 -0.27037501 0.16222499 0 -0.090125002 -0.342475 0.59482503 -0.55877501 0.23432501 -0.10815 0.36050001 0.23432501 -0.10815 -0.54075003 0 0.37852499 -0.342475 0.59482503 -1.0094 -0.1442 0 0.126175"
+           y="0">Werkwijze tijdens de bijeenkomst</tspan></text>
+    </g>
+    <g
+       id="g23">
+      <text
+         id="text23"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,168.86667,515.85333)"><tspan
+           id="tspan23"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Arial;writing-mode:lr-tb;fill:#ffc7d5;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">•</tspan></text>
+    </g>
+    <g
+       id="g24">
+      <text
+         id="text24"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,198.88,515.85333)"><tspan
+           id="tspan24"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Calibri;writing-mode:lr-tb;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 -0.41457501 0.59482503 -0.46865001 0.59482503 -0.342475 0.23432501 0.126175 -0.54075003 -0.27037501 0.36050001 0.23432501 -0.57679999 0.36050001 -0.342475 0.25235 -0.46865001 0 0.37852499 -0.46865001 0 0.57679999 -0.10815 0.054074999 -0.46865001 0 0 -0.090125002 0.054074999 -0.342475 0.054074999 0.16222499 0.126175 -0.10815 -0.342475 0.16222499 -0.10815 0.23432501 -0.10815 -0.1442 0.55877501 -0.52272499 0.23432501 -0.342475 0.59482503 -0.46865001 -0.28839999 -0.10815 0.59482503 -0.46865001 0 0.37852499 0.23432501 -0.342475 0.36050001 -0.10815"
+           y="0">Op de site geef je jouw aanwezigheid door en kun je een </tspan></text>
+    </g>
+    <g
+       id="g25">
+      <text
+         id="text25"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,198.88,544.68)"><tspan
+           id="tspan25"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Calibri;writing-mode:lr-tb;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 -0.27037501 0 0.10815 -0.54075003"
+           y="0">taxi </tspan></text>
+    </g>
+    <g
+       id="g26">
+      <text
+         id="text26"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,239.24,544.68)"><tspan
+           id="tspan26"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Calibri;writing-mode:lr-tb;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 -0.52272499 0.36050001 -0.57679999 0.36050001 0.16222499 -0.342475"
+           y="0">regelen</tspan></text>
+    </g>
+    <g
+       id="g27">
+      <path
+         id="path27"
+         d="m 532.77,238.89 92.64,94.44 -0.71,0.7 -92.64,-94.44 z m 0.86,7.21 -1.91,-7.57 7.52,2.06 c 0.27,0.07 0.43,0.35 0.35,0.61 -0.07,0.27 -0.34,0.43 -0.61,0.35 l -6.7,-1.83 0.62,-0.6 1.7,6.73 c 0.07,0.27 -0.09,0.54 -0.36,0.61 -0.27,0.07 -0.54,-0.1 -0.61,-0.36 z m 90.2,80.73 1.92,7.56 -7.53,-2.06 c -0.27,-0.07 -0.42,-0.35 -0.35,-0.61 0.07,-0.27 0.35,-0.42 0.61,-0.35 l 6.7,1.83 -0.61,0.6 -1.71,-6.73 c -0.06,-0.27 0.1,-0.54 0.37,-0.61 0.26,-0.06 0.54,0.1 0.6,0.37 z"
+         style="fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(1.3333333,0,0,-1.3333333,0,720)" />
+    </g>
+    <g
+       id="g28">
+      <path
+         id="path28"
+         d="m 532.83,218.38 92.31,-53.06 -0.5,-0.86 -92.31,53.05 z m 2.77,-6.71 -3.88,6.77 7.8,0.05 c 0.28,0 0.5,-0.22 0.5,-0.49 0,-0.28 -0.22,-0.51 -0.49,-0.51 l -6.95,-0.04 0.43,0.75 3.46,-6.03 c 0.14,-0.24 0.05,-0.54 -0.19,-0.68 -0.23,-0.14 -0.54,-0.06 -0.68,0.18 z m 86.26,-40.51 3.89,-6.76 -7.8,-0.05 c -0.28,-0.01 -0.51,0.22 -0.51,0.49 0,0.28 0.22,0.5 0.5,0.51 l 6.94,0.04 -0.43,-0.75 -3.45,6.03 c -0.14,0.23 -0.06,0.54 0.18,0.68 0.24,0.14 0.55,0.05 0.68,-0.19 z"
+         style="fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(1.3333333,0,0,-1.3333333,0,720)" />
+    </g>
+    <g
+       id="g29">
+      <path
+         id="path29"
+         d="m 629.28,436.18 c 0,7.22 5.85,13.08 13.07,13.08 h 280.58 c 7.22,0 13.07,-5.86 13.07,-13.08 V 266.45 c 0,-7.23 -5.85,-13.08 -13.07,-13.08 H 642.35 c -7.22,0 -13.07,5.85 -13.07,13.08 z"
+         style="fill:#ff7600;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         transform="matrix(1.3333333,0,0,-1.3333333,0,720)" />
+    </g>
+    <g
+       id="g30">
+      <text
+         id="text30"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,959.64,259.62667)"><tspan
+           id="tspan30"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Calibri;writing-mode:lr-tb;fill:#ff7600;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 0.054074999 0 0 -0.52272499 0.23432501 0 -0.32444999 0.23432501 -0.1442 -0.10815 0.16222499 0.16222499 -0.10815 0.36050001 -0.46865001 0.55877501"
+           y="0">waar je online op</tspan></text>
+    </g>
+    <g
+       id="g31">
+      <path
+         id="path31"
+         d="m 633.6,225.89 c 0,7.22 5.85,13.07 13.07,13.07 h 280.58 c 7.22,0 13.07,-5.85 13.07,-13.07 V 56.153 c 0,-7.222 -5.85,-13.077 -13.07,-13.077 H 646.67 c -7.22,0 -13.07,5.855 -13.07,13.077 z"
+         style="fill:#ff7600;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         transform="matrix(1.3333333,0,0,-1.3333333,0,720)" />
+    </g>
+    <g
+       id="g32">
+      <path
+         id="path32"
+         d="M 5.0637109,-1.51125 8.1340234,-9.8784375 H 9.8801172 L 6.0012109,4.6875e-4 H 4.0910547 L 0.21214844,-9.8784375 H 1.9816797 Z m 0,0"
+         style="fill:#ff7600;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         aria-label="v"
+         transform="matrix(1.3333333,0,0,1.3333333,1042.9867,540.64)" />
+    </g>
+    <g
+       id="g33">
+      <text
+         id="text33"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,865.52,193.49333)"><tspan
+           id="tspan33"
+           style="font-variant:normal;font-weight:700;font-size:28.13px;font-family:Calibri;writing-mode:lr-tb;fill:#ffe4cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 -0.30943 0.14065 0.08439 0 -0.45008001 0 0.11252 0.22504 0.056260001 -0.70324999 0.25317001"
+           y="0">Ik ben erbij</tspan></text>
+    </g>
+    <g
+       id="g34">
+      <text
+         id="text34"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,865.52,252.14667)"><tspan
+           id="tspan34"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Calibri;writing-mode:lr-tb;fill:#ffe4cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 -0.36050001 0.16222499 0.126175 0.23432501 -0.70297498 0.36050001 0.23432501 -0.54075003 0.59482503 -0.46865001 0 0 -0.090125002 0 0.36050001 0.18025 -0.28839999 0.16222499 -0.10815 0.126175 -0.46865001 -0.28839999 -0.1442 0 -0.28839999 0.23432501 -0.23432501 -0.1442 -0.1442 0.18025 0.23432501 -0.342475 0.36050001 -0.10815"
+           y="0">Als je in aanmerking komt voor een </tspan></text>
+    </g>
+    <g
+       id="g35">
+      <text
+         id="text35"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,865.52,280.98667)"><tspan
+           id="tspan35"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Calibri;writing-mode:lr-tb;fill:#ffe4cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 -0.27037501 0 0.10815 -0.54075003 0.23432501 -0.28839999 0 -0.090125002 0.23432501 0 -0.32444999 0.23432501 -0.10815 -0.342475 0.054074999 -0.342475 0.23432501 -0.1442 -0.10815 0.16222499 0.16222499 -0.10815 -0.342475 0.23432501 0 0 -0.090125002 -0.23432501 -0.52272499 0 0.1442 -0.342475 0.59482503"
+           y="0">taxi kan je deze online aanvragen </tspan></text>
+    </g>
+    <g
+       id="g36">
+      <text
+         id="text36"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,865.52,468.25333)"><tspan
+           id="tspan36"
+           style="font-variant:normal;font-weight:700;font-size:28.105px;font-family:Calibri;writing-mode:lr-tb;fill:#ffe4cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 -0.30915499 0.16863 0.11242 0 -0.42157501 0 0.140525 0.22484 0.084315002 -0.59020501 0 0.28105 -0.44968 0.30915499 0.11242 -0.70262498 0.25294501"
+           y="0">Ik ben er niet bij</tspan></text>
+    </g>
+    <g
+       id="g37">
+      <text
+         id="text37"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,865.52,526.88)"><tspan
+           id="tspan37"
+           style="font-variant:normal;font-weight:normal;font-size:18.05px;font-family:Calibri;writing-mode:lr-tb;fill:#ffe4cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 0.1083 -0.34294999 0.361 -0.4693 0.2166 0 0 -0.12635 0.2166 -0.1083 -0.1444 0.361 -0.48734999 0 0.361 0.2166 -0.23465 -0.34294999 -0.54149997 0.5776 -0.34294999 0.16245 0.2166 -0.66785002 0.361 -0.54149997 -0.2888 0.41514999 -0.19855"
+           y="0">Geef aan hoe je verder werkt, </tspan></text>
+    </g>
+    <g
+       id="g38">
+      <text
+         id="text38"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,865.52,555.74667)"><tspan
+           id="tspan38"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Calibri;writing-mode:lr-tb;fill:#ffe4cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 -0.63087499 0.55877501 -0.46865001 0.054074999 0.16222499"
+           y="0">zo zijn</tspan></text>
+    </g>
+    <g
+       id="g39">
+      <text
+         id="text39"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,931.53333,555.74667)"><tspan
+           id="tspan39"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Calibri;writing-mode:lr-tb;fill:#ffe4cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 0 -0.32444999 0.23432501 -0.10815 0.55877501 -0.43259999 0.36050001 -0.10815 -0.27037501 0.23432501 -0.342475 -0.10815 0.23432501 0 -0.32444999 0.23432501 0.126175 -0.43259999 0.59482503 -0.1442 -0.1442 0.16222499"
+           y="0">je docent en je school </tspan></text>
+    </g>
+    <g
+       id="g40">
+      <text
+         id="text40"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,865.52,584.57333)"><tspan
+           id="tspan40"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Calibri;writing-mode:lr-tb;fill:#ffe4cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 -0.1442 -0.10815 0.23432501 -0.10815 0.36050001 0.23432501 -0.10815 -0.1442 -0.1442 0.126175 -0.27037501 -0.342475 0.23432501 -0.23432501 0 -0.090125002 0.23432501 0 -0.32444999"
+           y="0">op de hoogte van je </tspan></text>
+    </g>
+    <g
+       id="g41">
+      <text
+         id="text41"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,865.52,613.44)"><tspan
+           id="tspan41"
+           style="font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Calibri;writing-mode:lr-tb;fill:#ffe4cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 0 0.28839999 -0.27037501 0.16222499 -0.23432501 0.16222499 -0.27037501 -0.342475 0.16222499 -0.27037501 -0.342475 0.59482503 -0.46865001 0.36050001 -0.10815 0.23432501 0 0 -0.090125002 -0.64889997 0.36050001 0.054074999 -0.54075003 0.126175 -0.10815 0.36050001 0.16222499"
+           y="0">activiteiten en aanwezigheid</tspan></text>
+    </g>
+    <g
+       id="g42">
+      <text
+         id="text42"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,26.185333,467.38667)"><tspan
+           id="tspan42"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Calibri;writing-mode:lr-tb;fill:#ff7600;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 -0.36050001 0.16222499 0.16222499 0.23432501 -0.63087499 0 0.25235 0.072099999 0.090125002 -0.30642501 0 0.10815 -0.27037501"
+           y="0">Als de docent </tspan></text>
+    </g>
+    <g
+       id="g43">
+      <text
+         id="text43"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,26.185333,496.22667)"><tspan
+           id="tspan43"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-size:18.025px;font-family:Calibri;writing-mode:lr-tb;fill:#ff7600;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 0.072099999 0.16222499 -0.27037501 0.23432501 -0.54075003 0.072099999 0.23432501 0.072099999 0 0 -0.41457501 0.43259999 -0.46865001 0.072099999 0 -0.090125002 0.072099999 0.16222499"
+           y="0">dit in heeft gevuld</tspan></text>
+    </g>
+    <g
+       id="g44">
+      <path
+         id="path44"
+         d="m 59.233,207.44 2.116,2.13 2.201,2.02 2.277,1.87 2.352,1.75 2.413,1.62 2.474,1.48 2.534,1.35 2.579,1.23 2.618,1.09 2.663,0.96 2.7,0.82 2.722,0.7 2.747,0.57 2.769,0.42 2.783,0.3 2.784,0.16 2.795,0.03 2.79,-0.1 2.78,-0.24 2.77,-0.36 2.75,-0.51 2.74,-0.63 2.7,-0.78 2.67,-0.9 2.63,-1.05 2.59,-1.18 2.53,-1.31 2.48,-1.44 2.43,-1.58 2.36,-1.72 2.3,-1.85 1.47,-1.32 -0.67,-0.75 -1.46,1.31 0.02,-0.01 -2.27,1.83 0.02,-0.01 -2.34,1.7 0.02,-0.01 -2.41,1.56 0.02,-0.01 -2.46,1.43 0.02,-0.01 -2.51,1.3 0.02,-0.01 -2.56,1.17 0.02,-0.01 -2.61,1.03 0.03,-0.01 -2.65,0.9 0.02,-0.01 -2.68,0.77 h 0.03 l -2.71,0.63 0.02,-0.01 -2.73,0.5 h 0.03 l -2.75,0.36 h 0.02 l -2.76,0.24 h 0.03 l -2.76,0.09 h 0.02 l -2.772,-0.03 h 0.022 l -2.759,-0.15 h 0.025 l -2.76,-0.3 h 0.022 l -2.745,-0.42 0.026,0.01 -2.723,-0.57 0.023,0.01 -2.7,-0.69 h 0.022 l -2.678,-0.81 h 0.024 l -2.64,-0.95 0.022,0.01 -2.595,-1.08 0.023,0.01 -2.558,-1.21 0.021,0.01 -2.512,-1.35 0.021,0.02 -2.452,-1.47 0.021,0.01 -2.392,-1.61 0.019,0.02 -2.332,-1.73 0.02,0.01 -2.258,-1.86 0.02,0.02 -2.183,-2 0.018,0.02 -2.108,-2.12 z m 79.527,9.92 2.39,-7.43 -7.64,1.58 c -0.27,0.05 -0.44,0.32 -0.39,0.59 0.06,0.27 0.32,0.44 0.59,0.39 l 6.8,-1.41 -0.57,-0.64 -2.13,6.61 c -0.08,0.27 0.06,0.55 0.32,0.63 0.27,0.09 0.55,-0.06 0.63,-0.32 z"
+         style="fill:#ff7600;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(1.3333333,0,0,-1.3333333,0,720)" />
+    </g>
+  </g>
+</svg>
