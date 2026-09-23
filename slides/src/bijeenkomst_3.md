@@ -305,7 +305,7 @@ Schrijf een Python programma dat controleert of een ingevoerd wachtwoord correct
 
 Gebruik `input()` en `if` als bouwstenen voor je programma.
 
-Werk in Visual Studio Code, Thonny of de [CS Circles Console](https://cscircles.cemc.uwaterloo.ca/console-nl/)
+Werk in Visual Studio Code, Thonny of ~de [CS Circles Console](https://cscircles.cemc.uwaterloo.ca/console-nl/)~
 
 ---
 
@@ -334,7 +334,16 @@ else:
 
 [*Les 3* in de syllabus](../3_input_if.html)
 
-Let op: hoofdstuk 5, 6 en *9* in CSCircles
+Let op: hoofdstuk 5, 6 en *9* in ~CSCircles~
+
+> Let op: CS Circles is niet beschikbaar.
+<!-- .element class="fragment" -->
+
+[Internet Archive link](https://web.archive.org/web/20260316175130/cscircles.cemc.uwaterloo.ca/5-input-nl/)
+<!-- .element class="fragment" -->
+
+Gebruik [Thonny of VSCode](https://informatica.q-vakken.nl/basis_programmeren/2627-1-woensdag/programmeeromgevingen.html) of [Online Python](https://online-python.com)
+<!-- .element class="fragment" -->
 
 ***
 
