@@ -7,7 +7,7 @@ en wat het probleem is, om zo de errors te gebruiken om je code te
 debuggen.
 
 **CSCircles stof en opdrachten:** 
-[*0:Hello!*](https://cscircles.cemc.uwaterloo.ca/nl), [*1: Variables*](https://cscircles.cemc.uwaterloo.ca/1-variables-nl/) en [*1E: Errors*](https://cscircles.cemc.uwaterloo.ca/1e-errors-nl/).
+[*0: Hallo!*](https://runestone.qinf.nl/ns/books/published/{{ runestone_course }}/les-00.html), [*1: Variabelen*](https://runestone.qinf.nl/ns/books/published/{{ runestone_course }}/les-01.html) en [*1E: Foutmeldingen*](https://runestone.qinf.nl/ns/books/published/{{ runestone_course }}/les-01e.html).
 
 **W3Schools:** [*Python Variables*](https://www.w3schools.com/python/python_variables.asp)
 

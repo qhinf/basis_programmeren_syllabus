@@ -1,20 +1,14 @@
 # Werken met deze module
 
-Als je de andere pagina's van de syllabus bekijkt, zie je misschien al wel dat er weinig tekst staat. Dit komt doordat het overgrote deel van de stof die we gaan behandelen, en enkele oefenopgaven die erbij horen, staan op een externe site genaamd [CSCircles](https://cscircles.cemc.uwaterloo.ca/nl/).
+Als je de andere pagina's van de syllabus bekijkt, zie je misschien al wel dat er weinig tekst staat. Dit komt doordat we gebruik maken van CSCircles via Runestone.
 
-:::{exercise} Account aanmaken bij CS Circles
+:::{exercise} Account aanmaken bij Runestone
 
-1. Maak een account aan bij CS Circles. Gebruik een naam, die te herleiden is naar je eigen naam. `SuperC0der2010` is dus niet herleidbaar.
-2. Ga naar de instellingen van je account en vul bij *Gebruikersnaam van goeroe* **{{ guru_name}}** in.
-3. Druk op *Profiel bijwerken*. De knop staat een beetje verstopt onderaan de pagina
-4. Ga aan de slag!
+1. Maak een account aan bij [onze Runestone](https://runestone.qinf.nl/admin/auth/register). Vul bij *Institution Name* de naam **Q-vak Informatica** in.
 
-**Vergeet niet om in te loggen bij CS Circles wanneer je aan de opdrachten gaat werken**
-
-
-Mocht je er niet uitkomen, kijk dan deze video:
-
-<video src="_static/guru_instruction.mp4" width="320" controls></video>
+   Onze Runestone kan geen "wachtwoord vergeten" emails sturen, dus zorg dat je je wachtwoord goed onthoudt of opslaat in een wachtwoordmanager. Als je je wachtwoord vergeet, zul je een nieuw account aan moeten maken.
+2. Kies op de volgende pagina deze course: **{{ runestone_course }}** Als die niet in de lijst staat, kun je hem zelf in het tekstvak bij *Enter Course Name Directly* invoeren.
+3. Klik op de *Support Runestone Academy* pagina de *Sorry, not Today* knop.
 
 :::
 

@@ -5,7 +5,7 @@ te hoeven coderen.
 * Je snapt hoe arguments werken en waarom deze bestaan.
 
 **CSCircles stof en opdrachten:** 
-[*2: Functions*](https://cscircles.cemc.uwaterloo.ca/2-functions-nl/), [*3: Commentaar en aanhalingstekens*](https://cscircles.cemc.uwaterloo.ca/3-comments-and-quotes-nl/) (t/m Tekenreeksen) en [*4: Types*](https://cscircles.cemc.uwaterloo.ca/4-types-nl/)
+[*2: Functies*](https://runestone.qinf.nl/ns/books/published/{{ runestone_course }}/les-02.html), [*3: Commentaar en aanhalingstekens*](https://runestone.qinf.nl/ns/books/published/{{ runestone_course }}/les-03.html) (t/m Tekenreeksen) en [*4: Types*](https://runestone.qinf.nl/ns/books/published/{{ runestone_course }}/les-04.html)
 
 **Handige lijst met ingebouwde functies in Python:**
 [*Built-in Functions*](https://www.w3schools.com/python/python_ref_functions.asp)

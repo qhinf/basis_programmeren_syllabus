@@ -58,7 +58,7 @@ sphinx:
       tweede_inlevermoment: "dinsdag 1 december, 16:00" # dinsdag in week 3 van het volgende blok
       docent: "Arthur Rump"
       docent_email: "a punt rump apestaartje quadraam punt nl"
-      guru_name: "ArthurRump"  # vul hier de CS Circles gebruikersnaam van de docent in
+      runestone_course: "basis_programmeren_2627-1-maandag"
 
 
 # html, repository en launch_buttons instellingen worden globaal voor alle
