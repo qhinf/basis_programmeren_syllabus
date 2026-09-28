@@ -1,2 +1,2 @@
-jupyter-book
-sphinx-exercise
+jupyter-book ~=1.0.4
+sphinx-exercise ~=1.1.1
