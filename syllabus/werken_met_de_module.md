@@ -6,7 +6,9 @@ Als je de andere pagina's van de syllabus bekijkt, zie je misschien al wel dat e
 
 1. Maak een account aan bij [onze Runestone](https://runestone.qinf.nl/admin/auth/register). Vul bij *Institution Name* de naam **Q-vak Informatica** in.
 
-   Onze Runestone kan geen "wachtwoord vergeten" emails sturen, dus zorg dat je je wachtwoord goed onthoudt of opslaat in een wachtwoordmanager. Als je je wachtwoord vergeet, zul je een nieuw account aan moeten maken.
+   Onze Runestone kan geen "wachtwoord vergeten" emails sturen, dus zorg dat je je gebruikersnaam en wachtwoord goed onthoudt of opslaat in een wachtwoordmanager. Als je je wachtwoord vergeet, zul je een nieuw account aan moeten maken.
+
+   Bij het inloggen *moet* je gebruik maken van je gebruikersnaam. Inloggen met je emailadres **werkt niet**.
 2. Kies op de volgende pagina deze course: **{{ runestone_course }}** Als die niet in de lijst staat, kun je hem zelf in het tekstvak bij *Enter Course Name Directly* invoeren.
 3. Klik op de *Support Runestone Academy* pagina de *Sorry, not Today* knop.
 
