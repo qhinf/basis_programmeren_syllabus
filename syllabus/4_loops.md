@@ -12,8 +12,8 @@ op te vragen.
 * Je leert nieuwe operators gebruiken om beter, efficienter en leesbaarder
 te rekenen, zowel met numbers als met strings.
 
-**CSCircles stof en opdrachten:** 
-[*7: De editor*](https://runestone.qinf.nl/ns/books/published/{{ runestone_course }}/les-07.html) (met alle subcategorieën, [7A](https://runestone.qinf.nl/ns/books/published/{{ runestone_course }}/les-07a.html), [7B](https://runestone.qinf.nl/ns/books/published/{{ runestone_course }}/les-07b.html), [7C](https://runestone.qinf.nl/ns/books/published/{{ runestone_course }}/les-07.html)) en [*8: Van alles wat*](https://runestone.qinf.nl/ns/books/published/{{ runestone_course }}/les-08.html). Dit is een verzameling lastigere opdrachten, die dienen ter herhaling van de stof die je tot nu toe hebt gehad, en deze combineert.
+**{{ runestone_link }}:** 
+*7: De editor* (met alle subcategorieën, 7A, 7B, 7C) en *8: Van alles wat*. Dit is een verzameling lastigere opdrachten, die dienen ter herhaling van de stof die je tot nu toe hebt gehad, en deze combineert.
 
 
 **W3Schools:** [*Python While Loops*](https://www.w3schools.com/python/python_while_loops.asp), [*Python For Loops*](https://www.w3schools.com/python/python_for_loops.asp), [*Python Strings*](https://www.w3schools.com/python/python_strings.asp), [*Python Operators*](https://www.w3schools.com/python/python_operators.asp)

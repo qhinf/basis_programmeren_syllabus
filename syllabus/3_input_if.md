@@ -6,10 +6,10 @@ waarde in te voeren.
 * Je kan nu if/else-statements en boolean operators gebruiken om
 conditionals te maken in een als-dan-anders constructie.
 
-**CSCircles stof en opdrachten:** 
-[*5: Invoer*](https://runestone.qinf.nl/ns/books/published/{{ runestone_course }}/les-05.html), [*6: If*](https://runestone.qinf.nl/ns/books/published/{{ runestone_course }}/les-06.html) en [*9: Else, And, Or, Not*](https://runestone.qinf.nl/ns/books/published/{{ runestone_course }}/les-09.html)
+**{{ runestone_link }}:** 
+*5: Invoer*, *6: If* en *9: Else, And, Or, Not*
 
-*Let op*: voor de oefening *26 Letters* heb je de functie `ord` nodig, die wordt uitgelegd in deel [7A](https://runestone.qinf.nl/ns/books/published/{{ runestone_course }}/les-07a.html#les-07a-s6). Je kunt die uitleg even lezen (voor ons staat die volgende week op de planning), of die oefening overslaan en voor volgende week bewaren.
+*Let op*: voor de oefening *26 Letters* heb je de functie `ord` nodig, die wordt uitgelegd in deel [7A]({{ runestone_base_url }}/les-07a.html#les-07a-s6). Je kunt die uitleg even lezen (voor ons staat die volgende week op de planning), of die oefening overslaan en voor volgende week bewaren.
 
 **W3Schools:** 
 [*input()function*](https://www.w3schools.com/python/ref_func_input.asp)

@@ -6,8 +6,8 @@ slechts één keer uit te hoeven typen.
 * Je leert lists te gebruiken om grote hoeveelheden data in op te slaan.
 * Je leert hoe indices werken bij lists.
 
-**CSCircles stof en opdrachten:** 
-[*10: Functies definiëren*](https://runestone.qinf.nl/ns/books/published/{{ runestone_course }}/les-10.html) en [*11B: De scope van een variabele*](https://runestone.qinf.nl/ns/books/published/{{ runestone_course }}/les-11b.html), *[13: Lijsten (arrays)](https://runestone.qinf.nl/ns/books/published/{{ runestone_course }}/les-13.html)* en [*15A: Komt er een einde aan?*](https://runestone.qinf.nl/ns/books/published/{{ runestone_course }}/les-15a.html) 
+**{{ runestone_link }}:** 
+*10: Functies definiëren* en *11B: De scope van een variabele*, *13: Lijsten (arrays)* en *15A: Komt er een einde aan?* 
 
 **W3Schools:**
 [*Python Functions*](https://www.w3schools.com/python/python_functions.asp)

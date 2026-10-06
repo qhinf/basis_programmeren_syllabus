@@ -59,6 +59,7 @@ sphinx:
       docent: "Arthur Rump"
       docent_email: "a punt rump apestaartje quadraam punt nl"
       runestone_course: "basis_programmeren_2627-1-maandag"
+      runestone_link: "[CSCircles stof en opdrachten](https://runestone.qinf.nl/ns/books/published/basis_programmeren_2627-1-maandag)"
 
 
 # html, repository en launch_buttons instellingen worden globaal voor alle
