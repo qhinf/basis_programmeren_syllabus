@@ -330,10 +330,10 @@ Maak een spiekbriefje!
 
 | Datum | |
 |-------|-|
-| ma&nbsp;7&nbsp;oktober | Vandaag: online |
-| ma&nbsp;14&nbsp;oktober | Fysiek: handige programmeerpatronen<br/>+ deadline keuze tweede inlevermoment |
-| *ma&nbsp;21&nbsp;oktober* <!-- .element: style="opacity: .6" --> | *Herfstvakantie* <!-- .element: style="opacity: .6" --> |
-| ma&nbsp;28&nbsp;oktober | Online: een groter programma schrijven |
+| wo&nbsp;7&nbsp;oktober | Vandaag: online |
+| wo&nbsp;14&nbsp;oktober | Fysiek: handige programmeerpatronen<br/>+ deadline keuze tweede inlevermoment |
+| *wo&nbsp;21&nbsp;oktober* <!-- .element: style="opacity: .6" --> | *Herfstvakantie* <!-- .element: style="opacity: .6" --> |
+| wo&nbsp;28&nbsp;oktober | Online: een groter programma schrijven |
 | do&nbsp;5&nbsp;november | Eerste inlevermoment |
 | di&nbsp;1&nbsp;december | Tweede inlevermoment |
 <!-- .element: style="font-size: .8em" -->
