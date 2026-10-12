@@ -331,7 +331,7 @@ print("Bedankt voor het spelen!")
 
 ## Eindopdracht
 
-Gesprekken: plan jezelf in via het bestand *Gespreksplanning.xlsx* in Teams.
+Zie *[Eindopdracht](../eindopdracht.html)* in de syllabus
 
 ---
 
@@ -382,7 +382,7 @@ Wie is `planten[len(planten) - 2]`?
 
 ---
 
-Schrijf een functie die iemand een fijne zomer wenst.
+Schrijf een functie die iemand een fijne herfstvakantie wenst.
 
 ```python
 wens("Jip", 2026)
@@ -391,22 +391,22 @@ wens("Jip", 2026)
 
 - ```python
   def wens naam jaar:
-    print("Fijne zomer " + str(jaar) + ", " + naam + "!")
+    print("Fijne herfstvakantie " + str(jaar) + ", " + naam + "!")
   ```
     <!-- .element style="margin-left: 0; margin-right: 0; width: 100%; font-size: .6em" -->
 - ```python
   def wens(naam, jaar):
-    print("Fijne zomer " + str(jaar) + ", " + naam + "!")
+    print("Fijne herfstvakantie " + str(jaar) + ", " + naam + "!")
   ```
     <!-- .element style="margin-left: 0; margin-right: 0; width: 100%; font-size: .6em" -->
 - ```python
   def wens naam jaar:
-    print("Fijne zomer " + jaar + ", " + naam + "!")
+    print("Fijne herfstvakantie " + jaar + ", " + naam + "!")
   ```
     <!-- .element style="margin-left: 0; margin-right: 0; width: 100%; font-size: .6em" -->
 - ```python
   def wens(naam, jaar):
-    print("Fijne zomer " + jaar + ", " + naam + "!")
+    print("Fijne herfstvakantie " + jaar + ", " + naam + "!")
   ```
     <!-- .element style="margin-left: 0; margin-right: 0; width: 100%; font-size: .6em" -->
 
@@ -417,3 +417,7 @@ wens("Jip", 2026)
 ## Volgende week
 
 Laatste bijeenkomst, online!
+
+Over *grotere programma's schrijven*
+
+Vergeet je niet aan te melden!
