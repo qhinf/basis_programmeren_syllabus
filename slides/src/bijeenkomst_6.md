@@ -8,11 +8,16 @@ Q-vak Informatica / Bijeenkomst 6
 
 ## Vandaag
 
+- Mededeling
 - Opfrisquiz
 - Handige programmeerpatronen:
     - Validatie van je invoer
     - Interactieve lus
 - Afsluiting
+
+***
+
+## Mededeling
 
 ***
 
@@ -331,7 +336,9 @@ print("Bedankt voor het spelen!")
 
 ## Eindopdracht
 
-Gesprekken: plan jezelf in via het bestand *Gespreksplanning.xlsx* in Teams.
+1. Maak alvast een begin
+2. Te druk? Je hebt tot vandaag 17.00u om het via een *bericht* aan te vragen
+3. Een gesprek?
 
 ---
 
@@ -391,22 +398,22 @@ wens("Jip", 2026)
 
 - ```python
   def wens naam jaar:
-    print("Fijne zomer " + str(jaar) + ", " + naam + "!")
+    print("Fijne herfstvakantie " + str(jaar) + ", " + naam + "!")
   ```
     <!-- .element style="margin-left: 0; margin-right: 0; width: 100%; font-size: .6em" -->
 - ```python
   def wens(naam, jaar):
-    print("Fijne zomer " + str(jaar) + ", " + naam + "!")
+    print("Fijne herfstvakantie " + str(jaar) + ", " + naam + "!")
   ```
     <!-- .element style="margin-left: 0; margin-right: 0; width: 100%; font-size: .6em" -->
 - ```python
   def wens naam jaar:
-    print("Fijne zomer " + jaar + ", " + naam + "!")
+    print("Fijne herfstvakantie " + jaar + ", " + naam + "!")
   ```
     <!-- .element style="margin-left: 0; margin-right: 0; width: 100%; font-size: .6em" -->
 - ```python
   def wens(naam, jaar):
-    print("Fijne zomer " + jaar + ", " + naam + "!")
+    print("Fijne herfstvakantie " + jaar + ", " + naam + "!")
   ```
     <!-- .element style="margin-left: 0; margin-right: 0; width: 100%; font-size: .6em" -->
 
@@ -414,6 +421,6 @@ wens("Jip", 2026)
 
 ---
 
-## Volgende week
+## Over twee weken
 
 Laatste bijeenkomst, online!
