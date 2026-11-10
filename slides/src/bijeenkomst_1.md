@@ -49,6 +49,10 @@ Met een beetje begeleiding, natuurlijk
 
 <!-- .element: class="fragment" -->
 
+Elke les sluit af met een check-out opdracht
+
+<!-- .element: class="fragment" -->
+
 ***
 
 ## Programmeren in Python
@@ -116,6 +120,8 @@ Beginnerstaal
 </div>
 
 ***
+## Installeren VSCode en Python
+Hebben julie de programma's geïnstalleerd?
 
 ## Syllabus
 
@@ -124,17 +130,36 @@ Beginnerstaal
 Notes:
 Zet die in je favorieten
 
-Syllabus doorlopen: werken met de module, programmeeromgevingen, CSCircles
+Syllabus doorlopen: werken met de module, programmeeromgevingen, Runestone
 
 ---
 
 ## Aan de slag
 
--   Maak een account aan op CSCircles
--   Wijs **{{ guru_name }}** als guru aan (bij je accountinstellingen)
--   Begin met CSCircles 0, 1, 1E
+-   Maak een account aan op Runestone
+-   Vul bij Institution Name de naam Q-vak Informatica in.
+-   Bij het inloggen moet je gebruik maken van je gebruikersnaam. Inloggen met je emailadres werkt niet.
+-   Kies op de volgende pagina deze course: basis_programmeren_2026-2 Als die niet in de lijst staat, kun je hem zelf in het tekstvak bij Enter Course Name Directly invoeren.
+- Klik op de Support Runestone Academy pagina de Sorry, not Today knop.
+-   Stuur jezelf een appje met je gebruikersnaam en wachtwoord. Deze site heeft geen wachtwoordherstel! 
+-   Begin met de oefeningen bij 0, 1, 1E en 5.
 
 ***
+
+## Check-out opdracht: de pop-song-schrijver
+
+Stap 1: vraag de gebruiker om een titel
+
+Stap 2: vraag de gebruiker om andere soorten invoer (een zelfstandig naamwoord, een gevoel, iets wat je kunt zien)
+
+Stap 3: bedenk leuke zinnen waar de ingevoerde woorden in kunnen komen
+
+Stap 4: maak een print-functie die de invoer invoegt in de door jou bedachte zinnen.
+
+## Check-out-opdracht stap voor stap
+
+![Pop song schrijver](assets/pop-song-schrijverV2.jpg)
+
 
 ## Afsluiting
 

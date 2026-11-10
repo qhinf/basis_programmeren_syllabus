@@ -9,7 +9,7 @@ goedgeraden = False
 
 while not goedgeraden:
     # Invoer van de gebruiker
-    invoer = int(input())
+    invoer = int(input("Voer een getal in: "))
     score += 1
 
     # Vergelijking en feedback
