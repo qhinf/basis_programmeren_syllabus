@@ -178,3 +178,19 @@ print("Bedankt voor het spelen en tot een volgende keer!")
 ```
 
 Het gebruik van `while` en een variabele als `spelActief` of `invoerCorrect` heet programmeren met *state* of *toestand*. Je maakt in je programma keuzes op basis van de toestand van je programma. Wanneer je je spelverloop beschrijft en termen gebruikt als '*net zolang als*' of '*totdat er*' gebruikt, dan doe je er verstandig aan een `while`-loop met een toestand variabele te gebruiken!
+
+
+**Check-out opdracht: Verbeter je eerdere opdracht**
+
+Heb je de lesstof begrepen? Dan kun je nu een van je eerdere opdrachten verbeteren. 
+* Kies 1 van de opdrachten uit de voorgaande lessen:
+    * De popsong schrijver (input en print)
+    * Ingrediënten berekenen voor pasta pesto
+    * De mysterieuze escape-deur
+    * Vriendin met honger
+    * Smoesjesgenerator
+
+Herschrijf jouw opdracht aan de hand van minimaal twee van de volgende eisen:
+* Je verdeelt de opdracht in verschillende functies
+* Je maakt gebruik van een interactielus
+* Je maakt een uitbreiding van het programma waardoor een invoercheck noodzakelijk is.
