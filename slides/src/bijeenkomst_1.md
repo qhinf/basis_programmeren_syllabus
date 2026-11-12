@@ -123,7 +123,7 @@ Beginnerstaal
 ## Installeren VSCode en Python
 Hebben julie de programma's geïnstalleerd?
 
----
+***
 
 ## Syllabus
 
@@ -158,7 +158,7 @@ Stap 3: bedenk leuke zinnen waar de ingevoerde woorden in kunnen komen
 
 Stap 4: maak een print-functie die de invoer invoegt in de door jou bedachte zinnen.
 
----
+***
 
 ## Check-out-opdracht stap voor stap
 
