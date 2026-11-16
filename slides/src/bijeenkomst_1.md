@@ -119,7 +119,9 @@ Beginnerstaal
 </div>
 </div>
 
-***
+---
+
+
 ## Installeren VSCode en Python
 Hebben julie de programma's geïnstalleerd?
 
@@ -138,11 +140,10 @@ Syllabus doorlopen: werken met de module, programmeeromgevingen, Runestone
 
 ## Aan de slag
 
--   Maak een account aan op Runestone
--   Vul bij Institution Name de naam Q-vak Informatica in.
--   Bij het inloggen moet je gebruik maken van je gebruikersnaam. Inloggen met je emailadres werkt niet.
--   Kies op de volgende pagina deze course: basis_programmeren_2026-2 Als die niet in de lijst staat, kun je hem zelf in het tekstvak bij Enter Course Name Directly invoeren.
-- Klik op de Support Runestone Academy pagina de Sorry, not Today knop.
+-   Runestone --> Institution name = Q-vak informatica   
+-   Inloggen met gebruikersnaam. Inloggen met e-mail werkt niet.
+-   basis_programmeren_2026-2 
+-   Support Runestone Academy --> Sorry, not Today knop.
 -   Stuur jezelf een appje met je gebruikersnaam en wachtwoord. Deze site heeft geen wachtwoordherstel! 
 -   Begin met de oefeningen bij 0, 1, 1E en 5.
 
